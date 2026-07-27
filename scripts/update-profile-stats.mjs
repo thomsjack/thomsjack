@@ -17,13 +17,16 @@ const featuredRepositories = [
   'interview-notes',
 ];
 
+const upstreamStarThreshold = 100_000;
 const upstreamContributions = [
-  { key: 'openclaw', owner: 'openclaw', repo: 'openclaw', pull: 112478 },
+  { key: 'openclaw', owner: 'openclaw', repo: 'openclaw', pull: 114596 },
   { key: 'hermes', owner: 'NousResearch', repo: 'hermes-agent', pull: 71997 },
   { key: 'opencode', owner: 'anomalyco', repo: 'opencode', pull: 38763 },
+  { key: 'firecrawl', owner: 'firecrawl', repo: 'firecrawl', pull: 4061 },
   { key: 'langflow', owner: 'langflow-ai', repo: 'langflow', pull: 14177 },
-  { key: 'llamafactory', owner: 'hiyouga', repo: 'LlamaFactory', pull: 10660 },
-  { key: 'poetry', owner: 'python-poetry', repo: 'poetry', pull: 10983 },
+  { key: 'dify', owner: 'langgenius', repo: 'dify', pull: 39636 },
+  { key: 'openwebui', owner: 'open-webui', repo: 'open-webui', pull: 27585 },
+  { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
 ];
 
 const headers = {
@@ -82,6 +85,11 @@ async function getContributionDetails() {
   );
 }
 
+async function getUpstreamRepositoryDetails(items) {
+  const repositoryUrls = [...new Set(items.map((item) => item.repository_url))];
+  return Promise.all(repositoryUrls.map((url) => request(url)));
+}
+
 function replaceTextById(source, id, value) {
   const pattern = new RegExp(`(<text\\b[^>]*\\bid="${id}"[^>]*>)[^<]*(</text>)`);
   if (!pattern.test(source)) {
@@ -104,7 +112,6 @@ const [
   projects,
   profile,
   upstreamSearch,
-  contributionDetails,
   currentBanner,
   currentFeatured,
   currentUpstream,
@@ -112,11 +119,45 @@ const [
   getOwnedProjects(),
   request(`https://api.github.com/users/${username}`),
   getUpstreamPullRequests(),
-  getContributionDetails(),
   readFile(bannerPath, 'utf8'),
   readFile(featuredPath, 'utf8'),
   readFile(upstreamPath, 'utf8'),
 ]);
+
+const [contributionDetails, upstreamRepositories] = await Promise.all([
+  getContributionDetails(),
+  getUpstreamRepositoryDetails(upstreamSearch.items),
+]);
+
+const qualifiedUpstreamProjects = upstreamRepositories
+  .filter((repository) => repository.stargazers_count > upstreamStarThreshold)
+  .map((repository) => repository.full_name)
+  .sort();
+const selectedUpstreamProjects = upstreamContributions
+  .map(({ owner, repo }) => `${owner}/${repo}`)
+  .sort();
+const missingQualifiedProjects = qualifiedUpstreamProjects.filter(
+  (name) => !selectedUpstreamProjects.includes(name),
+);
+const ineligibleSelectedProjects = selectedUpstreamProjects.filter(
+  (name) => !qualifiedUpstreamProjects.includes(name),
+);
+
+if (missingQualifiedProjects.length > 0 || ineligibleSelectedProjects.length > 0) {
+  throw new Error(
+    [
+      `Upstream selection must exactly match contributed projects above ${upstreamStarThreshold.toLocaleString('en-US')} stars.`,
+      missingQualifiedProjects.length > 0
+        ? `Missing: ${missingQualifiedProjects.join(', ')}`
+        : null,
+      ineligibleSelectedProjects.length > 0
+        ? `Below threshold or no longer contributed: ${ineligibleSelectedProjects.join(', ')}`
+        : null,
+    ]
+      .filter(Boolean)
+      .join(' '),
+  );
+}
 
 const repositoryByName = new Map(projects.map((repository) => [repository.name, repository]));
 const missingFeatured = featuredRepositories.filter((name) => !repositoryByName.has(name));
