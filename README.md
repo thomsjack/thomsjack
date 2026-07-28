@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <strong>构建面向智能体时代的开放基础设施，让规格、运行时、工作流与模型工程形成可演进的系统</strong><br />
-  <sub>Building open infrastructure for the agentic era—where specifications, runtimes, workflows, and model engineering evolve as one system.</sub>
+  <strong>以开放系统工程推动智能体基础设施走向可验证、可组合与可持续演进</strong><br />
+  <sub>Advancing agentic infrastructure through open systems engineered for verification, composability, and long-term evolution.</sub>
 </p>
 
 <p align="center">
@@ -16,16 +16,38 @@
 <p align="center"><a href="https://github.com/loulanyue/spec-kit-zh"><img alt="Open spec-kit-zh" src="https://img.shields.io/badge/spec--kit--zh-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/loulanyue/dream-xi-ai"><img alt="Open dream-xi-ai" src="https://img.shields.io/badge/dream--xi--ai-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/loulanyue/awesome-claude-notes"><img alt="Open awesome-claude-notes" src="https://img.shields.io/badge/awesome--claude--notes-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/loulanyue/interview-notes"><img alt="Open interview-notes" src="https://img.shields.io/badge/interview--notes-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a></p>
 
 <p align="center">
-  <img src="./assets/upstream-contributions.svg" width="100%" alt="Every LoulanYue-contributed upstream project currently above 100,000 GitHub stars" />
+  <img src="./assets/upstream-contributions.svg" width="100%" alt="Every 100K+ star upstream project with a public contribution by LoulanYue" />
 </p>
 
 <p align="center"><a href="https://github.com/openclaw/openclaw/pull/114596"><img alt="OpenClaw PR 114596" src="https://img.shields.io/badge/OpenClaw-%23114596-54A98E?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/NousResearch/hermes-agent/pull/71997"><img alt="Hermes Agent PR 71997" src="https://img.shields.io/badge/Hermes_Agent-%2371997-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/anomalyco/opencode/pull/38763"><img alt="opencode PR 38763" src="https://img.shields.io/badge/opencode-%2338763-337E69?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/firecrawl/firecrawl/pull/4061"><img alt="Firecrawl PR 4061" src="https://img.shields.io/badge/Firecrawl-%234061-2A879B?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/langflow-ai/langflow/pull/14177"><img alt="Langflow PR 14177" src="https://img.shields.io/badge/Langflow-%2314177-4D8FBA?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/langgenius/dify/pull/39636"><img alt="Dify PR 39636" src="https://img.shields.io/badge/Dify-%2339636-5D86B3?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/open-webui/open-webui/pull/27585"><img alt="Open WebUI PR 27585" src="https://img.shields.io/badge/Open_WebUI-%2327585-6B8F9D?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/google-gemini/gemini-cli/pull/28546"><img alt="Gemini CLI PR 28546" src="https://img.shields.io/badge/Gemini_CLI-%2328546-C49435?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a></p>
 
+<p align="center">
+  <img src="./assets/upstream-engineering-map.svg" width="100%" alt="All public upstream projects contributed to by LoulanYue, categorized by engineering role" />
+</p>
+
+<details>
+<summary><strong>ALL UPSTREAM PROJECTS / 全部上游项目（18）</strong></summary>
+<br />
+
+**Agent runtimes & coding interfaces / 智能体运行时与编码终端** · [openclaw](https://github.com/openclaw/openclaw) · [hermes-agent](https://github.com/NousResearch/hermes-agent) · [opencode](https://github.com/anomalyco/opencode) · [gemini-cli](https://github.com/google-gemini/gemini-cli)
+
+**AI workflow & experience platforms / AI 工作流与体验平台** · [langflow](https://github.com/langflow-ai/langflow) · [dify](https://github.com/langgenius/dify) · [open-webui](https://github.com/open-webui/open-webui) · [ComfyUI_frontend](https://github.com/Comfy-Org/ComfyUI_frontend)
+
+**Data, retrieval & tool connectivity / 数据、检索与工具接入** · [firecrawl](https://github.com/firecrawl/firecrawl) · [notebooklm-py](https://github.com/teng-lin/notebooklm-py) · [OmniRoute](https://github.com/diegosouzapw/OmniRoute) · [mcp-toolbox](https://github.com/googleapis/mcp-toolbox)
+
+**Model training & ML systems / 模型训练与机器学习系统** · [LlamaFactory](https://github.com/hiyouga/LlamaFactory) · [sktime](https://github.com/sktime/sktime)
+
+**Python engineering toolchain / Python 工程工具链** · [poetry](https://github.com/python-poetry/poetry) · [pyrefly](https://github.com/facebook/pyrefly)
+
+**Engineering knowledge & ecosystems / 工程知识与生态** · [Java](https://github.com/DuGuQiuBai/Java) · [mybatis-plus-doc](https://github.com/baomidou/mybatis-plus-doc)
+
+</details>
+
 ## `SYSTEMS THESIS / 系统主张`
 
 ```text
-ZH  以开放基础设施连接规格、智能体、工作流与模型工程，让复杂 AI 系统可理解、可验证、可演进
-EN  Open infrastructure connecting specifications, agents, workflows, and model engineering—so complex AI systems stay legible, verifiable, and evolvable
+ZH  连接自有系统与上游基础设施，把可复现的问题转化为可审查、可维护、可持续演进的公共工程
+EN  Connecting original systems with upstream infrastructure—turning reproducible failures into reviewable, maintainable, and evolvable public engineering
 ```
 
 <p>

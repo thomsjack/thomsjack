@@ -29,16 +29,18 @@ jobs:
         run: node scripts/update-profile-stats.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USERNAME: loulanyue
 
       - name: Commit changed telemetry
         run: |
-          if git diff --quiet -- assets/profile-terminal.svg assets/featured-systems.svg assets/upstream-contributions.svg; then
+          git diff --check
+          if git diff --quiet -- assets/profile-terminal.svg assets/featured-systems.svg assets/upstream-contributions.svg assets/upstream-engineering-map.svg; then
             echo "Profile telemetry is already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/profile-terminal.svg assets/featured-systems.svg assets/upstream-contributions.svg
+          git add assets/profile-terminal.svg assets/featured-systems.svg assets/upstream-contributions.svg assets/upstream-engineering-map.svg
           git commit -m "chore: refresh profile telemetry"
           git push
