@@ -32,7 +32,7 @@
     </g>
     <g transform="translate(278 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">16</text>
+      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">14</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">OPEN</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">进行中</text>
     </g>
@@ -76,13 +76,13 @@
         <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">NousResearch/hermes-agent</text>
-          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
+          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/0M/1C</text>
           <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 221.9K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">anomalyco/opencode</text>
-          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">5PR · 3O/0M/2C</text>
+          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">5PR · 2O/0M/3C</text>
           <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 190.6K</text>
         </g>
         <g transform="translate(0 181)">
