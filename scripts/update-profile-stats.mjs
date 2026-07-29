@@ -304,7 +304,7 @@ function renderCategoryCard(category, x, y, height) {
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">${escapeXml(category.en)}</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">${escapeXml(category.zh)}</text>
       <text x="506" y="29" text-anchor="end" fill="${category.color}" font-size="10.2" font-weight="750">${projectCount} PROJECTS · ${pullCount} PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ ${formatCompactNumber(starCount)} REACH</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ ${formatCompactNumber(starCount)} TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
       ${rows}
     </g>`;
@@ -339,7 +339,7 @@ function renderUpstreamMap({ categories, totals, refreshedOn }) {
     { value: totals.open, label: 'OPEN', zh: '进行中', color: '#406E9A' },
     { value: totals.merged, label: 'MERGED', zh: '已合并', color: '#337E69' },
     { value: totals.projects, label: 'PROJECTS', zh: '覆盖项目', color: '#123E52' },
-    { value: formatCompactNumber(totals.stars), label: 'STAR REACH', zh: '项目影响力', color: '#2A879B' },
+    { value: formatCompactNumber(totals.stars), label: 'PROJECT STARS', zh: '项目 Star 总数', color: '#2A879B' },
   ]
     .map((metric, index) => renderMetricCard({ ...metric, x: 58 + index * 220 }))
     .join('');
@@ -536,7 +536,7 @@ const changedFiles = [
 const status = [
   `${totalStars.toLocaleString('en-US')} stars across ${projectCount} owned projects`,
   `${upstreamSearch.total_count} upstream PRs across ${projectModels.length} projects`,
-  `${upstreamStarReach.toLocaleString('en-US')} upstream star reach`,
+  `${upstreamStarReach.toLocaleString('en-US')} total upstream project stars`,
 ].join('; ');
 
 if (changedFiles.length === 0) {

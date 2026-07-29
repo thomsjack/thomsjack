@@ -71,5 +71,5 @@ EN  Connecting original systems with upstream infrastructure—turning reproduci
 </p>
 
 <p align="center">
-  <sub>实时数据统计自有、公开、非 Fork 项目，每日自动刷新。<br />Live telemetry counts owned public non-fork repositories and refreshes daily.</sub>
+  <sub>自有项目统计公开、非 Fork 仓库；上游统计公开 PR 及其项目 Stars。数据每日自动刷新。<br />Owned-project telemetry covers public non-fork repositories; upstream telemetry covers public PRs and total stars across their projects. Refreshed daily.</sub>
 </p>
