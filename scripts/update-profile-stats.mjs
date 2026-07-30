@@ -469,6 +469,11 @@ let nextBanner = currentBanner;
 nextBanner = replaceTextById(nextBanner, 'total-stars', totalStars.toLocaleString('en-US'));
 nextBanner = replaceTextById(nextBanner, 'project-count', String(projectCount));
 nextBanner = replaceTextById(nextBanner, 'follower-count', followerCount.toLocaleString('en-US'));
+nextBanner = replaceTextById(
+  nextBanner,
+  'hero-upstream-pr-count',
+  String(upstreamSearch.total_count),
+);
 nextBanner = replaceTextById(nextBanner, 'last-updated-banner', `UPDATED ${refreshedOn} UTC`);
 
 let nextFeatured = currentFeatured;

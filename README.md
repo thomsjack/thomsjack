@@ -4,10 +4,7 @@
   </a>
 </p>
 
-<p align="center">
-  <strong>以开放系统工程推动智能体基础设施走向可验证、可组合与可持续演进</strong><br />
-  <sub>Advancing agentic infrastructure through open systems engineered for verification, composability, and long-term evolution.</sub>
-</p>
+<p align="center"><a href="https://github.com/loulanyue?tab=repositories"><img alt="View projects" src="https://img.shields.io/badge/VIEW_PROJECTS-OPEN-2A9DB2?style=for-the-badge&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/pulls?q=is%3Apr+author%3Aloulanyue"><img alt="View upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PRS-EXPLORE-54A98E?style=for-the-badge&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a></p>
 
 <p align="center">
   <img src="./assets/featured-systems.svg" width="100%" alt="Four featured LoulanYue projects with bilingual descriptions and live star counts" />

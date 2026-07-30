@@ -1,72 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">LoulanYue open-source AI systems engineer</title>
-  <desc id="desc">A light bilingual systems console positioning open infrastructure for the agentic era with live GitHub telemetry.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">LoulanYue — open-source AI systems engineer</title>
+  <desc id="desc">A light bilingual profile hero with project links, live GitHub telemetry, and an abstract open-systems diagram.</desc>
 
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FCFEFF"/>
-      <stop offset=".52" stop-color="#F1F9FC"/>
-      <stop offset="1" stop-color="#E6F4F8"/>
+      <stop offset=".55" stop-color="#F7FBFC"/>
+      <stop offset="1" stop-color="#EEF8FA"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#2A9DB2"/>
       <stop offset="1" stop-color="#63C6A7"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#CBE2EB" stroke-width="1" opacity=".55"/>
-      <circle cx="0" cy="0" r="1.2" fill="#A9D1DE" opacity=".65"/>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1F8EA3"/>
+      <stop offset=".52" stop-color="#55AE94"/>
+      <stop offset="1" stop-color="#8CCEBB"/>
+    </linearGradient>
+    <pattern id="micro-grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M38 0H0V38" fill="none" stroke="#DDECEF" stroke-width="1" opacity=".52"/>
+      <circle cx="0" cy="0" r="1" fill="#BDDCE4" opacity=".55"/>
     </pattern>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#397E91" flood-opacity=".12"/>
+    <filter id="soft-shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#397E91" flood-opacity=".11"/>
+    </filter>
+    <filter id="core-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="13"/>
     </filter>
   </defs>
 
-  <rect width="1200" height="320" rx="22" fill="url(#canvas)"/>
-  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#B6D7E2" stroke-width="2"/>
-  <rect width="1200" height="320" rx="22" fill="url(#grid)" opacity=".74"/>
-
-  <path d="M0 266H420L452 238H650L680 266H1200" fill="none" stroke="#C6E2E9" stroke-width="1.5"/>
-  <path d="M0 274H428L460 246H642L672 274H1200" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".72"/>
-  <circle cx="460" cy="246" r="4" fill="#2A9DB2"/>
-  <circle cx="642" cy="246" r="4" fill="#63C6A7"/>
+  <rect width="1200" height="560" rx="24" fill="url(#canvas)"/>
+  <rect x="1" y="1" width="1198" height="558" rx="23" fill="none" stroke="#C4E0E7" stroke-width="2"/>
+  <rect width="1200" height="560" rx="24" fill="url(#micro-grid)" opacity=".34"/>
 
   <g font-family="'Avenir Next', 'PingFang SC', 'Noto Sans CJK SC', ui-sans-serif, sans-serif">
-    <text x="58" y="51" fill="#2A879B" font-size="13" font-weight="700" letter-spacing="3">[ OPEN SYSTEMS / OSS-01 ]</text>
-    <text x="58" y="132" fill="#123E52" font-size="66" font-weight="700" letter-spacing="5">LOULANYUE</text>
-    <rect x="58" y="152" width="500" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="58" y="188" fill="#0B7185" font-size="20" font-weight="700" letter-spacing="1.7">OPEN-SOURCE AI SYSTEMS ENGINEER</text>
-    <text x="58" y="219" fill="#467688" font-size="17" font-weight="600">面向智能体时代的开放系统工程 · 规格 · 运行时 · 可信交付</text>
-    <text x="58" y="296" fill="#789EAB" font-size="11" font-weight="700" letter-spacing="2">DESIGN  →  CONTRIBUTE  →  VERIFY  →  STEWARD</text>
-    <text id="last-updated-banner" x="1142" y="296" text-anchor="end" fill="#789EAB" font-size="10.5" font-weight="700" letter-spacing="1.4">UPDATED 2026-07-30 UTC</text>
+    <circle cx="60" cy="58" r="5" fill="#55AE94"/>
+    <text x="74" y="63" fill="#4A9F89" font-size="13" font-weight="700" letter-spacing=".4">OPEN-SOURCE SYSTEMS ENGINEER · LOUISVILLE, KY</text>
+
+    <text x="58" y="155" fill="#0F5369" font-size="66" font-weight="800" letter-spacing="1">LOULANYUE</text>
+    <rect x="58" y="174" width="572" height="3" rx="1.5" fill="url(#accent)"/>
+
+    <text x="58" y="220" fill="#0B6077" font-size="18.5" font-weight="700">以开放系统工程推动智能体基础设施走向可验证、可组合与可持续演进</text>
+    <text x="58" y="256" fill="#527E8E" font-size="15.2" font-weight="550">Advancing agentic infrastructure through open systems engineered for verification,</text>
+    <text x="58" y="281" fill="#527E8E" font-size="15.2" font-weight="550">composability, and long-term evolution.</text>
+
+    <g transform="translate(58 314)" filter="url(#soft-shadow)">
+      <rect width="166" height="48" rx="10" fill="#2A9DB2"/>
+      <text x="25" y="30" fill="#FFFFFF" font-size="14" font-weight="750">VIEW PROJECTS</text>
+      <path d="M137 24H150M145 18L151 24L145 30" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="translate(240 314)">
+      <rect width="176" height="48" rx="10" fill="#FFFFFF" stroke="#2A9DB2" stroke-width="1.5"/>
+      <text x="23" y="30" fill="#2A879B" font-size="14" font-weight="750">UPSTREAM PRS</text>
+      <circle cx="146" cy="19" r="3.5" fill="none" stroke="#2A879B" stroke-width="1.8"/>
+      <circle cx="154" cy="31" r="3.5" fill="none" stroke="#2A879B" stroke-width="1.8"/>
+      <path d="M146 22.5V34M146 27H154V27.5" fill="none" stroke="#2A879B" stroke-width="1.8" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(58 410)">
+      <text id="project-count" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">13</text>
+      <text x="0" y="58" fill="#648C99" font-size="11.5" font-weight="650">ORIGINAL SYSTEMS</text>
+      <text x="0" y="76" fill="#8AA8B2" font-size="10.5">自有开放项目</text>
+    </g>
+    <path d="M210 414V486" stroke="#D1E5EA"/>
+    <g transform="translate(240 410)">
+      <text id="total-stars" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">2,275</text>
+      <text x="0" y="58" fill="#648C99" font-size="11.5" font-weight="650">OWNED STARS</text>
+      <text x="0" y="76" fill="#8AA8B2" font-size="10.5">自有项目星标</text>
+    </g>
+    <path d="M398 414V486" stroke="#D1E5EA"/>
+    <g transform="translate(428 410)">
+      <text id="follower-count" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">153</text>
+      <text x="0" y="58" fill="#648C99" font-size="11.5" font-weight="650">FOLLOWERS</text>
+      <text x="0" y="76" fill="#8AA8B2" font-size="10.5">关注者</text>
+    </g>
+    <path d="M555 414V486" stroke="#D1E5EA"/>
+    <g transform="translate(585 410)">
+      <text id="hero-upstream-pr-count" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">32</text>
+      <text x="0" y="58" fill="#648C99" font-size="11.5" font-weight="650">UPSTREAM PRS</text>
+      <text x="0" y="76" fill="#8AA8B2" font-size="10.5">公开上游贡献</text>
+    </g>
+
+    <text x="58" y="532" fill="#89A8B2" font-size="9.8" font-weight="700" letter-spacing="1.5">DESIGN → CONTRIBUTE → VERIFY → STEWARD</text>
+    <text id="last-updated-banner" x="1142" y="532" text-anchor="end" fill="#89A8B2" font-size="9.8" font-weight="700" letter-spacing="1.2">UPDATED 2026-07-30 UTC</text>
   </g>
 
-  <g filter="url(#shadow)">
-    <rect x="690" y="40" width="454" height="210" rx="20" fill="#FFFFFF" fill-opacity=".9" stroke="#C5E1E9"/>
-  </g>
+  <g transform="translate(965 270)">
+    <circle r="184" fill="#FFFFFF" fill-opacity=".75" stroke="#D1E8ED" stroke-width="4"/>
+    <circle r="158" fill="#F8FCFC" stroke="#E1EEF1"/>
+    <circle r="115" fill="none" stroke="#C8E2E7" stroke-dasharray="3 7"/>
 
-  <g font-family="'Avenir Next', 'PingFang SC', 'Noto Sans CJK SC', ui-sans-serif, sans-serif">
-    <text x="720" y="75" fill="#648C99" font-size="11" font-weight="700" letter-spacing="2.2">LIVE TELEMETRY / 实时数据</text>
-    <circle cx="1112" cy="70" r="5" fill="#63C6A7"/>
-
-    <g transform="translate(720 96)">
-      <rect width="126" height="120" rx="14" fill="#F2FAFC" stroke="#D4E9EF"/>
-      <text id="total-stars" x="63" y="55" text-anchor="middle" fill="#123E52" font-size="31" font-weight="750">2,275</text>
-      <text x="63" y="82" text-anchor="middle" fill="#2A879B" font-size="10" font-weight="700" letter-spacing="1.4">TOTAL STARS</text>
-      <text x="63" y="101" text-anchor="middle" fill="#789EAB" font-size="11">总星标</text>
+    <g opacity=".75">
+      <path d="M-136 0H136M0-136V136" stroke="#69B7A5" stroke-width="1.3"/>
+      <path d="M-98-74L104 94M-92 92L80-94" stroke="#77B9AE" stroke-width="1"/>
+      <path d="M-96-72H45V-34H84V72H32V104H-72V45H-96Z" fill="none" stroke="#90C8BA" stroke-width="1"/>
+      <path d="M-118-16H-62V20H-14M32-98V-58H72V-26H118" fill="none" stroke="#A4D2C5" stroke-width="1"/>
     </g>
 
-    <g transform="translate(858 96)">
-      <rect width="120" height="120" rx="14" fill="#F2FAFC" stroke="#D4E9EF"/>
-      <text id="project-count" x="60" y="55" text-anchor="middle" fill="#123E52" font-size="31" font-weight="750">13</text>
-      <text x="60" y="82" text-anchor="middle" fill="#2A879B" font-size="10" font-weight="700" letter-spacing="1.4">PROJECTS</text>
-      <text x="60" y="101" text-anchor="middle" fill="#789EAB" font-size="11">公开项目</text>
-    </g>
+    <circle r="66" fill="#55AE94" opacity=".12" filter="url(#core-glow)"/>
+    <circle r="60" fill="#8CCEBB" opacity=".28"/>
+    <circle r="46" fill="#55AE94" opacity=".46"/>
+    <circle r="32" fill="#2A9DB2" opacity=".62"/>
+    <circle r="18" fill="#176C73" opacity=".8"/>
+    <circle r="8" fill="#FFFFFF" stroke="#55AE94" stroke-width="4"/>
 
-    <g transform="translate(990 96)">
-      <rect width="126" height="120" rx="14" fill="#F2FAFC" stroke="#D4E9EF"/>
-      <text id="follower-count" x="63" y="55" text-anchor="middle" fill="#123E52" font-size="31" font-weight="750">153</text>
-      <text x="63" y="82" text-anchor="middle" fill="#2A879B" font-size="10" font-weight="700" letter-spacing="1.4">FOLLOWERS</text>
-      <text x="63" y="101" text-anchor="middle" fill="#789EAB" font-size="11">关注者</text>
-    </g>
+    <path d="M12 8L78 62V98L46 119L15 92Z" fill="url(#core)" opacity=".72"/>
+    <circle cx="78" cy="88" r="6" fill="#FFFFFF" stroke="#55AE94" stroke-width="3"/>
+    <circle cx="-104" cy="0" r="5" fill="#55AE94"/>
+    <circle cx="-70" cy="0" r="4" fill="#8CCEBB"/>
+    <circle cx="-43" cy="0" r="4" fill="#55AE94"/>
+    <circle cx="94" cy="0" r="5" fill="#55AE94"/>
+    <circle cx="126" cy="0" r="7" fill="#FFFFFF" stroke="#63B7A2" stroke-width="2"/>
+    <circle cx="126" cy="0" r="2.5" fill="#2A879B"/>
+    <circle cx="0" cy="-104" r="4" fill="#8CCEBB"/>
+    <circle cx="0" cy="120" r="4" fill="#8CCEBB"/>
+    <circle cx="-80" cy="-76" r="4" fill="#55AE94"/>
+    <circle cx="90" cy="92" r="4" fill="#2A879B"/>
+    <circle cx="46" cy="-70" r="3" fill="#2A9DB2"/>
+    <circle cx="-52" cy="70" r="3" fill="#2A9DB2"/>
+
+    <circle r="74" fill="none" stroke="#2A9DB2" stroke-width="1.2" opacity=".65"/>
+    <circle r="52" fill="none" stroke="#337E69" stroke-width="1.2" opacity=".7"/>
+    <circle r="27" fill="none" stroke="#FFFFFF" stroke-width="1.2" opacity=".75"/>
   </g>
 </svg>
