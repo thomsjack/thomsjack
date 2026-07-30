@@ -26,7 +26,7 @@
 
     <g transform="translate(58 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">32</text>
+      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">33</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PUBLIC PRS</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">公开上游 PR</text>
     </g>
@@ -38,7 +38,7 @@
     </g>
     <g transform="translate(498 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#337E69" font-size="28" font-weight="750">5</text>
+      <text x="22" y="46" fill="#337E69" font-size="28" font-weight="750">6</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">MERGED</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">已合并</text>
     </g>
@@ -77,7 +77,7 @@
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">NousResearch/hermes-agent</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/0M/1C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 222.4K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 222.5K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
@@ -97,7 +97,7 @@
       <rect width="6" height="202" rx="3" fill="#5D86B3"/>
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AI WORKFLOW &amp; EXPERIENCE PLATFORMS</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">AI 工作流与体验平台</text>
-      <text x="506" y="29" text-anchor="end" fill="#5D86B3" font-size="10.2" font-weight="750">4 PROJECTS · 8 PR</text>
+      <text x="506" y="29" text-anchor="end" fill="#5D86B3" font-size="10.2" font-weight="750">4 PROJECTS · 9 PR</text>
       <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 452.5K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
@@ -110,13 +110,13 @@
         <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">langgenius/dify</text>
-          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
+          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/1M/0C</text>
           <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 150.7K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">open-webui/open-webui</text>
-          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 0O/0M/2C</text>
+          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">3PR · 1O/0M/2C</text>
           <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 147.3K</text>
         </g>
         <g transform="translate(0 181)">
@@ -132,7 +132,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
       <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">4 PROJECTS · 4 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 226.7K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 226.8K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
@@ -145,7 +145,7 @@
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">diegosouzapw/OmniRoute</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 34.3K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 34.4K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
