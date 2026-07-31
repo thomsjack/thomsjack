@@ -456,7 +456,7 @@ const selectedContributionDetails = upstreamContributions.map((contribution) => 
 const totalStars = projects.reduce((sum, repository) => sum + repository.stargazers_count, 0);
 const projectCount = projects.length;
 const followerCount = profile.followers;
-const refreshedOn = new Date().toISOString().slice(0, 10);
+const refreshedOn = process.env.REFRESHED_ON ?? new Date().toISOString().slice(0, 10);
 const upstreamMergedCount = upstreamSearch.items.filter(
   (item) => Boolean(item.pull_request?.merged_at),
 ).length;
