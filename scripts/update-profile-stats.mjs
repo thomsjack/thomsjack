@@ -28,6 +28,7 @@ const upstreamContributions = [
   { key: 'langflow', owner: 'langflow-ai', repo: 'langflow', pull: 14177 },
   { key: 'dify', owner: 'langgenius', repo: 'dify', pull: 39636 },
   { key: 'openwebui', owner: 'open-webui', repo: 'open-webui', pull: 27585 },
+  { key: 'langchain', owner: 'langchain-ai', repo: 'langchain', pull: 39215 },
   { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
 ];
 
@@ -50,6 +51,7 @@ const upstreamCategories = [
     zh: 'AI 工作流与体验平台',
     color: '#5D86B3',
     repositories: [
+      'langchain-ai/langchain',
       'langflow-ai/langflow',
       'langgenius/dify',
       'open-webui/open-webui',

@@ -64,7 +64,7 @@
     </g>
     <path d="M210 414V486" stroke="#D1E5EA"/>
     <g transform="translate(240 410)">
-      <text id="total-stars" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">2,289</text>
+      <text id="total-stars" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">2,297</text>
       <text x="0" y="58" fill="#648C99" font-size="11.5" font-weight="650">OWNED STARS</text>
       <text x="0" y="76" fill="#8AA8B2" font-size="10.5">自有项目星标</text>
     </g>
@@ -76,13 +76,13 @@
     </g>
     <path d="M555 414V486" stroke="#D1E5EA"/>
     <g transform="translate(585 410)">
-      <text id="hero-upstream-pr-count" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">37</text>
+      <text id="hero-upstream-pr-count" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">39</text>
       <text x="0" y="58" fill="#648C99" font-size="11.5" font-weight="650">UPSTREAM PRS</text>
       <text x="0" y="76" fill="#8AA8B2" font-size="10.5">公开上游贡献</text>
     </g>
 
     <text x="58" y="532" fill="#89A8B2" font-size="9.8" font-weight="700" letter-spacing="1.5">DESIGN → CONTRIBUTE → VERIFY → STEWARD</text>
-    <text id="last-updated-banner" x="1142" y="532" text-anchor="end" fill="#89A8B2" font-size="9.8" font-weight="700" letter-spacing="1.2">UPDATED 2026-08-02 UTC</text>
+    <text id="last-updated-banner" x="1142" y="532" text-anchor="end" fill="#89A8B2" font-size="9.8" font-weight="700" letter-spacing="1.2">UPDATED 2026-08-03 UTC</text>
   </g>
 
   <g transform="translate(965 270)">
