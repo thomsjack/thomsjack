@@ -30,6 +30,7 @@ const upstreamContributions = [
   { key: 'openwebui', owner: 'open-webui', repo: 'open-webui', pull: 27585 },
   { key: 'langchain', owner: 'langchain-ai', repo: 'langchain', pull: 39215 },
   { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
+  { key: 'pytorch', owner: 'pytorch', repo: 'pytorch', pull: 191904 },
 ];
 
 const upstreamCategories = [
@@ -75,7 +76,7 @@ const upstreamCategories = [
     en: 'MODEL TRAINING & ML SYSTEMS',
     zh: '模型训练与机器学习系统',
     color: '#4D8FBA',
-    repositories: ['hiyouga/LlamaFactory', 'sktime/sktime'],
+    repositories: ['pytorch/pytorch', 'hiyouga/LlamaFactory', 'sktime/sktime'],
   },
   {
     id: 'python-toolchain',

@@ -26,13 +26,13 @@
 
     <g transform="translate(58 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">39</text>
+      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">40</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PUBLIC PRS</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">公开上游 PR</text>
     </g>
     <g transform="translate(278 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">15</text>
+      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">16</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">OPEN</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">进行中</text>
     </g>
@@ -44,13 +44,13 @@
     </g>
     <g transform="translate(718 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">22</text>
+      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">23</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PROJECTS</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">覆盖项目</text>
     </g>
     <g transform="translate(938 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#2A879B" font-size="28" font-weight="750">2.05M</text>
+      <text x="22" y="46" fill="#2A879B" font-size="28" font-weight="750">2.16M</text>
       <text x="126" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PROJECT STARS</text>
       <text x="126" y="51" fill="#789EAB" font-size="11">项目 Star 总数</text>
     </g>
@@ -64,7 +64,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AGENT RUNTIMES &amp; CODING INTERFACES</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">智能体运行时与编码终端</text>
       <text x="506" y="29" text-anchor="end" fill="#2A9DB2" font-size="10.2" font-weight="750">4 PROJECTS · 14 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 908.3K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 908.4K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
@@ -83,7 +83,7 @@
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">anomalyco/opencode</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">5PR · 1O/0M/4C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 192.5K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 192.6K</text>
         </g>
         <g transform="translate(0 181)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -111,7 +111,7 @@
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">langgenius/dify</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 151.1K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 151.2K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -138,7 +138,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
       <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">4 PROJECTS · 4 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 232.3K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 232.4K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
@@ -151,7 +151,7 @@
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">diegosouzapw/OmniRoute</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 38.1K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 38.2K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -171,17 +171,23 @@
       <rect width="6" height="202" rx="3" fill="#4D8FBA"/>
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">MODEL TRAINING &amp; ML SYSTEMS</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">模型训练与机器学习系统</text>
-      <text x="506" y="29" text-anchor="end" fill="#4D8FBA" font-size="10.2" font-weight="750">2 PROJECTS · 2 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 83.6K TOTAL</text>
+      <text x="506" y="29" text-anchor="end" fill="#4D8FBA" font-size="10.2" font-weight="750">3 PROJECTS · 3 PR</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 185.8K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
+          <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
+          <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">pytorch/pytorch</text>
+          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 102.1K</text>
+        </g>
+        <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="4" fill="#4D8FBA"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">hiyouga/LlamaFactory</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
           <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 73.7K</text>
         </g>
-        <g transform="translate(0 123)">
+        <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">sktime/sktime</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
@@ -238,7 +244,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">OTHER PUBLIC ENGINEERING</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">其他公开工程</text>
       <text x="506" y="29" text-anchor="end" fill="#789EAB" font-size="10.2" font-weight="750">3 PROJECTS · 3 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 177.1K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 177.2K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
