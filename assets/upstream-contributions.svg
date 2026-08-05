@@ -18,9 +18,9 @@
     </filter>
   </defs>
 
-  <rect width="1200" height="1214" rx="22" fill="url(#canvas)"/>
-  <rect x="1" y="1" width="1198" height="1212" rx="21" fill="none" stroke="#B9DCE6" stroke-width="2"/>
-  <rect x="32" y="34" width="5" height="1146" rx="2.5" fill="url(#rail)"/>
+  <rect width="1200" height="1414" rx="22" fill="url(#canvas)"/>
+  <rect x="1" y="1" width="1198" height="1412" rx="21" fill="none" stroke="#B9DCE6" stroke-width="2"/>
+  <rect x="32" y="34" width="5" height="1346" rx="2.5" fill="url(#rail)"/>
 
   <g font-family="'Avenir Next', 'PingFang SC', 'Noto Sans CJK SC', ui-sans-serif, sans-serif">
     <text x="58" y="57" fill="#123E52" font-size="25" font-weight="750" letter-spacing="1.3">02 / 100K+ UPSTREAM</text>
@@ -57,6 +57,7 @@
     <text x="58" y="182" fill="#789EAB" font-size="10.5" font-weight="750" letter-spacing="1.6">QUALIFIED CONTRIBUTION SET / 严格 &gt;100K 完整集合</text>
     <path d="M405 178H1142" stroke="#D5E9EF"/>
 
+    <!-- Row 1: openclaw (385K) | hermes-agent (226K) -->
     <g transform="translate(58 198)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#55AE94"/>
@@ -85,6 +86,7 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Makes clarify release explicit across agent-gateway steering boundaries.</text>
     </g>
 
+    <!-- Row 2: opencode (194K) | transformers (163K) -->
     <g transform="translate(58 390)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#F9FDFD" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#55AE94"/>
@@ -101,6 +103,21 @@
 
     <g transform="translate(616 390)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
+      <rect width="6" height="176" rx="3" fill="#4D8FBA"/>
+      <rect x="20" y="18" width="72" height="26" rx="13" fill="#E8F1FA"/>
+      <text id="state-transformers" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
+      <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUDIO EMBEDDING</text>
+      <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">huggingface/transformers</text>
+      <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.4K</text>
+      <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #47763</text>
+      <path d="M20 111H506" stroke="#DCECF1"/>
+      <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</text>
+      <text x="20" y="161" fill="#648C99" font-size="11.6">Fixes positional conv padding sensitivity in HuBERT when conv_pos_batch_norm=True.</text>
+    </g>
+
+    <!-- Row 3: firecrawl (162K) | langflow (153K) -->
+    <g transform="translate(58 582)" filter="url(#shadow)">
+      <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#2A879B"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#E7F4F8"/>
       <text id="state-firecrawl" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
@@ -113,7 +130,7 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Makes native client prerequisites explicit for reproducible deployment.</text>
     </g>
 
-    <g transform="translate(58 582)" filter="url(#shadow)">
+    <g transform="translate(616 582)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#4D8FBA"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#E8F1FA"/>
@@ -127,7 +144,8 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Carries cancellation semantics through the transport lifecycle.</text>
     </g>
 
-    <g transform="translate(616 582)" filter="url(#shadow)">
+    <!-- Row 4: dify (152K) | open-webui (148K) -->
+    <g transform="translate(58 774)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#F9FDFD" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#5D86B3"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#EBF0F8"/>
@@ -141,7 +159,7 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Carries workflow execution policy through queue-management boundaries.</text>
     </g>
 
-    <g transform="translate(58 774)" filter="url(#shadow)">
+    <g transform="translate(616 774)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#F9FDFD" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#6B8F9D"/>
       <rect x="20" y="18" width="76" height="26" rx="13" fill="#EDF4F5"/>
@@ -155,7 +173,8 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Normalizes complex retrieval parameters for Docling's service contract.</text>
     </g>
 
-    <g transform="translate(616 774)" filter="url(#shadow)">
+    <!-- Row 5: langchain (144K) | gemini-cli (106K) -->
+    <g transform="translate(58 966)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#F9FDFD" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#5D86B3"/>
       <rect x="20" y="18" width="76" height="26" rx="13" fill="#EDF4F5"/>
@@ -169,7 +188,7 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Fixes generator iterable compatibility in ContextThreadPoolExecutor.map.</text>
     </g>
 
-    <g transform="translate(58 966)" filter="url(#shadow)">
+    <g transform="translate(616 966)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#C49435"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#FFF4D9"/>
@@ -183,7 +202,8 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Isolates API-key auth from stale authorization headers at request boundaries.</text>
     </g>
 
-    <g transform="translate(616 966)" filter="url(#shadow)">
+    <!-- Row 6: pytorch (102K) -->
+    <g transform="translate(58 1158)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#4D8FBA"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#E8F1FA"/>
@@ -197,21 +217,7 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Fixes CPU ISA superset compatibility in _load_aoti for AOTInductor models.</text>
     </g>
 
-    <g transform="translate(58 1166)" filter="url(#shadow)">
-      <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="176" rx="3" fill="#4D8FBA"/>
-      <rect x="20" y="18" width="72" height="26" rx="13" fill="#E8F1FA"/>
-      <text id="state-transformers" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
-      <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUDIO EMBEDDING</text>
-      <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">huggingface/transformers</text>
-      <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.4K</text>
-      <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #47763</text>
-      <path d="M20 111H506" stroke="#DCECF1"/>
-      <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</text>
-      <text x="20" y="161" fill="#648C99" font-size="11.6">Fixes positional conv padding sensitivity in HuBERT when conv_pos_batch_norm=True.</text>
-    </g>
-
     <text x="58" y="1382" fill="#789EAB" font-size="10.5" font-weight="700" letter-spacing="1.5">SORTED BY LIVE STARS / 按实时星标排序 · 完整十万星集合</text>
-    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#789EAB" font-size="10.5">PR STATUS + STARS · UPDATED 2026-08-06 UTC · 每日自动更新</text>
+    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#789EAB" font-size="10.5">PR STATUS + STARS · UPDATED 2026-08-05 UTC · 每日自动更新</text>
   </g>
 </svg>
