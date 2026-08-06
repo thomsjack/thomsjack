@@ -31,6 +31,7 @@ const upstreamContributions = [
   { key: 'langchain', owner: 'langchain-ai', repo: 'langchain', pull: 39215 },
   { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
   { key: 'pytorch', owner: 'pytorch', repo: 'pytorch', pull: 191904 },
+  { key: 'transformers', owner: 'huggingface', repo: 'transformers', pull: 47763 },
 ];
 
 const upstreamCategories = [
@@ -76,7 +77,7 @@ const upstreamCategories = [
     en: 'MODEL TRAINING & ML SYSTEMS',
     zh: '模型训练与机器学习系统',
     color: '#4D8FBA',
-    repositories: ['pytorch/pytorch', 'hiyouga/LlamaFactory', 'sktime/sktime'],
+    repositories: ['huggingface/transformers', 'pytorch/pytorch', 'hiyouga/LlamaFactory', 'sktime/sktime'],
   },
   {
     id: 'python-toolchain',
