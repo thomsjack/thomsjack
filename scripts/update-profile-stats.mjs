@@ -27,7 +27,7 @@ const upstreamContributions = [
   { key: 'firecrawl', owner: 'firecrawl', repo: 'firecrawl', pull: 4061 },
   { key: 'langflow', owner: 'langflow-ai', repo: 'langflow', pull: 14177 },
   { key: 'dify', owner: 'langgenius', repo: 'dify', pull: 39636 },
-  { key: 'openwebui', owner: 'open-webui', repo: 'open-webui', pull: 27585 },
+  { key: 'openwebui', owner: 'open-webui', repo: 'open-webui', pull: 28218 },
   { key: 'langchain', owner: 'langchain-ai', repo: 'langchain', pull: 39215 },
   { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
   { key: 'pytorch', owner: 'pytorch', repo: 'pytorch', pull: 191904 },

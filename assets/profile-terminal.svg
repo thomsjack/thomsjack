@@ -44,17 +44,23 @@
     <text x="58" y="256" fill="#527E8E" font-size="15.2" font-weight="550">Advancing agentic infrastructure through open systems engineered for verification,</text>
     <text x="58" y="281" fill="#527E8E" font-size="15.2" font-weight="550">composability, and long-term evolution.</text>
 
-    <g transform="translate(58 314)" filter="url(#soft-shadow)">
-      <rect width="166" height="48" rx="10" fill="#2A9DB2"/>
-      <text x="25" y="30" fill="#FFFFFF" font-size="14" font-weight="750">VIEW PROJECTS</text>
-      <path d="M137 24H150M145 18L151 24L145 30" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-    </g>
-    <g transform="translate(240 314)">
-      <rect width="176" height="48" rx="10" fill="#FFFFFF" stroke="#2A9DB2" stroke-width="1.5"/>
-      <text x="23" y="30" fill="#2A879B" font-size="14" font-weight="750">UPSTREAM PRS</text>
-      <circle cx="146" cy="19" r="3.5" fill="none" stroke="#2A879B" stroke-width="1.8"/>
-      <circle cx="154" cy="31" r="3.5" fill="none" stroke="#2A879B" stroke-width="1.8"/>
-      <path d="M146 22.5V34M146 27H154V27.5" fill="none" stroke="#2A879B" stroke-width="1.8" stroke-linecap="round"/>
+    <g transform="translate(58 314)">
+      <text x="0" y="10" fill="#789EAB" font-size="9.8" font-weight="750" letter-spacing="1.4">ENGINEERING SURFACE / 工程领域</text>
+      <g transform="translate(0 22)">
+        <rect width="150" height="34" rx="17" fill="#E7F5F8" stroke="#C8E5EB"/>
+        <circle cx="18" cy="17" r="4" fill="#2A9DB2"/>
+        <text x="31" y="21" fill="#24566A" font-size="10.5" font-weight="750" letter-spacing=".55">AGENT RUNTIMES</text>
+      </g>
+      <g transform="translate(162 22)">
+        <rect width="146" height="34" rx="17" fill="#EAF6F2" stroke="#CDE8DF"/>
+        <circle cx="18" cy="17" r="4" fill="#54A98E"/>
+        <text x="31" y="21" fill="#24566A" font-size="10.5" font-weight="750" letter-spacing=".55">MODEL SYSTEMS</text>
+      </g>
+      <g transform="translate(320 22)">
+        <rect width="176" height="34" rx="17" fill="#EEF3F9" stroke="#D5E2EE"/>
+        <circle cx="18" cy="17" r="4" fill="#5D86B3"/>
+        <text x="31" y="21" fill="#24566A" font-size="10.5" font-weight="750" letter-spacing=".55">DEVELOPER TOOLING</text>
+      </g>
     </g>
 
     <g transform="translate(58 410)">
