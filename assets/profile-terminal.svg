@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
   <title id="title">LoulanYue — open-source AI systems engineer</title>
-  <desc id="desc">A light bilingual profile hero with project links, live GitHub telemetry, and an abstract open-systems diagram.</desc>
+  <desc id="desc">A light bilingual profile hero with live GitHub telemetry, engineering focus areas, and an abstract open-systems diagram.</desc>
 
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
@@ -70,7 +70,7 @@
     </g>
     <path d="M210 414V486" stroke="#D1E5EA"/>
     <g transform="translate(240 410)">
-      <text id="total-stars" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">2,315</text>
+      <text id="total-stars" x="0" y="35" fill="#0F5369" font-size="34" font-weight="800">2,311</text>
       <text x="0" y="58" fill="#648C99" font-size="11.5" font-weight="650">OWNED STARS</text>
       <text x="0" y="76" fill="#8AA8B2" font-size="10.5">自有项目星标</text>
     </g>

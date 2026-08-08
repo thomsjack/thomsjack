@@ -1,8 +1,8 @@
 <p align="center">
-  <a href="https://github.com/loulanyue?tab=repositories">
-    <img src="./assets/profile-terminal.svg" width="100%" alt="LoulanYue — bilingual open-source AI systems engineering profile with live telemetry" />
-  </a>
+  <img src="./assets/profile-terminal.svg" width="100%" alt="LoulanYue — bilingual open-source AI systems engineering profile with live telemetry" />
 </p>
+
+<p align="center"><a href="https://github.com/loulanyue?tab=repositories"><img alt="Explore original systems" src="https://img.shields.io/badge/ORIGINAL_SYSTEMS-EXPLORE-2A9DB2?style=for-the-badge&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/pulls?q=is%3Apr+author%3Aloulanyue"><img alt="Explore upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PRS-EXPLORE-54A98E?style=for-the-badge&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a></p>
 
 <p align="center">
   <img src="./assets/featured-systems.svg" width="100%" alt="Four featured LoulanYue projects with bilingual descriptions and live star counts" />
