@@ -23,7 +23,7 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Check out profile repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Refresh profile telemetry assets
         run: node scripts/update-profile-stats.mjs
