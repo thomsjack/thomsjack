@@ -67,6 +67,7 @@ const upstreamCategories = [
     color: '#54A98E',
     repositories: [
       'firecrawl/firecrawl',
+      'qdrant/qdrant',
       'teng-lin/notebooklm-py',
       'diegosouzapw/OmniRoute',
       'googleapis/mcp-toolbox',
@@ -77,7 +78,14 @@ const upstreamCategories = [
     en: 'MODEL TRAINING & ML SYSTEMS',
     zh: '模型训练与机器学习系统',
     color: '#4D8FBA',
-    repositories: ['huggingface/transformers', 'pytorch/pytorch', 'hiyouga/LlamaFactory', 'sktime/sktime'],
+    repositories: [
+      'huggingface/transformers',
+      'pytorch/pytorch',
+      'vllm-project/vllm',
+      'BerriAI/litellm',
+      'hiyouga/LlamaFactory',
+      'sktime/sktime',
+    ],
   },
   {
     id: 'python-toolchain',

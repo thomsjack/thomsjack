@@ -2,7 +2,9 @@
   <img src="./assets/profile-terminal.svg" width="100%" alt="LoulanYue — bilingual open-source AI systems engineering profile with live telemetry" />
 </p>
 
-<p align="center"><a href="https://github.com/loulanyue?tab=repositories"><img alt="Explore original systems" src="https://img.shields.io/badge/ORIGINAL_SYSTEMS-EXPLORE-2A9DB2?style=for-the-badge&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/pulls?q=is%3Apr+author%3Aloulanyue"><img alt="Explore upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PRS-EXPLORE-54A98E?style=for-the-badge&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a></p>
+<p align="center"><a href="#original-systems"><img alt="Jump to original systems" src="https://img.shields.io/badge/01-ORIGINAL_SYSTEMS-2A9DB2?style=flat-square&labelColor=EAF6FA" /></a>&nbsp;<a href="#upstream-impact"><img alt="Jump to 100K+ upstream impact" src="https://img.shields.io/badge/02-100K%2B_UPSTREAM-54A98E?style=flat-square&labelColor=EAF6FA" /></a>&nbsp;<a href="#engineering-map"><img alt="Jump to engineering map" src="https://img.shields.io/badge/03-ENGINEERING_MAP-5D86B3?style=flat-square&labelColor=EAF6FA" /></a>&nbsp;<a href="#engineering-principles"><img alt="Jump to engineering principles" src="https://img.shields.io/badge/04-PRINCIPLES-C49435?style=flat-square&labelColor=EAF6FA" /></a></p>
+
+<a id="original-systems"></a>
 
 <p align="center">
   <img src="./assets/featured-systems.svg" width="100%" alt="Four featured LoulanYue projects with bilingual descriptions and live star counts" />
@@ -10,11 +12,15 @@
 
 <p align="center"><a href="https://github.com/loulanyue/spec-kit-zh"><img alt="Open spec-kit-zh" src="https://img.shields.io/badge/spec--kit--zh-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/loulanyue/dream-xi-ai"><img alt="Open dream-xi-ai" src="https://img.shields.io/badge/dream--xi--ai-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/loulanyue/awesome-claude-notes"><img alt="Open awesome-claude-notes" src="https://img.shields.io/badge/awesome--claude--notes-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/loulanyue/interview-notes"><img alt="Open interview-notes" src="https://img.shields.io/badge/interview--notes-OPEN-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a></p>
 
+<a id="upstream-impact"></a>
+
 <p align="center">
   <img src="./assets/upstream-contributions.svg" width="100%" alt="Every 100K+ star upstream project with a public contribution by LoulanYue" />
 </p>
 
 <p align="center"><a href="https://github.com/openclaw/openclaw/pull/114596"><img alt="OpenClaw PR 114596" src="https://img.shields.io/badge/OpenClaw-%23114596-54A98E?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/NousResearch/hermes-agent/pull/71997"><img alt="Hermes Agent PR 71997" src="https://img.shields.io/badge/Hermes_Agent-%2371997-2A9DB2?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/anomalyco/opencode/pull/38763"><img alt="opencode PR 38763" src="https://img.shields.io/badge/opencode-%2338763-337E69?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/firecrawl/firecrawl/pull/4061"><img alt="Firecrawl PR 4061" src="https://img.shields.io/badge/Firecrawl-%234061-2A879B?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/langflow-ai/langflow/pull/14177"><img alt="Langflow PR 14177" src="https://img.shields.io/badge/Langflow-%2314177-4D8FBA?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/langgenius/dify/pull/39636"><img alt="Dify PR 39636" src="https://img.shields.io/badge/Dify-%2339636-5D86B3?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/open-webui/open-webui/pull/28218"><img alt="Open WebUI PR 28218" src="https://img.shields.io/badge/Open_WebUI-%2328218-6B8F9D?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/langchain-ai/langchain/pull/39215"><img alt="LangChain PR 39215" src="https://img.shields.io/badge/LangChain-%2339215-5D86B3?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/google-gemini/gemini-cli/pull/28546"><img alt="Gemini CLI PR 28546" src="https://img.shields.io/badge/Gemini_CLI-%2328546-C49435?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/pytorch/pytorch/pull/191904"><img alt="PyTorch PR 191904" src="https://img.shields.io/badge/PyTorch-%23191904-4D8FBA?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>&nbsp;<a href="https://github.com/huggingface/transformers/pull/47763"><img alt="Transformers PR 47763" src="https://img.shields.io/badge/Transformers-%2347763-4D8FBA?style=flat-square&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a></p>
+
+<a id="engineering-map"></a>
 
 <p align="center">
   <img src="./assets/upstream-engineering-map.svg" width="100%" alt="All public upstream projects contributed to by LoulanYue, categorized by engineering role" />
@@ -37,6 +43,8 @@
 **Engineering knowledge & ecosystems / 工程知识与生态** · [Java](https://github.com/DuGuQiuBai/Java) · [mybatis-plus-doc](https://github.com/baomidou/mybatis-plus-doc)
 
 </details>
+
+<a id="engineering-principles"></a>
 
 ## `SYSTEMS THESIS / 系统主张`
 
