@@ -30,7 +30,7 @@
     <g transform="translate(58 78)">
       <g>
         <rect width="258" height="74" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-        <text id="upstream-pr-count" x="28" y="49" fill="#123E52" font-size="31" font-weight="750">43</text>
+        <text id="upstream-pr-count" x="28" y="49" fill="#123E52" font-size="31" font-weight="750">44</text>
         <text x="92" y="32" fill="#2A879B" font-size="10" font-weight="750" letter-spacing="1.3">UPSTREAM PRS</text>
         <text x="92" y="54" fill="#789EAB" font-size="12">公开上游 PR</text>
       </g>
@@ -42,7 +42,7 @@
       </g>
       <g transform="translate(544)">
         <rect width="258" height="74" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-        <text id="upstream-active-count" x="28" y="49" fill="#406E9A" font-size="31" font-weight="750">17</text>
+        <text id="upstream-active-count" x="28" y="49" fill="#406E9A" font-size="31" font-weight="750">18</text>
         <text x="92" y="32" fill="#2A879B" font-size="10" font-weight="750" letter-spacing="1.3">OPEN PRS</text>
         <text x="92" y="54" fill="#789EAB" font-size="12">开放中</text>
       </g>
@@ -65,7 +65,7 @@
       <text id="state-openclaw" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MEDIA POLICY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">openclaw/openclaw</text>
-      <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 385.5K</text>
+      <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 385.6K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #114596</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">让网关附件校验服从媒体策略，使部署配置成为运行时契约。</text>
@@ -79,7 +79,7 @@
       <text id="state-hermes" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">GATEWAY CONTROL</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">NousResearch/hermes-agent</text>
-      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 227.2K</text>
+      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 227.6K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #71997</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">以显式释放守住澄清与转向边界，解除工具执行期的网关死锁。</text>
@@ -94,7 +94,7 @@
       <text id="state-opencode" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL REPLAY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">anomalyco/opencode</text>
-      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 194.9K</text>
+      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 195.2K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #38763</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">保留失败回合的推理签名链，确保工具调用可被模型安全重放。</text>
@@ -123,7 +123,7 @@
       <text id="state-firecrawl" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">BUILD CONTRACT</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">firecrawl/firecrawl</text>
-      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.0K</text>
+      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.5K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #4061</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">显式化原生客户端构建契约，让异构部署具备可复现前提。</text>
@@ -137,7 +137,7 @@
       <text id="state-langflow" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MCP LIFECYCLE</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">langflow-ai/langflow</text>
-      <text id="repo-stars-langflow" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 152.9K</text>
+      <text id="repo-stars-langflow" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 153.0K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #14177</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">把取消语义落实到传输生命周期，阻断后台任务与子进程泄漏。</text>
@@ -166,7 +166,7 @@
       <text id="state-openwebui" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="112" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL RESOLUTION</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">open-webui/open-webui</text>
-      <text id="repo-stars-openwebui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 148.2K</text>
+      <text id="repo-stars-openwebui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 148.3K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #28218</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">避免自定义模型别名导致同一基础模型被重复移除。</text>
@@ -181,7 +181,7 @@
       <text id="state-langchain" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="112" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">EXECUTION BOUNDARY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">langchain-ai/langchain</text>
-      <text id="repo-stars-langchain" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 143.7K</text>
+      <text id="repo-stars-langchain" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 143.8K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #39215</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。</text>
@@ -218,6 +218,6 @@
     </g>
 
     <text x="58" y="1382" fill="#789EAB" font-size="10.5" font-weight="700" letter-spacing="1.5">SORTED BY LIVE STARS / 按实时星标排序 · 完整十万星集合</text>
-    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#789EAB" font-size="10.5">PR STATUS + STARS · UPDATED 2026-08-08 UTC · 每日自动更新</text>
+    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#789EAB" font-size="10.5">PR STATUS + STARS · UPDATED 2026-08-09 UTC · 每日自动更新</text>
   </g>
 </svg>
