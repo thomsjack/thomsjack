@@ -21,12 +21,12 @@ const featuredRepositories = [
 
 const upstreamStarThreshold = 100_000;
 const upstreamContributions = [
-  { key: 'openclaw', owner: 'openclaw', repo: 'openclaw', pull: 114596 },
-  { key: 'hermes', owner: 'NousResearch', repo: 'hermes-agent', pull: 71997 },
+  { key: 'openclaw', owner: 'openclaw', repo: 'openclaw', pull: 121494 },
+  { key: 'hermes', owner: 'NousResearch', repo: 'hermes-agent', pull: 82992 },
   { key: 'opencode', owner: 'anomalyco', repo: 'opencode', pull: 38763 },
   { key: 'firecrawl', owner: 'firecrawl', repo: 'firecrawl', pull: 4061 },
   { key: 'langflow', owner: 'langflow-ai', repo: 'langflow', pull: 14177 },
-  { key: 'dify', owner: 'langgenius', repo: 'dify', pull: 39636 },
+  { key: 'dify', owner: 'langgenius', repo: 'dify', pull: 40412 },
   { key: 'openwebui', owner: 'open-webui', repo: 'open-webui', pull: 28218 },
   { key: 'langchain', owner: 'langchain-ai', repo: 'langchain', pull: 39215 },
   { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
