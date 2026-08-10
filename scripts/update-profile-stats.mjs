@@ -380,14 +380,14 @@ function renderUpstreamMap({ categories, totals, refreshedOn }) {
   <g font-family="'Avenir Next', 'PingFang SC', 'Noto Sans CJK SC', ui-sans-serif, sans-serif">
     <text x="58" y="57" fill="#123E52" font-size="25" font-weight="750" letter-spacing="1.3">03 / UPSTREAM ENGINEERING MAP</text>
     <text x="650" y="57" fill="#2A879B" font-size="19" font-weight="700">上游工程版图</text>
-    <text x="1142" y="54" text-anchor="end" fill="#789EAB" font-size="10" font-weight="700" letter-spacing="1.4">ALL PUBLIC PROJECTS · CATEGORIZED BY SYSTEM ROLE</text>
+    <text x="1142" y="54" text-anchor="end" fill="#4F7888" font-size="11.5" font-weight="700" letter-spacing="1.15">ALL PUBLIC PROJECTS · CATEGORIZED BY SYSTEM ROLE</text>
     ${metrics}
     <text x="58" y="188" fill="#24566A" font-size="15.2" font-weight="680">跨智能体运行时、AI 工作流、模型训练、数据接入与开发工具链开展上游工程。</text>
     <text x="58" y="214" fill="#648C99" font-size="12.8">Upstream engineering across agent runtimes, AI workflows, model training, data access, and developer tooling.</text>
-    <text x="1142" y="188" text-anchor="end" fill="#2A879B" font-size="10.5" font-weight="750" letter-spacing="1.2">REPRODUCIBLE → REVIEWABLE → MAINTAINABLE</text>
+    <text x="1142" y="188" text-anchor="end" fill="#2A879B" font-size="11.5" font-weight="750" letter-spacing="1.05">REPRODUCIBLE → REVIEWABLE → MAINTAINABLE</text>
     ${cards}
-    <text x="58" y="${canvasHeight - 24}" fill="#789EAB" font-size="10.2" font-weight="700" letter-spacing="1.3">O / OPEN · M / MERGED · C / CLOSED, NOT MERGED · ● PRIORITY SYSTEMS</text>
-    <text x="1142" y="${canvasHeight - 24}" text-anchor="end" fill="#789EAB" font-size="10.2">UPDATED ${refreshedOn} UTC · 每日自动更新</text>
+    <text x="58" y="${canvasHeight - 24}" fill="#4F7888" font-size="11.2" font-weight="700" letter-spacing="1.15">O / OPEN · M / MERGED · C / CLOSED, NOT MERGED · ● PRIORITY SYSTEMS</text>
+    <text x="1142" y="${canvasHeight - 24}" text-anchor="end" fill="#4F7888" font-size="11.2">UPDATED ${refreshedOn} UTC · 每日自动更新</text>
   </g>
 </svg>
 `.replace(/[ \t]+$/gm, '');

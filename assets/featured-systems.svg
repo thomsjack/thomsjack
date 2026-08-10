@@ -23,7 +23,7 @@
   <g font-family="'Avenir Next', 'PingFang SC', 'Noto Sans CJK SC', ui-sans-serif, sans-serif">
     <text x="58" y="58" fill="#123E52" font-size="25" font-weight="750" letter-spacing="1.3">01 / OPEN SYSTEMS</text>
     <text x="350" y="58" fill="#2A879B" font-size="19" font-weight="700">自有开放系统</text>
-    <text x="1142" y="55" text-anchor="end" fill="#789EAB" font-size="10" font-weight="700" letter-spacing="1.8">ORIGINAL WORK · LIVE STARS · BILINGUAL</text>
+    <text x="1142" y="55" text-anchor="end" fill="#4F7888" font-size="11.5" font-weight="700" letter-spacing="1.45">ORIGINAL WORK · LIVE STARS · BILINGUAL</text>
 
     <g transform="translate(58 88)" filter="url(#shadow)">
       <rect width="1084" height="98" rx="16" fill="#FFFFFF" stroke="#D3E8EE"/>
@@ -73,7 +73,7 @@
       <text x="540" y="68" fill="#648C99" font-size="14.5">Backend knowledge organized for engineering judgment, design, and evolution.</text>
     </g>
 
-    <text x="58" y="552" fill="#789EAB" font-size="10.5" font-weight="700" letter-spacing="1.5">NO TABLE REFLOW / 无表格重排</text>
-    <text id="last-updated-featured" x="1142" y="552" text-anchor="end" fill="#789EAB" font-size="10.5">LIVE STARS · UPDATED 2026-08-10 UTC · 星标自动更新</text>
+    <text x="58" y="552" fill="#4F7888" font-size="11.5" font-weight="700" letter-spacing="1.35">NO TABLE REFLOW / 无表格重排</text>
+    <text id="last-updated-featured" x="1142" y="552" text-anchor="end" fill="#4F7888" font-size="11.5">LIVE STARS · UPDATED 2026-08-10 UTC · 星标自动更新</text>
   </g>
 </svg>

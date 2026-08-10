@@ -25,7 +25,7 @@
   <g font-family="'Avenir Next', 'PingFang SC', 'Noto Sans CJK SC', ui-sans-serif, sans-serif">
     <text x="58" y="57" fill="#123E52" font-size="25" font-weight="750" letter-spacing="1.3">02 / 100K+ UPSTREAM</text>
     <text x="405" y="57" fill="#2A879B" font-size="19" font-weight="700">十万星上游工程</text>
-    <text x="1142" y="54" text-anchor="end" fill="#789EAB" font-size="10" font-weight="700" letter-spacing="1.6">ALL CONTRIBUTED PROJECTS · STRICTLY ABOVE 100K STARS</text>
+    <text x="1142" y="54" text-anchor="end" fill="#4F7888" font-size="11.5" font-weight="700" letter-spacing="1.3">ALL CONTRIBUTED PROJECTS · STRICTLY ABOVE 100K STARS</text>
 
     <g transform="translate(58 78)">
       <g>
@@ -217,7 +217,7 @@
       <text x="20" y="161" fill="#648C99" font-size="11.6">Fixes CPU ISA superset compatibility in _load_aoti for AOTInductor models.</text>
     </g>
 
-    <text x="58" y="1382" fill="#789EAB" font-size="10.5" font-weight="700" letter-spacing="1.5">SORTED BY LIVE STARS / 按实时星标排序 · 完整十万星集合</text>
-    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#789EAB" font-size="10.5">PR STATUS + STARS · UPDATED 2026-08-10 UTC · 每日自动更新</text>
+    <text x="58" y="1382" fill="#4F7888" font-size="11.5" font-weight="700" letter-spacing="1.3">SORTED BY LIVE STARS / 按实时星标排序 · 完整十万星集合</text>
+    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#4F7888" font-size="11.5">PR STATUS + STARS · UPDATED 2026-08-10 UTC · 每日自动更新</text>
   </g>
 </svg>
