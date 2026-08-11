@@ -103,21 +103,6 @@
 
     <g transform="translate(616 390)" filter="url(#shadow)">
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="176" rx="3" fill="#4D8FBA"/>
-      <rect x="20" y="18" width="72" height="26" rx="13" fill="#E8F1FA"/>
-      <text id="state-transformers" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
-      <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUDIO EMBEDDING</text>
-      <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">huggingface/transformers</text>
-      <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.9K</text>
-      <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #47763</text>
-      <path d="M20 111H506" stroke="#DCECF1"/>
-      <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</text>
-      <text x="20" y="161" fill="#648C99" font-size="11.6">Fixes positional conv padding sensitivity in HuBERT when conv_pos_batch_norm=True.</text>
-    </g>
-
-    <!-- Row 3: firecrawl (162K) | langflow (153K) -->
-    <g transform="translate(58 582)" filter="url(#shadow)">
-      <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#2A879B"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#E7F4F8"/>
       <text id="state-firecrawl" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
@@ -128,6 +113,21 @@
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">显式化原生客户端构建契约，让异构部署具备可复现前提。</text>
       <text x="20" y="161" fill="#648C99" font-size="11.6">Makes native client prerequisites explicit for reproducible deployment.</text>
+    </g>
+
+    <!-- Row 3: transformers (164K) | langflow (153K) -->
+    <g transform="translate(58 582)" filter="url(#shadow)">
+      <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
+      <rect width="6" height="176" rx="3" fill="#4D8FBA"/>
+      <rect x="20" y="18" width="72" height="26" rx="13" fill="#E8F1FA"/>
+      <text id="state-transformers" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
+      <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUDIO EMBEDDING</text>
+      <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">huggingface/transformers</text>
+      <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.9K</text>
+      <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #47763</text>
+      <path d="M20 111H506" stroke="#DCECF1"/>
+      <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</text>
+      <text x="20" y="161" fill="#648C99" font-size="11.6">Fixes positional conv padding sensitivity in HuBERT when conv_pos_batch_norm=True.</text>
     </g>
 
     <g transform="translate(616 582)" filter="url(#shadow)">
