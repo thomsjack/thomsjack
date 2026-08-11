@@ -42,7 +42,7 @@
       </g>
       <g transform="translate(544)">
         <rect width="258" height="74" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-        <text id="upstream-active-count" x="28" y="49" fill="#406E9A" font-size="31" font-weight="750">25</text>
+        <text id="upstream-active-count" x="28" y="49" fill="#406E9A" font-size="31" font-weight="750">22</text>
         <text x="92" y="32" fill="#2A879B" font-size="10" font-weight="750" letter-spacing="1.3">OPEN PRS</text>
         <text x="92" y="54" fill="#789EAB" font-size="12">开放中</text>
       </g>
@@ -62,10 +62,10 @@
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#55AE94"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#E5F5EF"/>
-      <text id="state-openclaw" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
+      <text id="state-openclaw" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">SESSION CONTINUITY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">openclaw/openclaw</text>
-      <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 385.7K</text>
+      <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 385.8K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #121494</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。</text>
@@ -79,7 +79,7 @@
       <text id="state-hermes" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">APPROVAL SURFACE</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">NousResearch/hermes-agent</text>
-      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 228.1K</text>
+      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 228.6K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #82992</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">让受保护文件写入在桌面端呈现明确审批，避免静默超时。</text>
@@ -94,7 +94,7 @@
       <text id="state-opencode" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL REPLAY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">anomalyco/opencode</text>
-      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 195.6K</text>
+      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 195.9K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #38763</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">保留失败回合的推理签名链，确保工具调用可被模型安全重放。</text>
@@ -108,7 +108,7 @@
       <text id="state-transformers" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUDIO EMBEDDING</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">huggingface/transformers</text>
-      <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.5K</text>
+      <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 163.6K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #47763</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</text>
@@ -123,7 +123,7 @@
       <text id="state-firecrawl" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">BUILD CONTRACT</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">firecrawl/firecrawl</text>
-      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 164.4K</text>
+      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 165.2K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #4061</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">显式化原生客户端构建契约，让异构部署具备可复现前提。</text>
@@ -152,7 +152,7 @@
       <text id="state-dify" x="56" y="36" text-anchor="middle" fill="#496D98" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">ENDPOINT VALIDATION</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">langgenius/dify</text>
-      <text id="repo-stars-dify" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 151.9K</text>
+      <text id="repo-stars-dify" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 152.0K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #40412</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">把 404 视为服务可达的路径响应，修复外部知识 API 误判。</text>
@@ -163,7 +163,7 @@
       <rect width="526" height="176" rx="17" fill="#F9FDFD" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#6B8F9D"/>
       <rect x="20" y="18" width="76" height="26" rx="13" fill="#EDF4F5"/>
-      <text id="state-openwebui" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
+      <text id="state-openwebui" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="112" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL RESOLUTION</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">open-webui/open-webui</text>
       <text id="repo-stars-openwebui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 148.4K</text>
@@ -192,7 +192,7 @@
       <rect width="526" height="176" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
       <rect width="6" height="176" rx="3" fill="#C49435"/>
       <rect x="20" y="18" width="72" height="26" rx="13" fill="#FFF4D9"/>
-      <text id="state-geminicli" x="56" y="36" text-anchor="middle" fill="#96702B" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
+      <text id="state-geminicli" x="56" y="36" text-anchor="middle" fill="#96702B" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUTH BOUNDARY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">google-gemini/gemini-cli</text>
       <text id="repo-stars-geminicli" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 106.4K</text>
@@ -218,6 +218,6 @@
     </g>
 
     <text x="58" y="1382" fill="#4F7888" font-size="11.5" font-weight="700" letter-spacing="1.3">SORTED BY LIVE STARS / 按实时星标排序 · 完整十万星集合</text>
-    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#4F7888" font-size="11.5">PR STATUS + STARS · UPDATED 2026-08-10 UTC · 每日自动更新</text>
+    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#4F7888" font-size="11.5">PR STATUS + STARS · UPDATED 2026-08-11 UTC · 每日自动更新</text>
   </g>
 </svg>
