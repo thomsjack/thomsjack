@@ -64,26 +64,26 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AGENT RUNTIMES &amp; CODING INTERFACES</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">智能体运行时与编码终端</text>
       <text x="506" y="29" text-anchor="end" fill="#2A9DB2" font-size="10.2" font-weight="750">4 PROJECTS · 17 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 917.9K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 919.0K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">openclaw/openclaw</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">7PR · 1O/2M/4C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 386.0K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 386.1K</text>
         </g>
         <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">NousResearch/hermes-agent</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">4PR · 2O/0M/2C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 229.2K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 229.7K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">anomalyco/opencode</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">5PR · 1O/0M/4C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 196.3K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 196.7K</text>
         </g>
         <g transform="translate(0 181)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -98,7 +98,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AI WORKFLOW &amp; EXPERIENCE PLATFORMS</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">AI 工作流与体验平台</text>
       <text x="506" y="29" text-anchor="end" fill="#5D86B3" font-size="10.2" font-weight="750">5 PROJECTS · 18 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 599.7K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 600.1K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
@@ -111,19 +111,19 @@
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">langgenius/dify</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">7PR · 6O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 152.1K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 152.3K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">open-webui/open-webui</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">6PR · 2O/0M/4C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 148.5K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 148.6K</text>
         </g>
         <g transform="translate(0 181)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">langchain-ai/langchain</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 144.0K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 144.1K</text>
         </g>
         <g transform="translate(0 210)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -138,20 +138,20 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
       <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">5 PROJECTS · 5 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 280.8K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 282.0K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">firecrawl/firecrawl</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 166.0K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 166.5K</text>
         </g>
         <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">diegosouzapw/OmniRoute</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 46.0K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 46.7K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -163,7 +163,7 @@
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">teng-lin/notebooklm-py</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 18.6K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 18.7K</text>
         </g>
         <g transform="translate(0 210)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -178,26 +178,26 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">MODEL TRAINING &amp; ML SYSTEMS</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">模型训练与机器学习系统</text>
       <text x="506" y="29" text-anchor="end" fill="#4D8FBA" font-size="10.2" font-weight="750">6 PROJECTS · 7 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 495.1K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 495.5K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">huggingface/transformers</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 163.9K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 164.0K</text>
         </g>
         <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">pytorch/pytorch</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/0M/1C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 102.3K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 102.4K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">vllm-project/vllm</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 88.8K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 88.9K</text>
         </g>
         <g transform="translate(0 181)">
           <circle cx="24" cy="-4" r="4" fill="#4D8FBA"/>
@@ -209,7 +209,7 @@
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">BerriAI/litellm</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 56.1K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 56.2K</text>
         </g>
         <g transform="translate(0 239)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
@@ -263,6 +263,6 @@
         </g>
     </g>
     <text x="58" y="937" fill="#4F7888" font-size="11.2" font-weight="700" letter-spacing="1.15">O / OPEN · M / MERGED · C / CLOSED, NOT MERGED · ● PRIORITY SYSTEMS</text>
-    <text x="1142" y="937" text-anchor="end" fill="#4F7888" font-size="11.2">UPDATED 2026-08-12 UTC · 每日自动更新</text>
+    <text x="1142" y="937" text-anchor="end" fill="#4F7888" font-size="11.2">UPDATED 2026-08-13 UTC · 每日自动更新</text>
   </g>
 </svg>
