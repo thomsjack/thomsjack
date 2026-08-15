@@ -30,7 +30,7 @@
     <g transform="translate(58 78)">
       <g>
         <rect width="258" height="74" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-        <text id="upstream-pr-count" x="28" y="49" fill="#123E52" font-size="31" font-weight="750">51</text>
+        <text id="upstream-pr-count" x="28" y="49" fill="#123E52" font-size="31" font-weight="750">52</text>
         <text x="92" y="32" fill="#2A879B" font-size="10" font-weight="750" letter-spacing="1.3">UPSTREAM PRS</text>
         <text x="92" y="54" fill="#789EAB" font-size="12">公开上游 PR</text>
       </g>
@@ -65,7 +65,7 @@
       <text id="state-openclaw" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">SESSION CONTINUITY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">openclaw/openclaw</text>
-      <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 386.2K</text>
+      <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 386.3K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #121494</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。</text>
@@ -79,7 +79,7 @@
       <text id="state-hermes" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">APPROVAL SURFACE</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">NousResearch/hermes-agent</text>
-      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 230.2K</text>
+      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 230.7K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #82992</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">让受保护文件写入在桌面端呈现明确审批，避免静默超时。</text>
@@ -94,7 +94,7 @@
       <text id="state-opencode" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL REPLAY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">anomalyco/opencode</text>
-      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 197.2K</text>
+      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 197.5K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #38763</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">保留失败回合的推理签名链，确保工具调用可被模型安全重放。</text>
@@ -108,7 +108,7 @@
       <text id="state-firecrawl" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">BUILD CONTRACT</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">firecrawl/firecrawl</text>
-      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 167.1K</text>
+      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 167.5K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #4061</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">显式化原生客户端构建契约，让异构部署具备可复现前提。</text>
@@ -166,7 +166,7 @@
       <text id="state-openwebui" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="112" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL RESOLUTION</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">open-webui/open-webui</text>
-      <text id="repo-stars-openwebui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 148.7K</text>
+      <text id="repo-stars-openwebui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 148.8K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #28218</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">避免自定义模型别名导致同一基础模型被重复移除。</text>
@@ -218,6 +218,6 @@
     </g>
 
     <text x="58" y="1382" fill="#4F7888" font-size="11.5" font-weight="700" letter-spacing="1.3">SORTED BY LIVE STARS / 按实时星标排序 · 完整十万星集合</text>
-    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#4F7888" font-size="11.5">PR STATUS + STARS · UPDATED 2026-08-14 UTC · 每日自动更新</text>
+    <text id="last-updated-upstream" x="1142" y="1382" text-anchor="end" fill="#4F7888" font-size="11.5">PR STATUS + STARS · UPDATED 2026-08-15 UTC · 每日自动更新</text>
   </g>
 </svg>
