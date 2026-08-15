@@ -64,7 +64,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AGENT RUNTIMES &amp; CODING INTERFACES</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">智能体运行时与编码终端</text>
       <text x="506" y="29" text-anchor="end" fill="#2A9DB2" font-size="10.2" font-weight="750">4 PROJECTS · 17 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 922.8K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 922.9K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
@@ -77,7 +77,7 @@
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="750">NousResearch/hermes-agent</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">4PR · 2O/0M/2C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 231.6K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 231.7K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
@@ -138,20 +138,20 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
       <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">5 PROJECTS · 5 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 286.4K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 286.6K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">firecrawl/firecrawl</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 168.2K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 168.3K</text>
         </g>
         <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">diegosouzapw/OmniRoute</text>
           <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 49.2K</text>
+          <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 49.3K</text>
         </g>
         <g transform="translate(0 152)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
