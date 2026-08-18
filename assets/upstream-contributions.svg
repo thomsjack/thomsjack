@@ -79,7 +79,7 @@
       <text id="state-hermes" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">APPROVAL SURFACE</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">NousResearch/hermes-agent</text>
-      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 232.1K</text>
+      <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 232.3K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #82992</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">让受保护文件写入在桌面端呈现明确审批，避免静默超时。</text>
@@ -94,7 +94,7 @@
       <text id="state-opencode" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL REPLAY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">anomalyco/opencode</text>
-      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 198.5K</text>
+      <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 198.6K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #38763</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">保留失败回合的推理签名链，确保工具调用可被模型安全重放。</text>
@@ -108,7 +108,7 @@
       <text id="state-firecrawl" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">BUILD CONTRACT</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">firecrawl/firecrawl</text>
-      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 168.7K</text>
+      <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 168.8K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #4061</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">显式化原生客户端构建契约，让异构部署具备可复现前提。</text>
@@ -152,7 +152,7 @@
       <text id="state-dify" x="56" y="36" text-anchor="middle" fill="#496D98" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
       <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">ENDPOINT VALIDATION</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">langgenius/dify</text>
-      <text id="repo-stars-dify" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 152.7K</text>
+      <text id="repo-stars-dify" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 152.8K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #40412</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">把 404 视为服务可达的路径响应，修复外部知识 API 误判。</text>
@@ -181,7 +181,7 @@
       <text id="state-langchain" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
       <text x="112" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">EXECUTION BOUNDARY</text>
       <text x="20" y="74" fill="#123E52" font-size="21" font-weight="750">langchain-ai/langchain</text>
-      <text id="repo-stars-langchain" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 144.4K</text>
+      <text id="repo-stars-langchain" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 144.5K</text>
       <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #39215</text>
       <path d="M20 111H506" stroke="#DCECF1"/>
       <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。</text>
