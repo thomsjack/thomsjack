@@ -26,13 +26,13 @@
 
     <g transform="translate(58 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">54</text>
+      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">55</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PUBLIC PRS</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">公开上游 PR</text>
     </g>
     <g transform="translate(278 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">23</text>
+      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">24</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">OPEN</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">进行中</text>
     </g>
@@ -64,7 +64,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AGENT RUNTIMES &amp; CODING INTERFACES</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">智能体运行时与编码终端</text>
       <text x="506" y="29" text-anchor="end" fill="#2A9DB2" font-size="10.2" font-weight="750">4 PROJECTS · 17 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 924.0K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 924.1K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
@@ -97,7 +97,7 @@
       <rect width="6" height="231" rx="3" fill="#5D86B3"/>
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AI WORKFLOW &amp; EXPERIENCE PLATFORMS</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">AI 工作流与体验平台</text>
-      <text x="506" y="29" text-anchor="end" fill="#5D86B3" font-size="10.2" font-weight="750">5 PROJECTS · 21 PR</text>
+      <text x="506" y="29" text-anchor="end" fill="#5D86B3" font-size="10.2" font-weight="750">5 PROJECTS · 22 PR</text>
       <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 601.7K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
@@ -110,7 +110,7 @@
         <g transform="translate(0 123)">
           <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
           <text x="36" y="0" fill="#173F51" font-size="12.2" font-weight="620">langgenius/dify</text>
-          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">8PR · 7O/1M/0C</text>
+          <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">9PR · 8O/1M/0C</text>
           <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 152.8K</text>
         </g>
         <g transform="translate(0 152)">
@@ -138,7 +138,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
       <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">5 PROJECTS · 5 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 287.9K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 288.0K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <g transform="translate(0 94)">
