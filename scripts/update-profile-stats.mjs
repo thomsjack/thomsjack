@@ -56,6 +56,7 @@ const upstreamCategories = [
       'langchain-ai/langchain',
       'langflow-ai/langflow',
       'langgenius/dify',
+      'langgenius/graphon',
       'open-webui/open-webui',
       'Comfy-Org/ComfyUI_frontend',
     ],
