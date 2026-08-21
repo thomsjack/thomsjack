@@ -559,33 +559,27 @@ function renderUpstreamMap({ categories, totals, refreshedOn }) {
 function renderScrollableCategoryTable(categoryModels) {
   const maxProjects = Math.max(...categoryModels.map((c) => c.projects.length));
 
-  const headers = ['领域分类 / Domain Category'];
-  for (let i = 1; i <= maxProjects; i += 1) {
-    headers.push(`项目 0${i} · Project 0${i}`);
-  }
-
-  const headerRow = `| ${headers.join(' | ')} |`;
-  const alignRow = `| :--- | ${Array(maxProjects).fill(':---').join(' | ')} |`;
-
-  const rows = categoryModels.map((cat) => {
-    const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
-    const categoryCell = `**${cat.icon ?? '📁'} ${cat.zh}**<br/>\`${cat.projects.length} 项目 · ${prSum} PR\``;
-    const projectCells = [];
-    for (let i = 0; i < maxProjects; i += 1) {
-      const p = cat.projects[i];
-      if (!p) {
-        projectCells.push('-');
-      } else {
-        const starsFormatted = formatCompactNumber(p.stars);
-        projectCells.push(
-          `[**\`${p.fullName}\`**](${p.url})<br/>\`★ ${starsFormatted}\` · \`${p.pulls} PR\` (\`${p.open}O/${p.merged}M/${p.closed}C\`)`,
-        );
+  const tableRows = categoryModels
+    .map((cat) => {
+      const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
+      const categoryCell = `      <td align="left"><nobr><b>${cat.icon ?? '📁'} ${cat.zh}</b> &nbsp;<code>${cat.projects.length} 项目 · ${prSum} PR</code></nobr></td>`;
+      const projectCells = [];
+      for (let i = 0; i < maxProjects; i += 1) {
+        const p = cat.projects[i];
+        if (!p) {
+          projectCells.push('      <td align="center"><nobr>-</nobr></td>');
+        } else {
+          const starsFormatted = formatCompactNumber(p.stars);
+          projectCells.push(
+            `      <td><nobr><a href="${p.url}"><b><code>${p.fullName}</code></b></a> &nbsp;<code>★ ${starsFormatted}</code> · <code>${p.pulls} PR (${p.open}O/${p.merged}M/${p.closed}C)</code></nobr></td>`,
+          );
+        }
       }
-    }
-    return `| ${categoryCell} | ${projectCells.join(' | ')} |`;
-  });
+      return `    <tr>\n${categoryCell}\n${projectCells.join('\n')}\n    </tr>`;
+    })
+    .join('\n');
 
-  return `${headerRow}\n${alignRow}\n${rows.join('\n')}`;
+  return `<table>\n  <tbody>\n${tableRows}\n  </tbody>\n</table>`;
 }
 
 function renderReadme({

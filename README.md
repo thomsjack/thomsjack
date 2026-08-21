@@ -79,14 +79,70 @@
 >
 > 💡 **矩阵视图**：支持**横向左右滑动 / 左右滚动**浏览 6 大工程领域的全部分类与 29 个上游项目。
 
-| 领域分类 / Domain Category | 项目 01 · Project 01 | 项目 02 · Project 02 | 项目 03 · Project 03 | 项目 04 · Project 04 | 项目 05 · Project 05 | 项目 06 · Project 06 | 项目 07 · Project 07 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **🤖 智能体运行时与编码终端**<br/>`6 项目 · 24 PR` | [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw)<br/>`★ 387.0K` · `8 PR` (`2O/2M/4C`) | [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC)<br/>`★ 241.6K` · `1 PR` (`1O/0M/0C`) | [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent)<br/>`★ 233.7K` · `8 PR` (`6O/0M/2C`) | [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode)<br/>`★ 199.7K` · `5 PR` (`1O/0M/4C`) | [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use)<br/>`★ 109.9K` · `1 PR` (`1O/0M/0C`) | [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli)<br/>`★ 106.6K` · `1 PR` (`0O/0M/1C`) | - |
-| **⚡ AI 工作流与体验平台**<br/>`7 项目 · 25 PR` | [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow)<br/>`★ 153.5K` · `3 PR` (`2O/0M/1C`) | [**`langgenius/dify`**](https://github.com/langgenius/dify)<br/>`★ 153.1K` · `9 PR` (`7O/1M/1C`) | [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui)<br/>`★ 149.4K` · `9 PR` (`0O/0M/9C`) | [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain)<br/>`★ 144.7K` · `1 PR` (`0O/0M/1C`) | [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui)<br/>`★ 121.8K` · `1 PR` (`1O/0M/0C`) | [**`Comfy-Org/ComfyUI_frontend`**](https://github.com/Comfy-Org/ComfyUI_frontend)<br/>`★ 2.0K` · `1 PR` (`1O/0M/0C`) | [**`langgenius/graphon`**](https://github.com/langgenius/graphon)<br/>`★ 76` · `1 PR` (`1O/0M/0C`) |
-| **🔌 数据、检索与工具接入**<br/>`6 项目 · 6 PR` | [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl)<br/>`★ 170.3K` · `1 PR` (`1O/0M/0C`) | [**`diegosouzapw/OmniRoute`**](https://github.com/diegosouzapw/OmniRoute)<br/>`★ 52.2K` · `1 PR` (`0O/1M/0C`) | [**`qdrant/qdrant`**](https://github.com/qdrant/qdrant)<br/>`★ 34.1K` · `1 PR` (`0O/0M/1C`) | [**`teng-lin/notebooklm-py`**](https://github.com/teng-lin/notebooklm-py)<br/>`★ 18.8K` · `1 PR` (`0O/1M/0C`) | [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox)<br/>`★ 16.2K` · `1 PR` (`0O/0M/1C`) | [**`OpenAtomFoundation/pikiwidb`**](https://github.com/OpenAtomFoundation/pikiwidb)<br/>`★ 6.1K` · `1 PR` (`1O/0M/0C`) | - |
-| **🧠 模型训练与机器学习系统**<br/>`6 项目 · 8 PR` | [**`huggingface/transformers`**](https://github.com/huggingface/transformers)<br/>`★ 164.3K` · `2 PR` (`2O/0M/0C`) | [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch)<br/>`★ 102.5K` · `2 PR` (`1O/0M/1C`) | [**`vllm-project/vllm`**](https://github.com/vllm-project/vllm)<br/>`★ 89.6K` · `1 PR` (`0O/1M/0C`) | [**`hiyouga/LlamaFactory`**](https://github.com/hiyouga/LlamaFactory)<br/>`★ 74.3K` · `1 PR` (`1O/0M/0C`) | [**`BerriAI/litellm`**](https://github.com/BerriAI/litellm)<br/>`★ 56.9K` · `1 PR` (`1O/0M/0C`) | [**`sktime/sktime`**](https://github.com/sktime/sktime)<br/>`★ 10.0K` · `1 PR` (`0O/1M/0C`) | - |
-| **🛠️ Python 工程工具链**<br/>`2 项目 · 2 PR` | [**`python-poetry/poetry`**](https://github.com/python-poetry/poetry)<br/>`★ 34.3K` · `1 PR` (`1O/0M/0C`) | [**`facebook/pyrefly`**](https://github.com/facebook/pyrefly)<br/>`★ 6.9K` · `1 PR` (`1O/0M/0C`) | - | - | - | - | - |
-| **📚 工程知识与生态**<br/>`2 项目 · 2 PR` | [**`DuGuQiuBai/Java`**](https://github.com/DuGuQiuBai/Java)<br/>`★ 14.5K` · `1 PR` (`0O/0M/1C`) | [**`baomidou/mybatis-plus-doc`**](https://github.com/baomidou/mybatis-plus-doc)<br/>`★ 753` · `1 PR` (`0O/0M/1C`) | - | - | - | - | - |
+<table>
+  <tbody>
+    <tr>
+      <td align="left"><nobr><b>🤖 智能体运行时与编码终端</b> &nbsp;<code>6 项目 · 24 PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a> &nbsp;<code>★ 387.0K</code> · <code>8 PR (2O/2M/4C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a> &nbsp;<code>★ 241.6K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a> &nbsp;<code>★ 233.7K</code> · <code>8 PR (6O/0M/2C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a> &nbsp;<code>★ 199.7K</code> · <code>5 PR (1O/0M/4C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a> &nbsp;<code>★ 109.9K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/google-gemini/gemini-cli"><b><code>google-gemini/gemini-cli</code></b></a> &nbsp;<code>★ 106.6K</code> · <code>1 PR (0O/0M/1C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+    </tr>
+    <tr>
+      <td align="left"><nobr><b>⚡ AI 工作流与体验平台</b> &nbsp;<code>7 项目 · 25 PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a> &nbsp;<code>★ 153.5K</code> · <code>3 PR (2O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a> &nbsp;<code>★ 153.1K</code> · <code>9 PR (7O/1M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a> &nbsp;<code>★ 149.4K</code> · <code>9 PR (0O/0M/9C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a> &nbsp;<code>★ 144.7K</code> · <code>1 PR (0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a> &nbsp;<code>★ 121.8K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/Comfy-Org/ComfyUI_frontend"><b><code>Comfy-Org/ComfyUI_frontend</code></b></a> &nbsp;<code>★ 2.0K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/langgenius/graphon"><b><code>langgenius/graphon</code></b></a> &nbsp;<code>★ 76</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+    </tr>
+    <tr>
+      <td align="left"><nobr><b>🔌 数据、检索与工具接入</b> &nbsp;<code>6 项目 · 6 PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/firecrawl/firecrawl"><b><code>firecrawl/firecrawl</code></b></a> &nbsp;<code>★ 170.3K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/diegosouzapw/OmniRoute"><b><code>diegosouzapw/OmniRoute</code></b></a> &nbsp;<code>★ 52.2K</code> · <code>1 PR (0O/1M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/qdrant/qdrant"><b><code>qdrant/qdrant</code></b></a> &nbsp;<code>★ 34.1K</code> · <code>1 PR (0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/teng-lin/notebooklm-py"><b><code>teng-lin/notebooklm-py</code></b></a> &nbsp;<code>★ 18.8K</code> · <code>1 PR (0O/1M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/googleapis/mcp-toolbox"><b><code>googleapis/mcp-toolbox</code></b></a> &nbsp;<code>★ 16.2K</code> · <code>1 PR (0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/OpenAtomFoundation/pikiwidb"><b><code>OpenAtomFoundation/pikiwidb</code></b></a> &nbsp;<code>★ 6.1K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+    </tr>
+    <tr>
+      <td align="left"><nobr><b>🧠 模型训练与机器学习系统</b> &nbsp;<code>6 项目 · 8 PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a> &nbsp;<code>★ 164.3K</code> · <code>2 PR (2O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/pytorch/pytorch"><b><code>pytorch/pytorch</code></b></a> &nbsp;<code>★ 102.5K</code> · <code>2 PR (1O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/vllm-project/vllm"><b><code>vllm-project/vllm</code></b></a> &nbsp;<code>★ 89.6K</code> · <code>1 PR (0O/1M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/hiyouga/LlamaFactory"><b><code>hiyouga/LlamaFactory</code></b></a> &nbsp;<code>★ 74.3K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/BerriAI/litellm"><b><code>BerriAI/litellm</code></b></a> &nbsp;<code>★ 56.9K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/sktime/sktime"><b><code>sktime/sktime</code></b></a> &nbsp;<code>★ 10.0K</code> · <code>1 PR (0O/1M/0C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+    </tr>
+    <tr>
+      <td align="left"><nobr><b>🛠️ Python 工程工具链</b> &nbsp;<code>2 项目 · 2 PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/python-poetry/poetry"><b><code>python-poetry/poetry</code></b></a> &nbsp;<code>★ 34.3K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/facebook/pyrefly"><b><code>facebook/pyrefly</code></b></a> &nbsp;<code>★ 6.9K</code> · <code>1 PR (1O/0M/0C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+    </tr>
+    <tr>
+      <td align="left"><nobr><b>📚 工程知识与生态</b> &nbsp;<code>2 项目 · 2 PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/DuGuQiuBai/Java"><b><code>DuGuQiuBai/Java</code></b></a> &nbsp;<code>★ 14.5K</code> · <code>1 PR (0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/baomidou/mybatis-plus-doc"><b><code>baomidou/mybatis-plus-doc</code></b></a> &nbsp;<code>★ 753</code> · <code>1 PR (0O/0M/1C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 
