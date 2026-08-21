@@ -33,9 +33,9 @@
 ### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程
 
 <p>
-  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-66-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-67-123E52?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-7-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-31-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-32-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-14-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-2.85M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
@@ -67,10 +67,32 @@
 
 ### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图
 
-> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 29 个公开上游项目协作。
+<p>
+  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-67-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN-32-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Merged" src="https://img.shields.io/badge/MERGED-7-337E69?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-29-2A9DB2?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-2.85M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
+</p>
 
-<details open>
-<summary><strong>展开查看全部上游项目分类与直达链接 / Explore 29 Upstream Projects</strong></summary>
+> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 29 个公开上游项目协作。
+>
+> 💡 **矩阵视图**：支持**横向左右滑动 / 左右滚动**浏览 6 大工程领域的全部分类与 29 个上游项目。
+
+| **🤖 智能体运行时与编码终端**<br/>`6 项目 · 24 PR` | **⚡ AI 工作流与体验平台**<br/>`7 项目 · 25 PR` | **🔌 数据、检索与工具接入**<br/>`6 项目 · 6 PR` | **🧠 模型训练与机器学习系统**<br/>`6 项目 · 8 PR` | **🛠️ Python 工程工具链**<br/>`2 项目 · 2 PR` | **📚 工程知识与生态**<br/>`2 项目 · 2 PR` |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw)<br/>`★ 387.0K` · `8 PR` (`2O/2M/4C`) | [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow)<br/>`★ 153.5K` · `3 PR` (`2O/0M/1C`) | [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl)<br/>`★ 170.3K` · `1 PR` (`1O/0M/0C`) | [**`huggingface/transformers`**](https://github.com/huggingface/transformers)<br/>`★ 164.3K` · `2 PR` (`2O/0M/0C`) | [**`python-poetry/poetry`**](https://github.com/python-poetry/poetry)<br/>`★ 34.3K` · `1 PR` (`1O/0M/0C`) | [**`DuGuQiuBai/Java`**](https://github.com/DuGuQiuBai/Java)<br/>`★ 14.5K` · `1 PR` (`0O/0M/1C`) |
+| [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC)<br/>`★ 241.6K` · `1 PR` (`1O/0M/0C`) | [**`langgenius/dify`**](https://github.com/langgenius/dify)<br/>`★ 153.1K` · `9 PR` (`7O/1M/1C`) | [**`diegosouzapw/OmniRoute`**](https://github.com/diegosouzapw/OmniRoute)<br/>`★ 52.2K` · `1 PR` (`0O/1M/0C`) | [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch)<br/>`★ 102.5K` · `2 PR` (`1O/0M/1C`) | [**`facebook/pyrefly`**](https://github.com/facebook/pyrefly)<br/>`★ 6.9K` · `1 PR` (`1O/0M/0C`) | [**`baomidou/mybatis-plus-doc`**](https://github.com/baomidou/mybatis-plus-doc)<br/>`★ 753` · `1 PR` (`0O/0M/1C`) |
+| [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent)<br/>`★ 233.7K` · `8 PR` (`6O/0M/2C`) | [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui)<br/>`★ 149.4K` · `9 PR` (`0O/0M/9C`) | [**`qdrant/qdrant`**](https://github.com/qdrant/qdrant)<br/>`★ 34.1K` · `1 PR` (`0O/0M/1C`) | [**`vllm-project/vllm`**](https://github.com/vllm-project/vllm)<br/>`★ 89.6K` · `1 PR` (`0O/1M/0C`) | - | - |
+| [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode)<br/>`★ 199.7K` · `5 PR` (`1O/0M/4C`) | [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain)<br/>`★ 144.7K` · `1 PR` (`0O/0M/1C`) | [**`teng-lin/notebooklm-py`**](https://github.com/teng-lin/notebooklm-py)<br/>`★ 18.8K` · `1 PR` (`0O/1M/0C`) | [**`hiyouga/LlamaFactory`**](https://github.com/hiyouga/LlamaFactory)<br/>`★ 74.3K` · `1 PR` (`1O/0M/0C`) | - | - |
+| [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use)<br/>`★ 109.9K` · `1 PR` (`1O/0M/0C`) | [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui)<br/>`★ 121.8K` · `1 PR` (`1O/0M/0C`) | [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox)<br/>`★ 16.2K` · `1 PR` (`0O/0M/1C`) | [**`BerriAI/litellm`**](https://github.com/BerriAI/litellm)<br/>`★ 56.9K` · `1 PR` (`1O/0M/0C`) | - | - |
+| [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli)<br/>`★ 106.6K` · `1 PR` (`0O/0M/1C`) | [**`Comfy-Org/ComfyUI_frontend`**](https://github.com/Comfy-Org/ComfyUI_frontend)<br/>`★ 2.0K` · `1 PR` (`1O/0M/0C`) | [**`OpenAtomFoundation/pikiwidb`**](https://github.com/OpenAtomFoundation/pikiwidb)<br/>`★ 6.1K` · `1 PR` (`1O/0M/0C`) | [**`sktime/sktime`**](https://github.com/sktime/sktime)<br/>`★ 10.0K` · `1 PR` (`0O/1M/0C`) | - | - |
+| - | [**`langgenius/graphon`**](https://github.com/langgenius/graphon)<br/>`★ 76` · `1 PR` (`1O/0M/0C`) | - | - | - | - |
+
+<br />
+
+<details>
+<summary><strong>📋 切换为文本列表视图 / Switch to Text List View</strong></summary>
 <br />
 
 - **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`6 项目 / 24 PR`)
@@ -98,8 +120,8 @@
   - [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox) `★ 16.2K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
   - [**`OpenAtomFoundation/pikiwidb`**](https://github.com/OpenAtomFoundation/pikiwidb) `★ 6.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
 
-- **🧠 模型训练与机器学习系统 · MODEL TRAINING & ML SYSTEMS** (`6 项目 / 7 PR`)
-  - [**`huggingface/transformers`**](https://github.com/huggingface/transformers) `★ 164.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+- **🧠 模型训练与机器学习系统 · MODEL TRAINING & ML SYSTEMS** (`6 项目 / 8 PR`)
+  - [**`huggingface/transformers`**](https://github.com/huggingface/transformers) `★ 164.3K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
   - [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch) `★ 102.5K` · 2 PR (`1 Open` / `0 Merged` / `1 Closed`)
   - [**`vllm-project/vllm`**](https://github.com/vllm-project/vllm) `★ 89.6K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
   - [**`hiyouga/LlamaFactory`**](https://github.com/hiyouga/LlamaFactory) `★ 74.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)

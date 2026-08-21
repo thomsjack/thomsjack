@@ -556,6 +556,31 @@ function renderUpstreamMap({ categories, totals, refreshedOn }) {
 `.replace(/[ \t]+$/gm, '');
 }
 
+function renderScrollableCategoryTable(categoryModels) {
+  const maxProjects = Math.max(...categoryModels.map((c) => c.projects.length));
+
+  const headers = categoryModels.map((cat) => {
+    const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
+    return `**${cat.icon ?? '📁'} ${cat.zh}**<br/>\`${cat.projects.length} 项目 · ${prSum} PR\``;
+  });
+
+  const headerRow = `| ${headers.join(' | ')} |`;
+  const alignRow = `| ${categoryModels.map(() => ':---').join(' | ')} |`;
+
+  const rows = [];
+  for (let i = 0; i < maxProjects; i += 1) {
+    const cells = categoryModels.map((cat) => {
+      const p = cat.projects[i];
+      if (!p) return '-';
+      const starsFormatted = formatCompactNumber(p.stars);
+      return `[**\`${p.fullName}\`**](${p.url})<br/>\`★ ${starsFormatted}\` · \`${p.pulls} PR\` (\`${p.open}O/${p.merged}M/${p.closed}C\`)`;
+    });
+    rows.push(`| ${cells.join(' | ')} |`);
+  }
+
+  return `${headerRow}\n${alignRow}\n${rows.join('\n')}`;
+}
+
 function renderReadme({
   featuredItems,
   sortedUpstreamItems,
@@ -582,6 +607,8 @@ function renderReadme({
       return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) &nbsp;\`★ ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl})<br/>${stateBadge} | **${item.meta.topic}** · ${item.meta.zh} |`;
     })
     .join('\n');
+
+  const categoryTable = renderScrollableCategoryTable(categoryModels);
 
   const categoryLists = categoryModels
     .map((category) => {
@@ -649,10 +676,24 @@ ${upstreamRows}
 
 ### \`03 / UPSTREAM ENGINEERING MAP\` · 上游工程版图
 
-> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 ${totals.projects} 个公开上游项目协作。
+<p>
+  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-${totals.pulls}-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN-${totals.open}-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Merged" src="https://img.shields.io/badge/MERGED-${totals.merged}-337E69?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-${totals.projects}-2A9DB2?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-${formatCompactNumber(totals.stars)}%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
+</p>
 
-<details open>
-<summary><strong>展开查看全部上游项目分类与直达链接 / Explore ${totals.projects} Upstream Projects</strong></summary>
+> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 ${totals.projects} 个公开上游项目协作。
+>
+> 💡 **矩阵视图**：支持**横向左右滑动 / 左右滚动**浏览 6 大工程领域的全部分类与 29 个上游项目。
+
+${categoryTable}
+
+<br />
+
+<details>
+<summary><strong>📋 切换为文本列表视图 / Switch to Text List View</strong></summary>
 <br />
 
 ${categoryLists}
