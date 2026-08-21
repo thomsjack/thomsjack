@@ -559,24 +559,31 @@ function renderUpstreamMap({ categories, totals, refreshedOn }) {
 function renderScrollableCategoryTable(categoryModels) {
   const maxProjects = Math.max(...categoryModels.map((c) => c.projects.length));
 
-  const headers = categoryModels.map((cat) => {
-    const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
-    return `**${cat.icon ?? '📁'} ${cat.zh}**<br/>\`${cat.projects.length} 项目 · ${prSum} PR\``;
-  });
+  const headers = ['领域分类 / Domain Category'];
+  for (let i = 1; i <= maxProjects; i += 1) {
+    headers.push(`项目 0${i} · Project 0${i}`);
+  }
 
   const headerRow = `| ${headers.join(' | ')} |`;
-  const alignRow = `| ${categoryModels.map(() => ':---').join(' | ')} |`;
+  const alignRow = `| :--- | ${Array(maxProjects).fill(':---').join(' | ')} |`;
 
-  const rows = [];
-  for (let i = 0; i < maxProjects; i += 1) {
-    const cells = categoryModels.map((cat) => {
+  const rows = categoryModels.map((cat) => {
+    const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
+    const categoryCell = `**${cat.icon ?? '📁'} ${cat.zh}**<br/>\`${cat.projects.length} 项目 · ${prSum} PR\``;
+    const projectCells = [];
+    for (let i = 0; i < maxProjects; i += 1) {
       const p = cat.projects[i];
-      if (!p) return '-';
-      const starsFormatted = formatCompactNumber(p.stars);
-      return `[**\`${p.fullName}\`**](${p.url})<br/>\`★ ${starsFormatted}\` · \`${p.pulls} PR\` (\`${p.open}O/${p.merged}M/${p.closed}C\`)`;
-    });
-    rows.push(`| ${cells.join(' | ')} |`);
-  }
+      if (!p) {
+        projectCells.push('-');
+      } else {
+        const starsFormatted = formatCompactNumber(p.stars);
+        projectCells.push(
+          `[**\`${p.fullName}\`**](${p.url})<br/>\`★ ${starsFormatted}\` · \`${p.pulls} PR\` (\`${p.open}O/${p.merged}M/${p.closed}C\`)`,
+        );
+      }
+    }
+    return `| ${categoryCell} | ${projectCells.join(' | ')} |`;
+  });
 
   return `${headerRow}\n${alignRow}\n${rows.join('\n')}`;
 }
