@@ -572,7 +572,7 @@ function renderScrollableCategoryTable(categoryModels) {
   const tableRows = categoryModels
     .map((cat) => {
       const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
-      const categoryCell = `      <td width="460" align="left"><b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b><br/><code>${cat.projects.length}&nbsp;项目&nbsp;·&nbsp;${prSum}&nbsp;PR</code></td>`;
+      const categoryCell = `      <td width="960" align="left"><b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b><br/><code>${cat.projects.length}&nbsp;项目&nbsp;·&nbsp;${prSum}&nbsp;PR</code></td>`;
       const projectCells = [];
       for (let i = 0; i < maxProjects; i += 1) {
         const p = cat.projects[i];
