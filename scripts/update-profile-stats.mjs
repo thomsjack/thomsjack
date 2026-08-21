@@ -58,6 +58,8 @@ const upstreamContributions = [
   { key: 'dify', owner: 'langgenius', repo: 'dify', pull: 40412 },
   { key: 'openwebui', owner: 'open-webui', repo: 'open-webui', pull: 28218 },
   { key: 'langchain', owner: 'langchain-ai', repo: 'langchain', pull: 39215 },
+  { key: 'shadcnui', owner: 'shadcn-ui', repo: 'ui', pull: 11580 },
+  { key: 'browseruse', owner: 'browser-use', repo: 'browser-use', pull: 5508 },
   { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
   { key: 'pytorch', owner: 'pytorch', repo: 'pytorch', pull: 191904 },
   { key: 'transformers', owner: 'huggingface', repo: 'transformers', pull: 47763 },
@@ -72,7 +74,7 @@ const upstreamMetadata = {
   ecc: {
     topic: 'CODING STYLE',
     zh: '完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。',
-    en: 'Adds naming conventions to TypeScript/JavaScript coding style for agent output consistency.',
+    en: 'Establishes explicit naming conventions and style rules for TypeScript/JavaScript.',
   },
   hermes: {
     topic: 'APPROVAL SURFACE',
@@ -114,6 +116,16 @@ const upstreamMetadata = {
     zh: '修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。',
     en: 'Fixes generator iterable compatibility in ContextThreadPoolExecutor.map.',
   },
+  shadcnui: {
+    topic: 'UI SCROLLER',
+    zh: '修复经典滚动条平台下 message-scroller 自动滚动时的频闪与重绘抖动。',
+    en: 'Fixes scrollbar strobing during autoscroll on classic scrollbar platforms.',
+  },
+  browseruse: {
+    topic: 'CRX EXTRACTION',
+    zh: '捕获 CRX 扩展包解压时的损坏 EOCD 定位异常，增强浏览器环境初始化鲁棒性。',
+    en: 'Catches corrupt EOCD seek errors during CRX extraction for robust browser setup.',
+  },
   geminicli: {
     topic: 'AUTH BOUNDARY',
     zh: '隔离 API Key 与残留授权头，避免认证机制在请求边界相互污染。',
@@ -138,6 +150,7 @@ const upstreamCategories = [
       'affaan-m/ECC',
       'NousResearch/hermes-agent',
       'anomalyco/opencode',
+      'browser-use/browser-use',
       'google-gemini/gemini-cli',
     ],
   },
@@ -153,6 +166,7 @@ const upstreamCategories = [
       'langgenius/dify',
       'langgenius/graphon',
       'open-webui/open-webui',
+      'shadcn-ui/ui',
       'Comfy-Org/ComfyUI_frontend',
     ],
   },
@@ -165,6 +179,7 @@ const upstreamCategories = [
     repositories: [
       'firecrawl/firecrawl',
       'qdrant/qdrant',
+      'OpenAtomFoundation/pikiwidb',
       'teng-lin/notebooklm-py',
       'diegosouzapw/OmniRoute',
       'googleapis/mcp-toolbox',
@@ -221,40 +236,62 @@ const headers = {
 
 if (token) headers.Authorization = `Bearer ${token}`;
 
-async function request(url) {
-  try {
-    const response = await fetch(url, { headers });
-    if (response.ok) {
-      return await response.json();
+async function request(url, retries = 3) {
+  for (let attempt = 1; attempt <= retries; attempt += 1) {
+    try {
+      const response = await fetch(url, { headers });
+      if (response.ok) {
+        return await response.json();
+      }
+    } catch {
+      // Fallback to curl with proxy
     }
-  } catch (error) {
-    // Fallback to curl with local proxy if direct fetch fails
-  }
 
-  const proxy = process.env.https_proxy || process.env.http_proxy || 'http://127.0.0.1:7890';
-  const curlArgs = [
-    '-s',
-    '--compressed',
-    '-H',
-    'Accept: application/vnd.github+json',
-    '-H',
-    `User-Agent: ${username}-profile-telemetry`,
-  ];
-  if (token) curlArgs.push('-H', `Authorization: Bearer ${token}`);
-  if (proxy) curlArgs.push('-x', proxy);
-  curlArgs.push(url);
+    const proxy = process.env.https_proxy || process.env.http_proxy || 'http://127.0.0.1:7890';
+    const curlArgs = [
+      '-s',
+      '--http1.1',
+      '--retry', '3',
+      '--retry-delay', '1',
+      '--max-time', '20',
+      '--compressed',
+      '-H', 'Accept: application/vnd.github+json',
+      '-H', `User-Agent: ${username}-profile-telemetry`,
+    ];
+    if (token) curlArgs.push('-H', `Authorization: Bearer ${token}`);
+    if (proxy) curlArgs.push('-x', proxy);
+    curlArgs.push(url);
 
-  try {
-    const { stdout } = await execFileAsync('curl', curlArgs);
-    const data = JSON.parse(stdout);
-    if (data.message && data.documentation_url) {
-      throw new Error(`GitHub API error: ${data.message}`);
+    try {
+      const { stdout } = await execFileAsync('curl', curlArgs);
+      const data = JSON.parse(stdout);
+      if (data && !data.message) {
+        return data;
+      }
+      if (data && data.message && attempt === retries) {
+        throw new Error(`GitHub API error: ${data.message}`);
+      }
+    } catch (err) {
+      if (attempt === retries) {
+        throw new Error(`Failed to request ${url}: ${err.message}`);
+      }
+      await new Promise((r) => setTimeout(r, 1000 * attempt));
     }
-    return data;
-  } catch (err) {
-    throw new Error(`Failed to request ${url}: ${err.message}`);
   }
 }
+
+async function getUpstreamRepositoryDetails(items) {
+  const repositoryUrls = [...new Set(items.map((item) => item.repository_url))];
+  const results = [];
+  // Run with batching (4 at a time) to avoid connection saturation
+  for (let i = 0; i < repositoryUrls.length; i += 4) {
+    const batch = repositoryUrls.slice(i, i + 4);
+    const batchResults = await Promise.all(batch.map((url) => request(url)));
+    results.push(...batchResults);
+  }
+  return results;
+}
+
 
 async function getOwnedProjects() {
   const projects = [];
@@ -287,11 +324,6 @@ async function getUpstreamPullRequests() {
   }
 
   return { ...first, items };
-}
-
-async function getUpstreamRepositoryDetails(items) {
-  const repositoryUrls = [...new Set(items.map((item) => item.repository_url))];
-  return Promise.all(repositoryUrls.map((url) => request(url)));
 }
 
 async function loadProfileData() {
@@ -533,7 +565,7 @@ function renderReadme({
 }) {
   const featuredRows = featuredItems
     .map((item) => {
-      return `| [**\`${item.name}\`**](https://github.com/loulanyue/${item.name}) \`${item.meta.role}\` | \`★ ${item.stars.toLocaleString('en-US')}\` | **${item.meta.zh}** |`;
+      return `| [**\`${item.name}\`**](https://github.com/loulanyue/${item.name}) &nbsp;\`${item.meta.role}\` | \`★ ${item.stars.toLocaleString('en-US')}\` | **${item.meta.zh}** |`;
     })
     .join('\n');
 
@@ -547,7 +579,7 @@ function renderReadme({
         ? `\`OPEN\``
         : `\`CLOSED\``;
       const starsFormatted = formatCompactNumber(item.repository.stargazers_count);
-      return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) \`★ ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl}) ${stateBadge} | **${item.meta.topic}** · ${item.meta.zh} |`;
+      return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) &nbsp;\`★ ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl})<br/>${stateBadge} | **${item.meta.topic}** · ${item.meta.zh} |`;
     })
     .join('\n');
 
