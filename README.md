@@ -83,64 +83,64 @@
 <table>
   <tbody>
     <tr>
-      <td align="left"><b>🤖&nbsp;智能体运行时与编码终端</b><br/><code>6&nbsp;项目&nbsp;·&nbsp;24&nbsp;PR</code></td>
-      <td><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>★&nbsp;387.0K</code>&nbsp;·&nbsp;<code>8&nbsp;PR&nbsp;(2O/2M/4C)</code></td>
-      <td><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a><br/><code>★&nbsp;241.6K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a><br/><code>★&nbsp;233.7K</code>&nbsp;·&nbsp;<code>8&nbsp;PR&nbsp;(6O/0M/2C)</code></td>
-      <td><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a><br/><code>★&nbsp;199.7K</code>&nbsp;·&nbsp;<code>5&nbsp;PR&nbsp;(1O/0M/4C)</code></td>
-      <td><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a><br/><code>★&nbsp;109.9K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/google-gemini/gemini-cli"><b><code>google-gemini/gemini-cli</code></b></a><br/><code>★&nbsp;106.6K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td align="center">-</td>
+      <td align="left"><nobr><b>🤖&nbsp;智能体运行时与编码终端</b></nobr><br/><nobr><code>6&nbsp;项目&nbsp;·&nbsp;24&nbsp;PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a></nobr><br/><nobr><code>★&nbsp;387.0K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(2O/2M/4C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a></nobr><br/><nobr><code>★&nbsp;241.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a></nobr><br/><nobr><code>★&nbsp;233.7K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(6O/0M/2C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a></nobr><br/><nobr><code>★&nbsp;199.7K&nbsp;·&nbsp;5&nbsp;PR&nbsp;(1O/0M/4C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a></nobr><br/><nobr><code>★&nbsp;109.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/google-gemini/gemini-cli"><b><code>google-gemini/gemini-cli</code></b></a></nobr><br/><nobr><code>★&nbsp;106.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
     </tr>
     <tr>
-      <td align="left"><b>⚡&nbsp;AI 工作流与体验平台</b><br/><code>7&nbsp;项目&nbsp;·&nbsp;25&nbsp;PR</code></td>
-      <td><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a><br/><code>★&nbsp;153.5K</code>&nbsp;·&nbsp;<code>3&nbsp;PR&nbsp;(2O/0M/1C)</code></td>
-      <td><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a><br/><code>★&nbsp;153.1K</code>&nbsp;·&nbsp;<code>9&nbsp;PR&nbsp;(7O/1M/1C)</code></td>
-      <td><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a><br/><code>★&nbsp;149.4K</code>&nbsp;·&nbsp;<code>9&nbsp;PR&nbsp;(0O/0M/9C)</code></td>
-      <td><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a><br/><code>★&nbsp;144.7K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a><br/><code>★&nbsp;121.8K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/Comfy-Org/ComfyUI_frontend"><b><code>Comfy-Org/ComfyUI_frontend</code></b></a><br/><code>★&nbsp;2.0K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/langgenius/graphon"><b><code>langgenius/graphon</code></b></a><br/><code>★&nbsp;76</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td align="left"><nobr><b>⚡&nbsp;AI 工作流与体验平台</b></nobr><br/><nobr><code>7&nbsp;项目&nbsp;·&nbsp;25&nbsp;PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a></nobr><br/><nobr><code>★&nbsp;153.5K&nbsp;·&nbsp;3&nbsp;PR&nbsp;(2O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a></nobr><br/><nobr><code>★&nbsp;153.1K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(7O/1M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a></nobr><br/><nobr><code>★&nbsp;149.4K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(0O/0M/9C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a></nobr><br/><nobr><code>★&nbsp;144.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a></nobr><br/><nobr><code>★&nbsp;121.8K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/Comfy-Org/ComfyUI_frontend"><b><code>Comfy-Org/ComfyUI_frontend</code></b></a></nobr><br/><nobr><code>★&nbsp;2.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/langgenius/graphon"><b><code>langgenius/graphon</code></b></a></nobr><br/><nobr><code>★&nbsp;76&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
     </tr>
     <tr>
-      <td align="left"><b>🔌&nbsp;数据、检索与工具接入</b><br/><code>6&nbsp;项目&nbsp;·&nbsp;6&nbsp;PR</code></td>
-      <td><a href="https://github.com/firecrawl/firecrawl"><b><code>firecrawl/firecrawl</code></b></a><br/><code>★&nbsp;170.3K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/diegosouzapw/OmniRoute"><b><code>diegosouzapw/OmniRoute</code></b></a><br/><code>★&nbsp;52.2K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
-      <td><a href="https://github.com/qdrant/qdrant"><b><code>qdrant/qdrant</code></b></a><br/><code>★&nbsp;34.1K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td><a href="https://github.com/teng-lin/notebooklm-py"><b><code>teng-lin/notebooklm-py</code></b></a><br/><code>★&nbsp;18.8K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
-      <td><a href="https://github.com/googleapis/mcp-toolbox"><b><code>googleapis/mcp-toolbox</code></b></a><br/><code>★&nbsp;16.2K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td><a href="https://github.com/OpenAtomFoundation/pikiwidb"><b><code>OpenAtomFoundation/pikiwidb</code></b></a><br/><code>★&nbsp;6.1K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td align="center">-</td>
+      <td align="left"><nobr><b>🔌&nbsp;数据、检索与工具接入</b></nobr><br/><nobr><code>6&nbsp;项目&nbsp;·&nbsp;6&nbsp;PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/firecrawl/firecrawl"><b><code>firecrawl/firecrawl</code></b></a></nobr><br/><nobr><code>★&nbsp;170.3K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/diegosouzapw/OmniRoute"><b><code>diegosouzapw/OmniRoute</code></b></a></nobr><br/><nobr><code>★&nbsp;52.2K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/qdrant/qdrant"><b><code>qdrant/qdrant</code></b></a></nobr><br/><nobr><code>★&nbsp;34.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/teng-lin/notebooklm-py"><b><code>teng-lin/notebooklm-py</code></b></a></nobr><br/><nobr><code>★&nbsp;18.8K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/googleapis/mcp-toolbox"><b><code>googleapis/mcp-toolbox</code></b></a></nobr><br/><nobr><code>★&nbsp;16.2K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/OpenAtomFoundation/pikiwidb"><b><code>OpenAtomFoundation/pikiwidb</code></b></a></nobr><br/><nobr><code>★&nbsp;6.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
     </tr>
     <tr>
-      <td align="left"><b>🧠&nbsp;模型训练与机器学习系统</b><br/><code>6&nbsp;项目&nbsp;·&nbsp;9&nbsp;PR</code></td>
-      <td><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a><br/><code>★&nbsp;164.3K</code>&nbsp;·&nbsp;<code>2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
-      <td><a href="https://github.com/pytorch/pytorch"><b><code>pytorch/pytorch</code></b></a><br/><code>★&nbsp;102.5K</code>&nbsp;·&nbsp;<code>2&nbsp;PR&nbsp;(1O/0M/1C)</code></td>
-      <td><a href="https://github.com/vllm-project/vllm"><b><code>vllm-project/vllm</code></b></a><br/><code>★&nbsp;89.6K</code>&nbsp;·&nbsp;<code>2&nbsp;PR&nbsp;(1O/1M/0C)</code></td>
-      <td><a href="https://github.com/hiyouga/LlamaFactory"><b><code>hiyouga/LlamaFactory</code></b></a><br/><code>★&nbsp;74.3K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/BerriAI/litellm"><b><code>BerriAI/litellm</code></b></a><br/><code>★&nbsp;56.9K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/sktime/sktime"><b><code>sktime/sktime</code></b></a><br/><code>★&nbsp;10.0K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
-      <td align="center">-</td>
+      <td align="left"><nobr><b>🧠&nbsp;模型训练与机器学习系统</b></nobr><br/><nobr><code>6&nbsp;项目&nbsp;·&nbsp;9&nbsp;PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a></nobr><br/><nobr><code>★&nbsp;164.3K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/pytorch/pytorch"><b><code>pytorch/pytorch</code></b></a></nobr><br/><nobr><code>★&nbsp;102.5K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(1O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/vllm-project/vllm"><b><code>vllm-project/vllm</code></b></a></nobr><br/><nobr><code>★&nbsp;89.6K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(1O/1M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/hiyouga/LlamaFactory"><b><code>hiyouga/LlamaFactory</code></b></a></nobr><br/><nobr><code>★&nbsp;74.3K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/BerriAI/litellm"><b><code>BerriAI/litellm</code></b></a></nobr><br/><nobr><code>★&nbsp;56.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/sktime/sktime"><b><code>sktime/sktime</code></b></a></nobr><br/><nobr><code>★&nbsp;10.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
     </tr>
     <tr>
-      <td align="left"><b>🛠️&nbsp;Python 工程工具链</b><br/><code>2&nbsp;项目&nbsp;·&nbsp;2&nbsp;PR</code></td>
-      <td><a href="https://github.com/python-poetry/poetry"><b><code>python-poetry/poetry</code></b></a><br/><code>★&nbsp;34.3K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/facebook/pyrefly"><b><code>facebook/pyrefly</code></b></a><br/><code>★&nbsp;6.9K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td align="center">-</td>
-      <td align="center">-</td>
-      <td align="center">-</td>
-      <td align="center">-</td>
-      <td align="center">-</td>
+      <td align="left"><nobr><b>🛠️&nbsp;Python 工程工具链</b></nobr><br/><nobr><code>2&nbsp;项目&nbsp;·&nbsp;2&nbsp;PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/python-poetry/poetry"><b><code>python-poetry/poetry</code></b></a></nobr><br/><nobr><code>★&nbsp;34.3K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/facebook/pyrefly"><b><code>facebook/pyrefly</code></b></a></nobr><br/><nobr><code>★&nbsp;6.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
     </tr>
     <tr>
-      <td align="left"><b>📚&nbsp;工程知识与生态</b><br/><code>3&nbsp;项目&nbsp;·&nbsp;3&nbsp;PR</code></td>
-      <td><a href="https://github.com/goldbergyoni/nodebestpractices"><b><code>goldbergyoni/nodebestpractices</code></b></a><br/><code>★&nbsp;105.6K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td><a href="https://github.com/DuGuQiuBai/Java"><b><code>DuGuQiuBai/Java</code></b></a><br/><code>★&nbsp;14.5K</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td><a href="https://github.com/baomidou/mybatis-plus-doc"><b><code>baomidou/mybatis-plus-doc</code></b></a><br/><code>★&nbsp;753</code>&nbsp;·&nbsp;<code>1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td align="center">-</td>
-      <td align="center">-</td>
-      <td align="center">-</td>
-      <td align="center">-</td>
+      <td align="left"><nobr><b>📚&nbsp;工程知识与生态</b></nobr><br/><nobr><code>3&nbsp;项目&nbsp;·&nbsp;3&nbsp;PR</code></nobr></td>
+      <td><nobr><a href="https://github.com/goldbergyoni/nodebestpractices"><b><code>goldbergyoni/nodebestpractices</code></b></a></nobr><br/><nobr><code>★&nbsp;105.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/DuGuQiuBai/Java"><b><code>DuGuQiuBai/Java</code></b></a></nobr><br/><nobr><code>★&nbsp;14.5K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></nobr></td>
+      <td><nobr><a href="https://github.com/baomidou/mybatis-plus-doc"><b><code>baomidou/mybatis-plus-doc</code></b></a></nobr><br/><nobr><code>★&nbsp;753&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
+      <td align="center"><nobr>-</nobr></td>
     </tr>
   </tbody>
 </table>
