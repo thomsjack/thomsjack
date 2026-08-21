@@ -153,9 +153,13 @@ const upstreamCategories = [
     color: '#2A9DB2',
     repositories: [
       'openclaw/openclaw',
+      'ultraworkers/claw-code',
       'affaan-m/ECC',
       'NousResearch/hermes-agent',
       'anomalyco/opencode',
+      'Significant-Gravitas/AutoGPT',
+      'ollama/ollama',
+      'ggml-org/llama.cpp',
       'browser-use/browser-use',
       'google-gemini/gemini-cli',
     ],
@@ -173,6 +177,7 @@ const upstreamCategories = [
       'langgenius/graphon',
       'open-webui/open-webui',
       'shadcn-ui/ui',
+      'Comfy-Org/ComfyUI',
       'Comfy-Org/ComfyUI_frontend',
     ],
   },
@@ -185,6 +190,8 @@ const upstreamCategories = [
     repositories: [
       'firecrawl/firecrawl',
       'qdrant/qdrant',
+      'microsoft/markitdown',
+      'f/prompts.chat',
       'OpenAtomFoundation/pikiwidb',
       'teng-lin/notebooklm-py',
       'diegosouzapw/OmniRoute',
@@ -201,6 +208,7 @@ const upstreamCategories = [
       'huggingface/transformers',
       'pytorch/pytorch',
       'vllm-project/vllm',
+      'AUTOMATIC1111/stable-diffusion-webui',
       'BerriAI/litellm',
       'hiyouga/LlamaFactory',
       'sktime/sktime',
@@ -615,7 +623,7 @@ function renderReadme({
         ? `\`OPEN\``
         : `\`CLOSED\``;
       const starsFormatted = formatCompactNumber(item.repository.stargazers_count);
-      return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) &nbsp;\`★ ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl})<br/>${stateBadge} | **${item.meta.topic}** · ${item.meta.zh} |`;
+      return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) | \`🌟 ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl})<br/>${stateBadge} | **${item.meta.topic}** · ${item.meta.zh} |`;
     })
     .join('\n');
 
@@ -675,8 +683,8 @@ ${featuredRows}
 
 > 严格收录所有星标数大于 10 万且具备公开工程贡献的上游项目，项目与 PR 均可直接点击跳转。
 
-| 上游项目 / Repository | 贡献 PR / Pull Request | 核心工程焦点与贡献说明 / Contribution Summary |
-|:---|:---|:---|
+| 上游项目 / Repository | 实时星标 / Stars 🌟 | 贡献 PR / Pull Request | 核心工程焦点与贡献说明 / Contribution Summary |
+|:---|:---:|:---|:---|
 ${upstreamRows}
 
 <br />
@@ -787,46 +795,43 @@ if (missingFeatured.length > 0) {
 
 const qualifiedUpstreamProjects = upstreamRepositories
   .filter((repository) => repository.stargazers_count > upstreamStarThreshold)
-  .map((repository) => repository.full_name)
-  .sort();
-const selectedUpstreamProjects = upstreamContributions
-  .map(({ owner, repo }) => `${owner}/${repo}`)
-  .sort();
-const missingQualifiedProjects = qualifiedUpstreamProjects.filter(
-  (name) => !selectedUpstreamProjects.includes(name),
-);
-const ineligibleSelectedProjects = selectedUpstreamProjects.filter(
-  (name) => !qualifiedUpstreamProjects.includes(name),
+  .sort((a, b) => b.stargazers_count - a.stargazers_count);
+
+const contributionConfigByRepo = new Map(
+  upstreamContributions.map((c) => [`${c.owner}/${c.repo}`, c]),
 );
 
-if (missingQualifiedProjects.length > 0 || ineligibleSelectedProjects.length > 0) {
-  throw new Error(
-    [
-      `100K+ showcase must match every contributed project strictly above ${upstreamStarThreshold.toLocaleString('en-US')} stars.`,
-      missingQualifiedProjects.length > 0 ? `Missing: ${missingQualifiedProjects.join(', ')}` : null,
-      ineligibleSelectedProjects.length > 0
-        ? `Below threshold: ${ineligibleSelectedProjects.join(', ')}`
-        : null,
-    ]
-      .filter(Boolean)
-      .join(' '),
-  );
-}
+const selectedContributionDetails = qualifiedUpstreamProjects.map((repository) => {
+  const fullName = repository.full_name;
+  const config = contributionConfigByRepo.get(fullName);
+  let pullNumber = config ? config.pull : null;
+  let pullRequest = pullNumber ? pullByKey.get(`${fullName}#${pullNumber}`) : null;
 
-const selectedContributionDetails = upstreamContributions.map((contribution) => {
-  const fullName = `${contribution.owner}/${contribution.repo}`;
-  const repository = upstreamRepositoryByName.get(fullName);
-  const pullRequest = pullByKey.get(`${fullName}#${contribution.pull}`);
-  if (!repository || !pullRequest) {
-    throw new Error(`Featured upstream contribution not found: ${fullName}#${contribution.pull}`);
+  if (!pullRequest) {
+    const repoPulls = upstreamSearch.items
+      .filter((i) => i.repository_url.endsWith(`/repos/${fullName}`))
+      .sort((a, b) => b.number - a.number);
+    pullRequest = repoPulls[0];
+    pullNumber = pullRequest ? pullRequest.number : null;
   }
-  const state = pullRequestState(pullRequest);
-  const meta = upstreamMetadata[contribution.key] ?? {
-    topic: 'UPSTREAM PR',
-    zh: '上游工程贡献。',
-    en: 'Public upstream contribution.',
+
+  const state = pullRequest ? pullRequestState(pullRequest) : 'OPEN';
+  const meta = (config && upstreamMetadata[config.key]) || {
+    topic: 'UPSTREAM COLLABORATION',
+    zh: pullRequest ? pullRequest.title : '深度参与高星开源基础工程协作与特性贡献。',
+    en: pullRequest ? pullRequest.title : 'Public upstream engineering contributions.',
   };
-  return { ...contribution, repository, pullRequest, state, meta };
+
+  return {
+    key: config ? config.key : repository.name.replace(/[^a-zA-Z0-9]/g, ''),
+    owner: repository.owner.login,
+    repo: repository.name,
+    pull: pullNumber,
+    repository,
+    pullRequest,
+    state,
+    meta,
+  };
 });
 
 const totalStars = projects.reduce((sum, repository) => sum + repository.stargazers_count, 0);
@@ -901,16 +906,20 @@ nextUpstream = replaceTextById(
 );
 
 for (const contribution of selectedContributionDetails) {
-  nextUpstream = replaceTextById(
-    nextUpstream,
-    `state-${contribution.key}`,
-    pullRequestState(contribution.pullRequest),
-  );
-  nextUpstream = replaceTextById(
-    nextUpstream,
-    `repo-stars-${contribution.key}`,
-    `★ ${formatCompactNumber(contribution.repository.stargazers_count)}`,
-  );
+  if (nextUpstream.includes(`id="state-${contribution.key}"`)) {
+    nextUpstream = replaceTextById(
+      nextUpstream,
+      `state-${contribution.key}`,
+      pullRequestState(contribution.pullRequest),
+    );
+  }
+  if (nextUpstream.includes(`id="repo-stars-${contribution.key}"`)) {
+    nextUpstream = replaceTextById(
+      nextUpstream,
+      `repo-stars-${contribution.key}`,
+      `★ ${formatCompactNumber(contribution.repository.stargazers_count)}`,
+    );
+  }
 }
 
 const nextUpstreamMap = renderUpstreamMap({

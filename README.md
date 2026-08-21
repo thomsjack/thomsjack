@@ -33,32 +33,40 @@
 ### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程
 
 <p>
-  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-70-123E52?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Merged" src="https://img.shields.io/badge/MERGED-7-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-35-406E9A?style=flat-square&labelColor=EAF6FA" />
-  <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-15-2A9DB2?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-2.96M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-85-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-46-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-23-2A9DB2?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-4.28M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
 
 > 严格收录所有星标数大于 10 万且具备公开工程贡献的上游项目，项目与 PR 均可直接点击跳转。
 
-| 上游项目 / Repository | 贡献 PR / Pull Request | 核心工程焦点与贡献说明 / Contribution Summary |
-|:---|:---|:---|
-| [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) &nbsp;`★ 387.0K` | [**`PR #121494`**](https://github.com/openclaw/openclaw/pull/121494)<br/>`CLOSED` | **SESSION CONTINUITY** · 跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。 |
-| [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) &nbsp;`★ 241.6K` | [**`PR #2833`**](https://github.com/affaan-m/ECC/pull/2833)<br/>`OPEN` | **CODING STYLE** · 完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。 |
-| [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) &nbsp;`★ 233.7K` | [**`PR #82992`**](https://github.com/NousResearch/hermes-agent/pull/82992)<br/>`OPEN` | **APPROVAL SURFACE** · 让受保护文件写入在桌面端呈现明确审批，避免静默超时。 |
-| [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) &nbsp;`★ 199.7K` | [**`PR #38763`**](https://github.com/anomalyco/opencode/pull/38763)<br/>`OPEN` | **MODEL REPLAY** · 保留失败回合的推理签名链，确保工具调用可被模型安全重放。 |
-| [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl) &nbsp;`★ 170.3K` | [**`PR #4061`**](https://github.com/firecrawl/firecrawl/pull/4061)<br/>`OPEN` | **BUILD CONTRACT** · 显式化原生客户端构建契约，让异构部署具备可复现前提。 |
-| [**`huggingface/transformers`**](https://github.com/huggingface/transformers) &nbsp;`★ 164.3K` | [**`PR #47763`**](https://github.com/huggingface/transformers/pull/47763)<br/>`OPEN` | **AUDIO EMBEDDING** · 修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。 |
-| [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow) &nbsp;`★ 153.5K` | [**`PR #14177`**](https://github.com/langflow-ai/langflow/pull/14177)<br/>`OPEN` | **MCP LIFECYCLE** · 把取消语义落实到传输生命周期，阻断后台任务与子进程泄漏。 |
-| [**`langgenius/dify`**](https://github.com/langgenius/dify) &nbsp;`★ 153.1K` | [**`PR #40412`**](https://github.com/langgenius/dify/pull/40412)<br/>`OPEN` | **ENDPOINT VALIDATION** · 把 404 视为服务可达的路径响应，修复外部知识 API 误判。 |
-| [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui) &nbsp;`★ 149.4K` | [**`PR #28218`**](https://github.com/open-webui/open-webui/pull/28218)<br/>`CLOSED` | **MODEL RESOLUTION** · 避免自定义模型别名导致同一基础模型被重复移除。 |
-| [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain) &nbsp;`★ 144.7K` | [**`PR #39215`**](https://github.com/langchain-ai/langchain/pull/39215)<br/>`CLOSED` | **EXECUTION BOUNDARY** · 修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。 |
-| [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui) &nbsp;`★ 121.8K` | [**`PR #11580`**](https://github.com/shadcn-ui/ui/pull/11580)<br/>`OPEN` | **UI SCROLLER** · 修复经典滚动条平台下 message-scroller 自动滚动时的频闪与重绘抖动。 |
-| [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) &nbsp;`★ 109.9K` | [**`PR #5508`**](https://github.com/browser-use/browser-use/pull/5508)<br/>`OPEN` | **CRX EXTRACTION** · 捕获 CRX 扩展包解压时的损坏 EOCD 定位异常，增强浏览器环境初始化鲁棒性。 |
-| [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli) &nbsp;`★ 106.6K` | [**`PR #28546`**](https://github.com/google-gemini/gemini-cli/pull/28546)<br/>`CLOSED` | **AUTH BOUNDARY** · 隔离 API Key 与残留授权头，避免认证机制在请求边界相互污染。 |
-| [**`goldbergyoni/nodebestpractices`**](https://github.com/goldbergyoni/nodebestpractices) &nbsp;`★ 105.6K` | [**`PR #1425`**](https://github.com/goldbergyoni/nodebestpractices/pull/1425)<br/>`OPEN` | **SECURITY LINTER** · 更新 Node.js 生产环境代码安全检查与 linter 规范指引。 |
-| [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch) &nbsp;`★ 102.5K` | [**`PR #191904`**](https://github.com/pytorch/pytorch/pull/191904)<br/>`OPEN` | **RUNTIME COMPATIBILITY** · 修复 AOTInductor 在 CPU 架构指令集下级的判空兼容，保障编译导出可靠加载。 |
+| 上游项目 / Repository | 实时星标 / Stars 🌟 | 贡献 PR / Pull Request | 核心工程焦点与贡献说明 / Contribution Summary |
+|:---|:---:|:---|:---|
+| [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) | `🌟 387.0K` | [**`PR #121494`**](https://github.com/openclaw/openclaw/pull/121494)<br/>`CLOSED` | **SESSION CONTINUITY** · 跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。 |
+| [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) | `🌟 241.8K` | [**`PR #2833`**](https://github.com/affaan-m/ECC/pull/2833)<br/>`OPEN` | **CODING STYLE** · 完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。 |
+| [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) | `🌟 234.0K` | [**`PR #82992`**](https://github.com/NousResearch/hermes-agent/pull/82992)<br/>`OPEN` | **APPROVAL SURFACE** · 让受保护文件写入在桌面端呈现明确审批，避免静默超时。 |
+| [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) | `🌟 200.0K` | [**`PR #38763`**](https://github.com/anomalyco/opencode/pull/38763)<br/>`OPEN` | **MODEL REPLAY** · 保留失败回合的推理签名链，确保工具调用可被模型安全重放。 |
+| [**`ultraworkers/claw-code`**](https://github.com/ultraworkers/claw-code) | `🌟 195.1K` | [**`PR #3294`**](https://github.com/ultraworkers/claw-code/pull/3294)<br/>`OPEN` | **UPSTREAM COLLABORATION** · ci: pin third-party GitHub Actions to immutable commit SHAs |
+| [**`Significant-Gravitas/AutoGPT`**](https://github.com/Significant-Gravitas/AutoGPT) | `🌟 186.7K` | [**`PR #14108`**](https://github.com/Significant-Gravitas/AutoGPT/pull/14108)<br/>`OPEN` | **UPSTREAM COLLABORATION** · feat(compose): make redis cluster image selectable via REDIS_IMAGE (#14012) |
+| [**`ollama/ollama`**](https://github.com/ollama/ollama) | `🌟 179.1K` | [**`PR #17920`**](https://github.com/ollama/ollama/pull/17920)<br/>`OPEN` | **UPSTREAM COLLABORATION** · envconfig: support OLLAMA_NUM_THREAD for operator thread count configuration |
+| [**`microsoft/markitdown`**](https://github.com/microsoft/markitdown) | `🌟 175.3K` | [**`PR #2330`**](https://github.com/microsoft/markitdown/pull/2330)<br/>`OPEN` | **UPSTREAM COLLABORATION** · feat(cli): support MARKITDOWN_CU_ENDPOINT and MARKITDOWN_DOCINTEL_ENDPOINT env vars |
+| [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl) | `🌟 170.6K` | [**`PR #4061`**](https://github.com/firecrawl/firecrawl/pull/4061)<br/>`OPEN` | **BUILD CONTRACT** · 显式化原生客户端构建契约，让异构部署具备可复现前提。 |
+| [**`f/prompts.chat`**](https://github.com/f/prompts.chat) | `🌟 167.7K` | [**`PR #1245`**](https://github.com/f/prompts.chat/pull/1245)<br/>`OPEN` | **UPSTREAM COLLABORATION** · fix(kids): align MagicWords sentence blanks order in zh and ja level 2-1 (#1231) |
+| [**`AUTOMATIC1111/stable-diffusion-webui`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui) | `🌟 164.6K` | [**`PR #17473`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/17473)<br/>`OPEN` | **UPSTREAM COLLABORATION** · fix(api): mask sensitive gradio_auth and api_auth flags in /sdapi/v1/cmd-flags (#17411) |
+| [**`huggingface/transformers`**](https://github.com/huggingface/transformers) | `🌟 164.3K` | [**`PR #47763`**](https://github.com/huggingface/transformers/pull/47763)<br/>`OPEN` | **AUDIO EMBEDDING** · 修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。 |
+| [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow) | `🌟 153.5K` | [**`PR #14177`**](https://github.com/langflow-ai/langflow/pull/14177)<br/>`OPEN` | **MCP LIFECYCLE** · 把取消语义落实到传输生命周期，阻断后台任务与子进程泄漏。 |
+| [**`langgenius/dify`**](https://github.com/langgenius/dify) | `🌟 153.1K` | [**`PR #40412`**](https://github.com/langgenius/dify/pull/40412)<br/>`OPEN` | **ENDPOINT VALIDATION** · 把 404 视为服务可达的路径响应，修复外部知识 API 误判。 |
+| [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui) | `🌟 149.5K` | [**`PR #28218`**](https://github.com/open-webui/open-webui/pull/28218)<br/>`CLOSED` | **MODEL RESOLUTION** · 避免自定义模型别名导致同一基础模型被重复移除。 |
+| [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain) | `🌟 144.7K` | [**`PR #39215`**](https://github.com/langchain-ai/langchain/pull/39215)<br/>`CLOSED` | **EXECUTION BOUNDARY** · 修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。 |
+| [**`Comfy-Org/ComfyUI`**](https://github.com/Comfy-Org/ComfyUI) | `🌟 128.8K` | [**`PR #15795`**](https://github.com/Comfy-Org/ComfyUI/pull/15795)<br/>`OPEN` | **UPSTREAM COLLABORATION** · fix(comfy_api): robust PyAV ColorPrimaries, ColorRange, and ColorTrc imports |
+| [**`ggml-org/llama.cpp`**](https://github.com/ggml-org/llama.cpp) | `🌟 125.0K` | [**`PR #27522`**](https://github.com/ggml-org/llama.cpp/pull/27522)<br/>`OPEN` | **UPSTREAM COLLABORATION** · server: observe resumable stream cancellation during first result wait (#27481) |
+| [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui) | `🌟 121.8K` | [**`PR #11580`**](https://github.com/shadcn-ui/ui/pull/11580)<br/>`OPEN` | **UI SCROLLER** · 修复经典滚动条平台下 message-scroller 自动滚动时的频闪与重绘抖动。 |
+| [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) | `🌟 110.0K` | [**`PR #5508`**](https://github.com/browser-use/browser-use/pull/5508)<br/>`OPEN` | **CRX EXTRACTION** · 捕获 CRX 扩展包解压时的损坏 EOCD 定位异常，增强浏览器环境初始化鲁棒性。 |
+| [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli) | `🌟 106.6K` | [**`PR #28546`**](https://github.com/google-gemini/gemini-cli/pull/28546)<br/>`CLOSED` | **AUTH BOUNDARY** · 隔离 API Key 与残留授权头，避免认证机制在请求边界相互污染。 |
+| [**`goldbergyoni/nodebestpractices`**](https://github.com/goldbergyoni/nodebestpractices) | `🌟 105.6K` | [**`PR #1425`**](https://github.com/goldbergyoni/nodebestpractices/pull/1425)<br/>`OPEN` | **SECURITY LINTER** · 更新 Node.js 生产环境代码安全检查与 linter 规范指引。 |
+| [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch) | `🌟 102.5K` | [**`PR #191904`**](https://github.com/pytorch/pytorch/pull/191904)<br/>`OPEN` | **RUNTIME COMPATIBILITY** · 修复 AOTInductor 在 CPU 架构指令集下级的判空兼容，保障编译导出可靠加载。 |
 
 <br />
 
@@ -69,63 +77,78 @@
 ### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图
 
 <p>
-  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-70-123E52?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN-35-406E9A?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Merged" src="https://img.shields.io/badge/MERGED-7-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-30-2A9DB2?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-2.96M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-85-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN-46-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-38-2A9DB2?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-4.28M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
 
-> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 30 个公开上游项目协作。
+> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 38 个公开上游项目协作。
 >
 > 💡 **矩阵视图**：支持**横向左右滑动 / 左右滚动**浏览 6 大工程领域的全部分类与 29 个上游项目。
 
 <table>
   <tbody>
     <tr>
-      <td width="960" align="left"><b>🤖&nbsp;智能体运行时与编码终端</b><br/><code>6&nbsp;项目&nbsp;·&nbsp;24&nbsp;PR</code></td>
-      <td width="240"><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>★&nbsp;387.0K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(2O/2M/4C)</code></td>
-      <td width="240"><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a><br/><code>★&nbsp;241.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td width="240"><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a><br/><code>★&nbsp;233.7K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(6O/0M/2C)</code></td>
-      <td width="240"><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a><br/><code>★&nbsp;199.7K&nbsp;·&nbsp;5&nbsp;PR&nbsp;(1O/0M/4C)</code></td>
-      <td width="240"><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a><br/><code>★&nbsp;109.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="960" align="left"><b>🤖&nbsp;智能体运行时与编码终端</b><br/><code>10&nbsp;项目&nbsp;·&nbsp;31&nbsp;PR</code></td>
+      <td width="240"><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>★&nbsp;387.0K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(3O/2M/4C)</code></td>
+      <td width="240"><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a><br/><code>★&nbsp;241.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a><br/><code>★&nbsp;234.0K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(6O/0M/2C)</code></td>
+      <td width="240"><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a><br/><code>★&nbsp;200.0K&nbsp;·&nbsp;5&nbsp;PR&nbsp;(1O/0M/4C)</code></td>
+      <td width="240"><a href="https://github.com/ultraworkers/claw-code"><b><code>ultraworkers/claw-code</code></b></a><br/><code>★&nbsp;195.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/Significant-Gravitas/AutoGPT"><b><code>Significant-Gravitas/AutoGPT</code></b></a><br/><code>★&nbsp;186.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/ollama/ollama"><b><code>ollama/ollama</code></b></a><br/><code>★&nbsp;179.1K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/ggml-org/llama.cpp"><b><code>ggml-org/llama.cpp</code></b></a><br/><code>★&nbsp;125.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a><br/><code>★&nbsp;110.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="240"><a href="https://github.com/google-gemini/gemini-cli"><b><code>google-gemini/gemini-cli</code></b></a><br/><code>★&nbsp;106.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td width="240" align="center">-</td>
     </tr>
     <tr>
-      <td width="960" align="left"><b>⚡&nbsp;AI 工作流与体验平台</b><br/><code>7&nbsp;项目&nbsp;·&nbsp;26&nbsp;PR</code></td>
+      <td width="960" align="left"><b>⚡&nbsp;AI 工作流与体验平台</b><br/><code>8&nbsp;项目&nbsp;·&nbsp;30&nbsp;PR</code></td>
       <td width="240"><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a><br/><code>★&nbsp;153.5K&nbsp;·&nbsp;4&nbsp;PR&nbsp;(3O/0M/1C)</code></td>
-      <td width="240"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a><br/><code>★&nbsp;153.1K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(7O/1M/1C)</code></td>
-      <td width="240"><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a><br/><code>★&nbsp;149.4K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(0O/0M/9C)</code></td>
-      <td width="240"><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a><br/><code>★&nbsp;144.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
+      <td width="240"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a><br/><code>★&nbsp;153.1K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(6O/2M/1C)</code></td>
+      <td width="240"><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a><br/><code>★&nbsp;149.5K&nbsp;·&nbsp;10&nbsp;PR&nbsp;(0O/0M/10C)</code></td>
+      <td width="240"><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a><br/><code>★&nbsp;144.7K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(0O/0M/2C)</code></td>
+      <td width="240"><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a><br/><code>★&nbsp;128.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="240"><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a><br/><code>★&nbsp;121.8K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="240"><a href="https://github.com/Comfy-Org/ComfyUI_frontend"><b><code>Comfy-Org/ComfyUI_frontend</code></b></a><br/><code>★&nbsp;2.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="240"><a href="https://github.com/langgenius/graphon"><b><code>langgenius/graphon</code></b></a><br/><code>★&nbsp;76&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
     </tr>
     <tr>
-      <td width="960" align="left"><b>🔌&nbsp;数据、检索与工具接入</b><br/><code>6&nbsp;项目&nbsp;·&nbsp;6&nbsp;PR</code></td>
-      <td width="240"><a href="https://github.com/firecrawl/firecrawl"><b><code>firecrawl/firecrawl</code></b></a><br/><code>★&nbsp;170.3K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td width="240"><a href="https://github.com/diegosouzapw/OmniRoute"><b><code>diegosouzapw/OmniRoute</code></b></a><br/><code>★&nbsp;52.2K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
+      <td width="960" align="left"><b>🔌&nbsp;数据、检索与工具接入</b><br/><code>8&nbsp;项目&nbsp;·&nbsp;8&nbsp;PR</code></td>
+      <td width="240"><a href="https://github.com/microsoft/markitdown"><b><code>microsoft/markitdown</code></b></a><br/><code>★&nbsp;175.3K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/firecrawl/firecrawl"><b><code>firecrawl/firecrawl</code></b></a><br/><code>★&nbsp;170.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/f/prompts.chat"><b><code>f/prompts.chat</code></b></a><br/><code>★&nbsp;167.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/diegosouzapw/OmniRoute"><b><code>diegosouzapw/OmniRoute</code></b></a><br/><code>★&nbsp;52.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
       <td width="240"><a href="https://github.com/qdrant/qdrant"><b><code>qdrant/qdrant</code></b></a><br/><code>★&nbsp;34.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
       <td width="240"><a href="https://github.com/teng-lin/notebooklm-py"><b><code>teng-lin/notebooklm-py</code></b></a><br/><code>★&nbsp;18.8K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
       <td width="240"><a href="https://github.com/googleapis/mcp-toolbox"><b><code>googleapis/mcp-toolbox</code></b></a><br/><code>★&nbsp;16.2K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
       <td width="240"><a href="https://github.com/OpenAtomFoundation/pikiwidb"><b><code>OpenAtomFoundation/pikiwidb</code></b></a><br/><code>★&nbsp;6.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
     </tr>
     <tr>
-      <td width="960" align="left"><b>🧠&nbsp;模型训练与机器学习系统</b><br/><code>6&nbsp;项目&nbsp;·&nbsp;9&nbsp;PR</code></td>
-      <td width="240"><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a><br/><code>★&nbsp;164.3K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
+      <td width="960" align="left"><b>🧠&nbsp;模型训练与机器学习系统</b><br/><code>7&nbsp;项目&nbsp;·&nbsp;11&nbsp;PR</code></td>
+      <td width="240"><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"><b><code>AUTOMATIC1111/stable-diffusion-webui</code></b></a><br/><code>★&nbsp;164.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a><br/><code>★&nbsp;164.3K&nbsp;·&nbsp;3&nbsp;PR&nbsp;(2O/0M/1C)</code></td>
       <td width="240"><a href="https://github.com/pytorch/pytorch"><b><code>pytorch/pytorch</code></b></a><br/><code>★&nbsp;102.5K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(1O/0M/1C)</code></td>
-      <td width="240"><a href="https://github.com/vllm-project/vllm"><b><code>vllm-project/vllm</code></b></a><br/><code>★&nbsp;89.6K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(1O/1M/0C)</code></td>
+      <td width="240"><a href="https://github.com/vllm-project/vllm"><b><code>vllm-project/vllm</code></b></a><br/><code>★&nbsp;89.7K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(1O/1M/0C)</code></td>
       <td width="240"><a href="https://github.com/hiyouga/LlamaFactory"><b><code>hiyouga/LlamaFactory</code></b></a><br/><code>★&nbsp;74.3K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td width="240"><a href="https://github.com/BerriAI/litellm"><b><code>BerriAI/litellm</code></b></a><br/><code>★&nbsp;56.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240"><a href="https://github.com/BerriAI/litellm"><b><code>BerriAI/litellm</code></b></a><br/><code>★&nbsp;57.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="240"><a href="https://github.com/sktime/sktime"><b><code>sktime/sktime</code></b></a><br/><code>★&nbsp;10.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
+      <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
       <td width="240" align="center">-</td>
     </tr>
     <tr>
       <td width="960" align="left"><b>🛠️&nbsp;Python 工程工具链</b><br/><code>2&nbsp;项目&nbsp;·&nbsp;2&nbsp;PR</code></td>
       <td width="240"><a href="https://github.com/python-poetry/poetry"><b><code>python-poetry/poetry</code></b></a><br/><code>★&nbsp;34.3K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="240"><a href="https://github.com/facebook/pyrefly"><b><code>facebook/pyrefly</code></b></a><br/><code>★&nbsp;6.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
       <td width="240" align="center">-</td>
       <td width="240" align="center">-</td>
       <td width="240" align="center">-</td>
@@ -141,6 +164,9 @@
       <td width="240" align="center">-</td>
       <td width="240" align="center">-</td>
       <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
+      <td width="240" align="center">-</td>
     </tr>
   </tbody>
 </table>
@@ -151,37 +177,45 @@
 <summary><strong>📋 切换为文本列表视图 / Switch to Text List View</strong></summary>
 <br />
 
-- **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`6 项目 / 24 PR`)
-  - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `★ 387.0K` · 8 PR (`2 Open` / `2 Merged` / `4 Closed`)
-  - [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) `★ 241.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
-  - [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `★ 233.7K` · 8 PR (`6 Open` / `0 Merged` / `2 Closed`)
-  - [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) `★ 199.7K` · 5 PR (`1 Open` / `0 Merged` / `4 Closed`)
-  - [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) `★ 109.9K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+- **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`10 项目 / 31 PR`)
+  - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `★ 387.0K` · 9 PR (`3 Open` / `2 Merged` / `4 Closed`)
+  - [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) `★ 241.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+  - [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `★ 234.0K` · 8 PR (`6 Open` / `0 Merged` / `2 Closed`)
+  - [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) `★ 200.0K` · 5 PR (`1 Open` / `0 Merged` / `4 Closed`)
+  - [**`ultraworkers/claw-code`**](https://github.com/ultraworkers/claw-code) `★ 195.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`Significant-Gravitas/AutoGPT`**](https://github.com/Significant-Gravitas/AutoGPT) `★ 186.7K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`ollama/ollama`**](https://github.com/ollama/ollama) `★ 179.1K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+  - [**`ggml-org/llama.cpp`**](https://github.com/ggml-org/llama.cpp) `★ 125.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) `★ 110.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli) `★ 106.6K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
 
-- **⚡ AI 工作流与体验平台 · AI WORKFLOW & EXPERIENCE PLATFORMS** (`7 项目 / 26 PR`)
+- **⚡ AI 工作流与体验平台 · AI WORKFLOW & EXPERIENCE PLATFORMS** (`8 项目 / 30 PR`)
   - [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow) `★ 153.5K` · 4 PR (`3 Open` / `0 Merged` / `1 Closed`)
-  - [**`langgenius/dify`**](https://github.com/langgenius/dify) `★ 153.1K` · 9 PR (`7 Open` / `1 Merged` / `1 Closed`)
-  - [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui) `★ 149.4K` · 9 PR (`0 Open` / `0 Merged` / `9 Closed`)
-  - [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain) `★ 144.7K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+  - [**`langgenius/dify`**](https://github.com/langgenius/dify) `★ 153.1K` · 9 PR (`6 Open` / `2 Merged` / `1 Closed`)
+  - [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui) `★ 149.5K` · 10 PR (`0 Open` / `0 Merged` / `10 Closed`)
+  - [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain) `★ 144.7K` · 2 PR (`0 Open` / `0 Merged` / `2 Closed`)
+  - [**`Comfy-Org/ComfyUI`**](https://github.com/Comfy-Org/ComfyUI) `★ 128.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
   - [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui) `★ 121.8K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`Comfy-Org/ComfyUI_frontend`**](https://github.com/Comfy-Org/ComfyUI_frontend) `★ 2.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`langgenius/graphon`**](https://github.com/langgenius/graphon) `★ 76` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
 
-- **🔌 数据、检索与工具接入 · DATA, RETRIEVAL & TOOL CONNECTIVITY** (`6 项目 / 6 PR`)
-  - [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl) `★ 170.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
-  - [**`diegosouzapw/OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) `★ 52.2K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
+- **🔌 数据、检索与工具接入 · DATA, RETRIEVAL & TOOL CONNECTIVITY** (`8 项目 / 8 PR`)
+  - [**`microsoft/markitdown`**](https://github.com/microsoft/markitdown) `★ 175.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl) `★ 170.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`f/prompts.chat`**](https://github.com/f/prompts.chat) `★ 167.7K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`diegosouzapw/OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) `★ 52.7K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
   - [**`qdrant/qdrant`**](https://github.com/qdrant/qdrant) `★ 34.1K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
   - [**`teng-lin/notebooklm-py`**](https://github.com/teng-lin/notebooklm-py) `★ 18.8K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
   - [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox) `★ 16.2K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
   - [**`OpenAtomFoundation/pikiwidb`**](https://github.com/OpenAtomFoundation/pikiwidb) `★ 6.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
 
-- **🧠 模型训练与机器学习系统 · MODEL TRAINING & ML SYSTEMS** (`6 项目 / 9 PR`)
-  - [**`huggingface/transformers`**](https://github.com/huggingface/transformers) `★ 164.3K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+- **🧠 模型训练与机器学习系统 · MODEL TRAINING & ML SYSTEMS** (`7 项目 / 11 PR`)
+  - [**`AUTOMATIC1111/stable-diffusion-webui`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui) `★ 164.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`huggingface/transformers`**](https://github.com/huggingface/transformers) `★ 164.3K` · 3 PR (`2 Open` / `0 Merged` / `1 Closed`)
   - [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch) `★ 102.5K` · 2 PR (`1 Open` / `0 Merged` / `1 Closed`)
-  - [**`vllm-project/vllm`**](https://github.com/vllm-project/vllm) `★ 89.6K` · 2 PR (`1 Open` / `1 Merged` / `0 Closed`)
+  - [**`vllm-project/vllm`**](https://github.com/vllm-project/vllm) `★ 89.7K` · 2 PR (`1 Open` / `1 Merged` / `0 Closed`)
   - [**`hiyouga/LlamaFactory`**](https://github.com/hiyouga/LlamaFactory) `★ 74.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
-  - [**`BerriAI/litellm`**](https://github.com/BerriAI/litellm) `★ 56.9K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`BerriAI/litellm`**](https://github.com/BerriAI/litellm) `★ 57.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`sktime/sktime`**](https://github.com/sktime/sktime) `★ 10.0K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
 
 - **🛠️ Python 工程工具链 · PYTHON ENGINEERING TOOLCHAIN** (`2 项目 / 2 PR`)
