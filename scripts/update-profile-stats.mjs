@@ -525,7 +525,7 @@ function renderReadme({
 }) {
   const featuredRows = featuredItems
     .map((item) => {
-      return `| [**\`${item.name}\`**](https://github.com/loulanyue/${item.name}) | \`${item.meta.role}\` | \`★ ${item.stars.toLocaleString('en-US')}\` | **${item.meta.zh}**<br><sub>*${item.meta.en}*</sub> |`;
+      return `| [**\`${item.name}\`**](https://github.com/loulanyue/${item.name}) \`${item.meta.role}\` | \`★ ${item.stars.toLocaleString('en-US')}\` | **${item.meta.zh}** |`;
     })
     .join('\n');
 
@@ -539,21 +539,22 @@ function renderReadme({
         ? `\`OPEN\``
         : `\`CLOSED\``;
       const starsFormatted = formatCompactNumber(item.repository.stargazers_count);
-      return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) | \`★ ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl}) | ${stateBadge} | **${item.meta.topic}** · ${item.meta.zh}<br><sub>*${item.meta.en}*</sub> |`;
+      return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) \`★ ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl}) ${stateBadge} | **${item.meta.topic}** · ${item.meta.zh} |`;
     })
     .join('\n');
 
-  const categoryRows = categoryModels
+  const categoryLists = categoryModels
     .map((category) => {
-      const projectList = category.projects
+      const prSum = category.projects.reduce((sum, p) => sum + p.pulls, 0);
+      const projectItems = category.projects
         .map((project) => {
           const starsCompact = formatCompactNumber(project.stars);
-          return `• [**\`${project.fullName}\`**](${project.url}) \`★ ${starsCompact}\` · ${project.pulls} PR (${project.open} O / ${project.merged} M / ${project.closed} C)`;
+          return `  - [**\`${project.fullName}\`**](${project.url}) \`★ ${starsCompact}\` · ${project.pulls} PR (\`${project.open} Open\` / \`${project.merged} Merged\` / \`${project.closed} Closed\`)`;
         })
-        .join('<br>');
-      return `| **${category.icon ?? '📁'} ${category.zh}**<br><sub>${category.en}</sub> | ${projectList} |`;
+        .join('\n');
+      return `- **${category.icon ?? '📁'} ${category.zh} · ${category.en}** (\`${category.projects.length} 项目 / ${prSum} PR\`)\n${projectItems}`;
     })
-    .join('\n');
+    .join('\n\n');
 
   return `<p align="center">
   <img src="./assets/profile-terminal.svg" width="100%" alt="LoulanYue — bilingual open-source AI systems engineering profile with live telemetry" />
@@ -572,11 +573,10 @@ function renderReadme({
 
 ### \`01 / OPEN SYSTEMS\` · 自有开放系统
 
-> 沉淀可复用的工程协议、多智能体控制面、能力层与系统知识架构，按实时星标倒序排列。  
-> *Reusable engineering protocols, multi-agent control planes, capability layers, and system knowledge architectures.*
+> 沉淀可复用的工程协议、多智能体控制面、能力层与系统知识架构，按实时星标倒序排列。
 
-| 项目 / Repository | 类型 / Role | 实时星标 / Stars | 核心定位与工程说明 / Description |
-|:---|:---:|:---:|:---|
+| 项目 / System | 实时星标 / Stars | 核心定位与工程说明 / Focus & Architecture |
+|:---|:---:|:---|
 ${featuredRows}
 
 <br />
@@ -595,11 +595,10 @@ ${featuredRows}
   <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-${formatCompactNumber(totals.stars)}%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
 
-> 严格收录所有星标数大于 10 万且具备公开工程贡献的上游项目，项目与 PR 均可直接点击直达。  
-> *All contributed upstream projects strictly above 100K stars, sorted by live star count descending with direct hyperlinks.*
+> 严格收录所有星标数大于 10 万且具备公开工程贡献的上游项目，项目与 PR 均可直接点击跳转。
 
-| 上游项目 / Repository | 项目星标 / Stars | 贡献 PR / Pull Request | 状态 / State | 工程焦点与贡献说明 / Contribution Summary |
-|:---|:---:|:---:|:---:|:---|
+| 上游项目 / Repository | 贡献 PR / Pull Request | 核心工程焦点与贡献说明 / Contribution Summary |
+|:---|:---|:---|
 ${upstreamRows}
 
 <br />
@@ -610,16 +609,13 @@ ${upstreamRows}
 
 ### \`03 / UPSTREAM ENGINEERING MAP\` · 上游工程版图
 
-> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 ${totals.projects} 个公开上游项目协作。  
-> *Covers ${totals.projects} public upstream projects spanning agent runtimes, workflow platforms, ML systems, and developer tooling.*
+> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 ${totals.projects} 个公开上游项目协作。
 
 <details open>
-<summary><strong>展开查看全部上游项目分类与直达链接 / Explore Categorized Projects</strong></summary>
+<summary><strong>展开查看全部上游项目分类与直达链接 / Explore ${totals.projects} Upstream Projects</strong></summary>
 <br />
 
-| 领域 / Domain | 上游项目清单与贡献状态 / Repositories & Telemetry |
-|:---|:---|
-${categoryRows}
+${categoryLists}
 
 </details>
 
@@ -659,6 +655,7 @@ EN  Connecting original systems with upstream infrastructure—turning reproduci
 </p>
 `;
 }
+
 
 const [
   { projects, profile, upstreamSearch, upstreamRepositories },
