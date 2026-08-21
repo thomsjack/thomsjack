@@ -61,6 +61,7 @@ const upstreamContributions = [
   { key: 'shadcnui', owner: 'shadcn-ui', repo: 'ui', pull: 11580 },
   { key: 'browseruse', owner: 'browser-use', repo: 'browser-use', pull: 5508 },
   { key: 'geminicli', owner: 'google-gemini', repo: 'gemini-cli', pull: 28546 },
+  { key: 'nodebestpractices', owner: 'goldbergyoni', repo: 'nodebestpractices', pull: 1425 },
   { key: 'pytorch', owner: 'pytorch', repo: 'pytorch', pull: 191904 },
   { key: 'transformers', owner: 'huggingface', repo: 'transformers', pull: 47763 },
 ];
@@ -130,6 +131,11 @@ const upstreamMetadata = {
     topic: 'AUTH BOUNDARY',
     zh: '隔离 API Key 与残留授权头，避免认证机制在请求边界相互污染。',
     en: 'Isolates API-key auth from stale authorization headers at request boundaries.',
+  },
+  nodebestpractices: {
+    topic: 'SECURITY LINTER',
+    zh: '更新 Node.js 生产环境代码安全检查与 linter 规范指引。',
+    en: 'Refreshes security linter recommendations and best practices for Node.js.',
   },
   pytorch: {
     topic: 'RUNTIME COMPATIBILITY',
@@ -214,7 +220,11 @@ const upstreamCategories = [
     zh: '工程知识与生态',
     icon: '📚',
     color: '#C49435',
-    repositories: ['DuGuQiuBai/Java', 'baomidou/mybatis-plus-doc'],
+    repositories: [
+      'goldbergyoni/nodebestpractices',
+      'DuGuQiuBai/Java',
+      'baomidou/mybatis-plus-doc',
+    ],
   },
 ];
 
@@ -562,16 +572,16 @@ function renderScrollableCategoryTable(categoryModels) {
   const tableRows = categoryModels
     .map((cat) => {
       const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
-      const categoryCell = `      <td align="left"><code>&nbsp;&nbsp;<b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b>&nbsp;&nbsp;·&nbsp;&nbsp;${cat.projects.length}&nbsp;项目&nbsp;/&nbsp;${prSum}&nbsp;PR&nbsp;&nbsp;</code></td>`;
+      const categoryCell = `      <td align="left"><b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b><br/><code>${cat.projects.length}&nbsp;项目&nbsp;·&nbsp;${prSum}&nbsp;PR</code></td>`;
       const projectCells = [];
       for (let i = 0; i < maxProjects; i += 1) {
         const p = cat.projects[i];
         if (!p) {
-          projectCells.push('      <td align="center"><code>&nbsp;&nbsp;—&nbsp;&nbsp;</code></td>');
+          projectCells.push('      <td align="center">-</td>');
         } else {
           const starsFormatted = formatCompactNumber(p.stars);
           projectCells.push(
-            `      <td><code>&nbsp;&nbsp;<a href="${p.url}"><b>${p.fullName}</b></a>&nbsp;&nbsp;★&nbsp;${starsFormatted}&nbsp;&nbsp;·&nbsp;&nbsp;${p.pulls}&nbsp;PR&nbsp;(${p.open}O/${p.merged}M/${p.closed}C)&nbsp;&nbsp;</code></td>`,
+            `      <td><a href="${p.url}"><b><code>${p.fullName}</code></b></a><br/><code>★&nbsp;${starsFormatted}</code>&nbsp;·&nbsp;<code>${p.pulls}&nbsp;PR&nbsp;(${p.open}O/${p.merged}M/${p.closed}C)</code></td>`,
           );
         }
       }
