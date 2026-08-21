@@ -50,6 +50,7 @@ const featuredMetadata = {
 const upstreamStarThreshold = 100_000;
 const upstreamContributions = [
   { key: 'openclaw', owner: 'openclaw', repo: 'openclaw', pull: 121494 },
+  { key: 'ecc', owner: 'affaan-m', repo: 'ECC', pull: 2833 },
   { key: 'hermes', owner: 'NousResearch', repo: 'hermes-agent', pull: 82992 },
   { key: 'opencode', owner: 'anomalyco', repo: 'opencode', pull: 38763 },
   { key: 'firecrawl', owner: 'firecrawl', repo: 'firecrawl', pull: 4061 },
@@ -67,6 +68,11 @@ const upstreamMetadata = {
     topic: 'SESSION CONTINUITY',
     zh: '跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。',
     en: 'Preserves reusable session context across heartbeat and chat policy gaps.',
+  },
+  ecc: {
+    topic: 'CODING STYLE',
+    zh: '完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。',
+    en: 'Adds naming conventions to TypeScript/JavaScript coding style for agent output consistency.',
   },
   hermes: {
     topic: 'APPROVAL SURFACE',
@@ -129,6 +135,7 @@ const upstreamCategories = [
     color: '#2A9DB2',
     repositories: [
       'openclaw/openclaw',
+      'affaan-m/ECC',
       'NousResearch/hermes-agent',
       'anomalyco/opencode',
       'google-gemini/gemini-cli',
@@ -198,6 +205,7 @@ const upstreamCategories = [
 
 const highlightedRepositories = new Set([
   'openclaw/openclaw',
+  'affaan-m/ECC',
   'NousResearch/hermes-agent',
   'anomalyco/opencode',
   'langflow-ai/langflow',
@@ -585,7 +593,7 @@ ${featuredRows}
 
 <a id="02-100k-upstream"></a>
 
-### \`02 / 100K+ UPSTREAM IMPACT\` · 十万星上游工程
+### \`02 / 100K+ UPSTREAM IMPACT\` · 头部上游工程
 
 <p>
   <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-${totals.pulls}-123E52?style=flat-square&labelColor=EAF6FA" />

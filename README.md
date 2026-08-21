@@ -30,14 +30,14 @@
 
 <a id="02-100k-upstream"></a>
 
-### `02 / 100K+ UPSTREAM IMPACT` · 十万星上游工程
+### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程
 
 <p>
-  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-59-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-60-123E52?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-7-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-25-406E9A?style=flat-square&labelColor=EAF6FA" />
-  <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-11-2A9DB2?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-2.38M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-26-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-12-2A9DB2?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-2.62M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
 
 > 严格收录所有星标数大于 10 万且具备公开工程贡献的上游项目，项目与 PR 均可直接点击跳转。
@@ -45,6 +45,7 @@
 | 上游项目 / Repository | 贡献 PR / Pull Request | 核心工程焦点与贡献说明 / Contribution Summary |
 |:---|:---|:---|
 | [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `★ 387.0K` | [**`PR #121494`**](https://github.com/openclaw/openclaw/pull/121494) `CLOSED` | **SESSION CONTINUITY** · 跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。 |
+| [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) `★ 241.5K` | [**`PR #2833`**](https://github.com/affaan-m/ECC/pull/2833) `OPEN` | **CODING STYLE** · 完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。 |
 | [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `★ 233.7K` | [**`PR #82992`**](https://github.com/NousResearch/hermes-agent/pull/82992) `OPEN` | **APPROVAL SURFACE** · 让受保护文件写入在桌面端呈现明确审批，避免静默超时。 |
 | [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) `★ 199.7K` | [**`PR #38763`**](https://github.com/anomalyco/opencode/pull/38763) `OPEN` | **MODEL REPLAY** · 保留失败回合的推理签名链，确保工具调用可被模型安全重放。 |
 | [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl) `★ 170.2K` | [**`PR #4061`**](https://github.com/firecrawl/firecrawl/pull/4061) `OPEN` | **BUILD CONTRACT** · 显式化原生客户端构建契约，让异构部署具备可复现前提。 |
@@ -64,14 +65,15 @@
 
 ### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图
 
-> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 25 个公开上游项目协作。
+> 跨智能体运行时、AI 工作流平台、模型系统、数据接入与工程工具链展开的 26 个公开上游项目协作。
 
 <details open>
-<summary><strong>展开查看全部上游项目分类与直达链接 / Explore 25 Upstream Projects</strong></summary>
+<summary><strong>展开查看全部上游项目分类与直达链接 / Explore 26 Upstream Projects</strong></summary>
 <br />
 
-- **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`4 项目 / 20 PR`)
+- **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`5 项目 / 21 PR`)
   - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `★ 387.0K` · 7 PR (`1 Open` / `2 Merged` / `4 Closed`)
+  - [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) `★ 241.5K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `★ 233.7K` · 7 PR (`5 Open` / `0 Merged` / `2 Closed`)
   - [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) `★ 199.7K` · 5 PR (`1 Open` / `0 Merged` / `4 Closed`)
   - [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli) `★ 106.6K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
@@ -86,7 +88,7 @@
 
 - **🔌 数据、检索与工具接入 · DATA, RETRIEVAL & TOOL CONNECTIVITY** (`5 项目 / 5 PR`)
   - [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl) `★ 170.2K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
-  - [**`diegosouzapw/OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) `★ 52.1K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
+  - [**`diegosouzapw/OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) `★ 52.2K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
   - [**`qdrant/qdrant`**](https://github.com/qdrant/qdrant) `★ 34.1K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
   - [**`teng-lin/notebooklm-py`**](https://github.com/teng-lin/notebooklm-py) `★ 18.8K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
   - [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox) `★ 16.2K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
