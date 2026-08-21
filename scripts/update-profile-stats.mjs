@@ -572,16 +572,16 @@ function renderScrollableCategoryTable(categoryModels) {
   const tableRows = categoryModels
     .map((cat) => {
       const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
-      const categoryCell = `      <td align="left"><nobr><b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b></nobr><br/><nobr><code>${cat.projects.length}&nbsp;项目&nbsp;·&nbsp;${prSum}&nbsp;PR</code></nobr></td>`;
+      const categoryCell = `      <td width="280" align="left"><b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b><br/><code>${cat.projects.length}&nbsp;项目&nbsp;·&nbsp;${prSum}&nbsp;PR</code></td>`;
       const projectCells = [];
       for (let i = 0; i < maxProjects; i += 1) {
         const p = cat.projects[i];
         if (!p) {
-          projectCells.push('      <td align="center"><nobr>-</nobr></td>');
+          projectCells.push('      <td width="240" align="center">-</td>');
         } else {
           const starsFormatted = formatCompactNumber(p.stars);
           projectCells.push(
-            `      <td><nobr><a href="${p.url}"><b><code>${p.fullName}</code></b></a></nobr><br/><nobr><code>★&nbsp;${starsFormatted}&nbsp;·&nbsp;${p.pulls}&nbsp;PR&nbsp;(${p.open}O/${p.merged}M/${p.closed}C)</code></nobr></td>`,
+            `      <td width="240"><a href="${p.url}"><b><code>${p.fullName}</code></b></a><br/><code>★&nbsp;${starsFormatted}&nbsp;·&nbsp;${p.pulls}&nbsp;PR&nbsp;(${p.open}O/${p.merged}M/${p.closed}C)</code></td>`,
           );
         }
       }
