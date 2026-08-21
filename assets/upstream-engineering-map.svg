@@ -26,13 +26,13 @@
 
     <g transform="translate(58 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">67</text>
+      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">68</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PUBLIC PRS</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">公开上游 PR</text>
     </g>
     <g transform="translate(278 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">32</text>
+      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">33</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">OPEN</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">进行中</text>
     </g>
@@ -245,8 +245,8 @@
       <rect width="6" height="260" rx="3" fill="#4D8FBA"/>
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">MODEL TRAINING &amp; ML SYSTEMS</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">模型训练与机器学习系统</text>
-      <text x="506" y="29" text-anchor="end" fill="#4D8FBA" font-size="10.2" font-weight="750">6 PROJECTS · 8 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 497.5K TOTAL</text>
+      <text x="506" y="29" text-anchor="end" fill="#4D8FBA" font-size="10.2" font-weight="750">6 PROJECTS · 9 PR</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 497.6K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <a href="https://github.com/huggingface/transformers" target="_blank" style="cursor:pointer">
@@ -269,7 +269,7 @@
           <g transform="translate(0 152)">
             <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">vllm-project/vllm</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
+            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/1M/0C</text>
             <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ 89.6K</text>
           </g>
         </a>
