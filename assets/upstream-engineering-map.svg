@@ -32,7 +32,7 @@
     </g>
     <g transform="translate(278 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">59</text>
+      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">58</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">OPEN</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">进行中</text>
     </g>
@@ -72,7 +72,7 @@
             <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">openclaw/openclaw</text>
             <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">9PR · 3O/2M/4C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 387.0K</text>
+            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 387.1K</text>
           </g>
         </a>
         <a href="https://github.com/affaan-m/ECC" target="_blank" style="cursor:pointer">
@@ -87,7 +87,7 @@
           <g transform="translate(0 152)">
             <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">NousResearch/hermes-agent</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">8PR · 6O/0M/2C</text>
+            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">8PR · 5O/0M/3C</text>
             <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 234.0K</text>
           </g>
         </a>
@@ -170,7 +170,7 @@
             <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">n8n-io/n8n</text>
             <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 201.5K</text>
+            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 201.6K</text>
           </g>
         </a>
         <a href="https://github.com/langflow-ai/langflow" target="_blank" style="cursor:pointer">
@@ -186,7 +186,7 @@
             <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">langgenius/dify</text>
             <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">9PR · 6O/2M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 153.1K</text>
+            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 153.2K</text>
           </g>
         </a>
         <a href="https://github.com/open-webui/open-webui" target="_blank" style="cursor:pointer">
@@ -210,7 +210,7 @@
             <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">Comfy-Org/ComfyUI</text>
             <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 128.8K</text>
+            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 128.9K</text>
           </g>
         </a>
         <a href="https://github.com/shadcn-ui/ui" target="_blank" style="cursor:pointer">
@@ -244,7 +244,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
       <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">8 PROJECTS · 8 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 641.6K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 641.7K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <a href="https://github.com/microsoft/markitdown" target="_blank" style="cursor:pointer">
@@ -292,7 +292,7 @@
             <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">teng-lin/notebooklm-py</text>
             <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 18.8K</text>
+            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 18.9K</text>
           </g>
         </a>
         <a href="https://github.com/googleapis/mcp-toolbox" target="_blank" style="cursor:pointer">

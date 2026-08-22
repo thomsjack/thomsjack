@@ -55,7 +55,7 @@
 <p>
   <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-101-123E52?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-59-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-58-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-25-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-5.34M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
@@ -72,7 +72,7 @@
   </thead>
   <tbody>
     <tr>
-      <td width="420" align="left"><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;387.0K</code></td>
+      <td width="420" align="left"><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;387.1K</code></td>
       <td width="220" align="center"><a href="https://github.com/openclaw/openclaw/pull/121494"><b><code>PR&nbsp;#121494</code></b></a>&nbsp;&nbsp;<code>CLOSED</code></td>
       <td width="1060" align="left"><b>SESSION CONTINUITY</b>&nbsp;·&nbsp;跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。</td>
     </tr>
@@ -92,7 +92,7 @@
       <td width="1060" align="left"><b>APPROVAL SURFACE</b>&nbsp;·&nbsp;让受保护文件写入在桌面端呈现明确审批，避免静默超时。</td>
     </tr>
     <tr>
-      <td width="420" align="left"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;201.5K</code></td>
+      <td width="420" align="left"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;201.6K</code></td>
       <td width="220" align="center"><a href="https://github.com/n8n-io/n8n/pull/36857"><b><code>PR&nbsp;#36857</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
       <td width="1060" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(Snowflake Node): Route query errors when continueOnFail is enabled</td>
     </tr>
@@ -147,7 +147,7 @@
       <td width="1060" align="left"><b>MCP LIFECYCLE</b>&nbsp;·&nbsp;把取消语义落实到传输生命周期，阻断后台任务与子进程泄漏。</td>
     </tr>
     <tr>
-      <td width="420" align="left"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;153.1K</code></td>
+      <td width="420" align="left"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;153.2K</code></td>
       <td width="220" align="center"><a href="https://github.com/langgenius/dify/pull/40412"><b><code>PR&nbsp;#40412</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
       <td width="1060" align="left"><b>ENDPOINT VALIDATION</b>&nbsp;·&nbsp;把 404 视为服务可达的路径响应，修复外部知识 API 误判。</td>
     </tr>
@@ -162,7 +162,7 @@
       <td width="1060" align="left"><b>EXECUTION BOUNDARY</b>&nbsp;·&nbsp;修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。</td>
     </tr>
     <tr>
-      <td width="420" align="left"><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;128.8K</code></td>
+      <td width="420" align="left"><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;128.9K</code></td>
       <td width="220" align="center"><a href="https://github.com/Comfy-Org/ComfyUI/pull/15795"><b><code>PR&nbsp;#15795</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
       <td width="1060" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(comfy_api): robust PyAV ColorPrimaries, ColorRange, and ColorTrc imports</td>
     </tr>
@@ -209,7 +209,7 @@
 
 <p>
   <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-101-123E52?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN-59-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN-58-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
   <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-50-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-5.34M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
@@ -223,9 +223,9 @@
   <tbody>
     <tr>
       <td width="320" align="left"><img src="./assets/spacer.svg" width="320" height="1" alt="" /><br/><b>🤖&nbsp;智能体运行时与编码终端</b><br/><code>11&nbsp;项目&nbsp;·&nbsp;33&nbsp;PR</code></td>
-      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>🌟&nbsp;387.0K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(3O/2M/4C)</code></td>
+      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>🌟&nbsp;387.1K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(3O/2M/4C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a><br/><code>🌟&nbsp;241.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
-      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a><br/><code>🌟&nbsp;234.0K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(6O/0M/2C)</code></td>
+      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a><br/><code>🌟&nbsp;234.0K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(5O/0M/3C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a><br/><code>🌟&nbsp;200.0K&nbsp;·&nbsp;5&nbsp;PR&nbsp;(1O/0M/4C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/ultraworkers/claw-code"><b><code>ultraworkers/claw-code</code></b></a><br/><code>🌟&nbsp;195.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/Significant-Gravitas/AutoGPT"><b><code>Significant-Gravitas/AutoGPT</code></b></a><br/><code>🌟&nbsp;186.7K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
@@ -239,12 +239,12 @@
     </tr>
     <tr>
       <td width="320" align="left"><b>⚡&nbsp;AI 工作流与体验平台</b><br/><code>9&nbsp;项目&nbsp;·&nbsp;33&nbsp;PR</code></td>
-      <td width="260"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a><br/><code>🌟&nbsp;201.5K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="260"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a><br/><code>🌟&nbsp;201.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a><br/><code>🌟&nbsp;153.5K&nbsp;·&nbsp;4&nbsp;PR&nbsp;(3O/0M/1C)</code></td>
-      <td width="260"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a><br/><code>🌟&nbsp;153.1K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(6O/2M/1C)</code></td>
+      <td width="260"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a><br/><code>🌟&nbsp;153.2K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(6O/2M/1C)</code></td>
       <td width="260"><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a><br/><code>🌟&nbsp;149.5K&nbsp;·&nbsp;10&nbsp;PR&nbsp;(0O/0M/10C)</code></td>
       <td width="260"><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a><br/><code>🌟&nbsp;144.7K&nbsp;·&nbsp;3&nbsp;PR&nbsp;(0O/0M/3C)</code></td>
-      <td width="260"><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a><br/><code>🌟&nbsp;128.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
+      <td width="260"><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a><br/><code>🌟&nbsp;128.9K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a><br/><code>🌟&nbsp;121.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/Comfy-Org/ComfyUI_frontend"><b><code>Comfy-Org/ComfyUI_frontend</code></b></a><br/><code>🌟&nbsp;2.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/langgenius/graphon"><b><code>langgenius/graphon</code></b></a><br/><code>🌟&nbsp;76&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
@@ -260,7 +260,7 @@
       <td width="260"><a href="https://github.com/f/prompts.chat"><b><code>f/prompts.chat</code></b></a><br/><code>🌟&nbsp;167.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/diegosouzapw/OmniRoute"><b><code>diegosouzapw/OmniRoute</code></b></a><br/><code>🌟&nbsp;52.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
       <td width="260"><a href="https://github.com/qdrant/qdrant"><b><code>qdrant/qdrant</code></b></a><br/><code>🌟&nbsp;34.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
-      <td width="260"><a href="https://github.com/teng-lin/notebooklm-py"><b><code>teng-lin/notebooklm-py</code></b></a><br/><code>🌟&nbsp;18.8K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
+      <td width="260"><a href="https://github.com/teng-lin/notebooklm-py"><b><code>teng-lin/notebooklm-py</code></b></a><br/><code>🌟&nbsp;18.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/1M/0C)</code></td>
       <td width="260"><a href="https://github.com/googleapis/mcp-toolbox"><b><code>googleapis/mcp-toolbox</code></b></a><br/><code>🌟&nbsp;16.2K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
       <td width="260"><a href="https://github.com/OpenAtomFoundation/pikiwidb"><b><code>OpenAtomFoundation/pikiwidb</code></b></a><br/><code>🌟&nbsp;6.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260" align="center">-</td>
@@ -327,7 +327,7 @@
 <br />
 
 - **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`11 项目 / 33 PR`)
-  - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `🌟 387.0K` · 9 PR (`3 Open` / `2 Merged` / `4 Closed`)
+  - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `🌟 387.1K` · 9 PR (`3 Open` / `2 Merged` / `4 Closed`)
     - [**`PR #127690`**](https://github.com/openclaw/openclaw/pull/127690) `OPEN` · fix(discord): require whitespace-only suffix for closing code fence lines
     - [**`PR #127109`**](https://github.com/openclaw/openclaw/pull/127109) `OPEN` · fix(node-host): duplicate skill-bin refreshes on concurrent commands (#127095)
     - [**`PR #121494`**](https://github.com/openclaw/openclaw/pull/121494) `CLOSED` · fix(cli-session): preserve heartbeat context across policy gaps [AI-assisted]
@@ -340,8 +340,8 @@
   - [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) `🌟 241.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
     - [**`PR #2836`**](https://github.com/affaan-m/ECC/pull/2836) `OPEN` · fix(skills): support symlinked directories in skill and rule scan scripts
     - [**`PR #2833`**](https://github.com/affaan-m/ECC/pull/2833) `OPEN` · docs(rules): add naming conventions to TypeScript/JavaScript coding style
-  - [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `🌟 234.0K` · 8 PR (`6 Open` / `0 Merged` / `2 Closed`)
-    - [**`PR #91407`**](https://github.com/NousResearch/hermes-agent/pull/91407) `OPEN` · fix(desktop): strip routing @mention token before remote DM delivery (#91397)
+  - [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `🌟 234.0K` · 8 PR (`5 Open` / `0 Merged` / `3 Closed`)
+    - [**`PR #91407`**](https://github.com/NousResearch/hermes-agent/pull/91407) `CLOSED` · fix(desktop): strip routing @mention token before remote DM delivery (#91397)
     - [**`PR #91376`**](https://github.com/NousResearch/hermes-agent/pull/91376) `OPEN` · fix(stream): do not misclassify stream with final usage chunk as mid-stream drop — closes #91373
     - [**`PR #91367`**](https://github.com/NousResearch/hermes-agent/pull/91367) `OPEN` · fix(update): check and apply config migrations on current checkout / retry paths — closes #91360
     - [**`PR #89605`**](https://github.com/NousResearch/hermes-agent/pull/89605) `OPEN` · fix(plugins): add isatty guard to _resolve_tool_override_grant — closes #89600
@@ -373,14 +373,14 @@
     - [**`PR #4281`**](https://github.com/camel-ai/camel/pull/4281) `OPEN` · fix(toolkits): remove unsafe retry on send_message in WhatsAppToolkit
 
 - **⚡ AI 工作流与体验平台 · AI WORKFLOW & EXPERIENCE PLATFORMS** (`9 项目 / 33 PR`)
-  - [**`n8n-io/n8n`**](https://github.com/n8n-io/n8n) `🌟 201.5K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`n8n-io/n8n`**](https://github.com/n8n-io/n8n) `🌟 201.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
     - [**`PR #36857`**](https://github.com/n8n-io/n8n/pull/36857) `OPEN` · fix(Snowflake Node): Route query errors when continueOnFail is enabled
   - [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow) `🌟 153.5K` · 4 PR (`3 Open` / `0 Merged` / `1 Closed`)
     - [**`PR #14690`**](https://github.com/langflow-ai/langflow/pull/14690) `OPEN` · refactor(auth): drop unmaintained passlib and unpin bcrypt (#14685)
     - [**`PR #14177`**](https://github.com/langflow-ai/langflow/pull/14177) `OPEN` · fix(mcp): reap cancelled session transports
     - [**`PR #14153`**](https://github.com/langflow-ai/langflow/pull/14153) `OPEN` · fix: preserve secret values for connected components
     - [**`PR #14144`**](https://github.com/langflow-ai/langflow/pull/14144) `CLOSED` · fix(lfx): isolate component tool message suppression
-  - [**`langgenius/dify`**](https://github.com/langgenius/dify) `🌟 153.1K` · 9 PR (`6 Open` / `2 Merged` / `1 Closed`)
+  - [**`langgenius/dify`**](https://github.com/langgenius/dify) `🌟 153.2K` · 9 PR (`6 Open` / `2 Merged` / `1 Closed`)
     - [**`PR #40933`**](https://github.com/langgenius/dify/pull/40933) `CLOSED` · fix(web): widen browserslist iOS floor from 16.4 to 15 to restore -webkit-mask-* prefixes
     - [**`PR #40908`**](https://github.com/langgenius/dify/pull/40908) `OPEN` · fix(structured-output): fall back to prompt injection when native handler does not set response_format
     - [**`PR #40412`**](https://github.com/langgenius/dify/pull/40412) `OPEN` · fix(knowledge): stop treating HTTP 404 as invalid endpoint in external API validation
@@ -405,7 +405,7 @@
     - [**`PR #39837`**](https://github.com/langchain-ai/langchain/pull/39837) `CLOSED` · core: await prompt.aformat for DictPromptTemplate in async multimodal formatting
     - [**`PR #39836`**](https://github.com/langchain-ai/langchain/pull/39836) `CLOSED` · fix(core): await aformat on DictPromptTemplate in multimodal chat prompt (#39835)
     - [**`PR #39215`**](https://github.com/langchain-ai/langchain/pull/39215) `CLOSED` · fix(core): allow unsized iterables (generators) in `ContextThreadPoolExecutor.map`
-  - [**`Comfy-Org/ComfyUI`**](https://github.com/Comfy-Org/ComfyUI) `🌟 128.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+  - [**`Comfy-Org/ComfyUI`**](https://github.com/Comfy-Org/ComfyUI) `🌟 128.9K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
     - [**`PR #15795`**](https://github.com/Comfy-Org/ComfyUI/pull/15795) `OPEN` · fix(comfy_api): robust PyAV ColorPrimaries, ColorRange, and ColorTrc imports
     - [**`PR #15794`**](https://github.com/Comfy-Org/ComfyUI/pull/15794) `OPEN` · fix(api): provide fallback for PyAV color enums in comfy_api (#15784)
   - [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui) `🌟 121.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
@@ -427,7 +427,7 @@
     - [**`PR #7540`**](https://github.com/diegosouzapw/OmniRoute/pull/7540) `MERGED` · fix(sse): preserve custom tool output images
   - [**`qdrant/qdrant`**](https://github.com/qdrant/qdrant) `🌟 34.1K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
     - [**`PR #10061`**](https://github.com/qdrant/qdrant/pull/10061) `CLOSED` · fix: add `maximum: 65536` to `VectorParams.size` OpenAPI schema
-  - [**`teng-lin/notebooklm-py`**](https://github.com/teng-lin/notebooklm-py) `🌟 18.8K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
+  - [**`teng-lin/notebooklm-py`**](https://github.com/teng-lin/notebooklm-py) `🌟 18.9K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
     - [**`PR #1974`**](https://github.com/teng-lin/notebooklm-py/pull/1974) `MERGED` · fix(chat): classify empty conversations as fresh
   - [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox) `🌟 16.2K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
     - [**`PR #3650`**](https://github.com/googleapis/mcp-toolbox/pull/3650) `CLOSED` · fix(config): reject duplicate flat primitive names
