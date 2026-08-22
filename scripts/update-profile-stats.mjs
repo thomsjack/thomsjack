@@ -208,7 +208,9 @@ const upstreamCategories = [
       'huggingface/transformers',
       'pytorch/pytorch',
       'vllm-project/vllm',
+      'huggingface/diffusers',
       'AUTOMATIC1111/stable-diffusion-webui',
+      'scikit-learn/scikit-learn',
       'BerriAI/litellm',
       'hiyouga/LlamaFactory',
       'sktime/sktime',
@@ -220,7 +222,7 @@ const upstreamCategories = [
     zh: 'Python 工程工具链',
     icon: '🛠️',
     color: '#2A879B',
-    repositories: ['python-poetry/poetry', 'facebook/pyrefly'],
+    repositories: ['python-poetry/poetry', 'pandas-dev/pandas', 'facebook/pyrefly'],
   },
   {
     id: 'knowledge',
@@ -606,9 +608,9 @@ function renderScrollableFeaturedTable(featuredItems) {
       const repoUrl = `https://github.com/loulanyue/${item.name}`;
       const starsFormatted = item.stars.toLocaleString('en-US');
       return `    <tr>
-      <td width="280" align="left"><a href="${repoUrl}"><b><code>${item.name}</code></b></a>&nbsp;&nbsp;<code>${item.meta.role}</code></td>
-      <td width="180" align="center"><code>★&nbsp;${starsFormatted}</code></td>
-      <td width="750" align="left"><b>${item.meta.zh}</b></td>
+      <td width="280" align="left"><nobr><a href="${repoUrl}"><b><code>${item.name}</code></b></a>&nbsp;&nbsp;<code>${item.meta.role}</code></nobr></td>
+      <td width="180" align="center"><nobr><code>★&nbsp;${starsFormatted}</code></nobr></td>
+      <td width="750" align="left"><nobr><b>${item.meta.zh}</b></nobr></td>
     </tr>`;
     })
     .join('\n');
@@ -616,9 +618,9 @@ function renderScrollableFeaturedTable(featuredItems) {
   return `<table>
   <thead>
     <tr>
-      <th width="280" align="left">项目&nbsp;/&nbsp;System</th>
-      <th width="180" align="center">实时星标&nbsp;/&nbsp;Stars</th>
-      <th width="750" align="left">核心定位与工程说明&nbsp;/&nbsp;Focus&nbsp;&amp;&nbsp;Architecture</th>
+      <th width="280" align="left"><nobr>项目&nbsp;/&nbsp;System</nobr></th>
+      <th width="180" align="center"><nobr>实时星标&nbsp;/&nbsp;Stars</nobr></th>
+      <th width="750" align="left"><nobr>核心定位与工程说明&nbsp;/&nbsp;Focus&nbsp;&amp;&nbsp;Architecture</nobr></th>
     </tr>
   </thead>
   <tbody>
@@ -639,10 +641,10 @@ function renderScrollableUpstreamTable(sortedUpstreamItems) {
         : `<code>CLOSED</code>`;
       const starsFormatted = formatCompactNumber(item.repository.stargazers_count);
       return `    <tr>
-      <td width="280" align="left"><a href="${repoUrl}"><b><code>${item.owner}/${item.repo}</code></b></a></td>
-      <td width="180" align="center"><code>🌟&nbsp;${starsFormatted}</code></td>
-      <td width="240" align="center"><a href="${prUrl}"><b><code>PR&nbsp;#${item.pull}</code></b></a>&nbsp;&nbsp;${stateBadge}</td>
-      <td width="750" align="left"><b>${item.meta.topic}</b>&nbsp;·&nbsp;${item.meta.zh}</td>
+      <td width="280" align="left"><nobr><a href="${repoUrl}"><b><code>${item.owner}/${item.repo}</code></b></a></nobr></td>
+      <td width="180" align="center"><nobr><code>🌟&nbsp;${starsFormatted}</code></nobr></td>
+      <td width="240" align="center"><nobr><a href="${prUrl}"><b><code>PR&nbsp;#${item.pull}</code></b></a>&nbsp;&nbsp;${stateBadge}</nobr></td>
+      <td width="750" align="left"><nobr><b>${item.meta.topic}</b>&nbsp;·&nbsp;${item.meta.zh}</nobr></td>
     </tr>`;
     })
     .join('\n');
@@ -650,10 +652,10 @@ function renderScrollableUpstreamTable(sortedUpstreamItems) {
   return `<table>
   <thead>
     <tr>
-      <th width="280" align="left">上游项目&nbsp;/&nbsp;Repository</th>
-      <th width="180" align="center">实时星标&nbsp;/&nbsp;Stars&nbsp;🌟</th>
-      <th width="240" align="center">贡献&nbsp;PR&nbsp;/&nbsp;Pull&nbsp;Request</th>
-      <th width="750" align="left">核心工程焦点与贡献说明&nbsp;/&nbsp;Contribution&nbsp;Summary</th>
+      <th width="280" align="left"><nobr>上游项目&nbsp;/&nbsp;Repository</nobr></th>
+      <th width="180" align="center"><nobr>实时星标&nbsp;/&nbsp;Stars&nbsp;🌟</nobr></th>
+      <th width="240" align="center"><nobr>贡献&nbsp;PR&nbsp;/&nbsp;Pull&nbsp;Request</nobr></th>
+      <th width="750" align="left"><nobr>核心工程焦点与贡献说明&nbsp;/&nbsp;Contribution&nbsp;Summary</nobr></th>
     </tr>
   </thead>
   <tbody>
