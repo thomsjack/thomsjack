@@ -58,9 +58,9 @@
 ### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程
 
 <p>
-  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-89-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-90-123E52?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-47-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-48-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-23-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-4.44M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
@@ -140,8 +140,8 @@
     <tr>
       <td width="280" align="left"><nobr><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"><b><code>AUTOMATIC1111/stable-diffusion-webui</code></b></a></nobr></td>
       <td width="180" align="center"><nobr><code>🌟&nbsp;164.6K</code></nobr></td>
-      <td width="240" align="center"><nobr><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/17473"><b><code>PR&nbsp;#17473</code></b></a>&nbsp;&nbsp;<code>OPEN</code></nobr></td>
-      <td width="750" align="left"><nobr><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(api): mask sensitive gradio_auth and api_auth flags in /sdapi/v1/cmd-flags (#17411)</nobr></td>
+      <td width="240" align="center"><nobr><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/17474"><b><code>PR&nbsp;#17474</code></b></a>&nbsp;&nbsp;<code>OPEN</code></nobr></td>
+      <td width="750" align="left"><nobr><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(launch): robust fallback in git_fix_workspace and format checkout error</nobr></td>
     </tr>
     <tr>
       <td width="280" align="left"><nobr><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a></nobr></td>
@@ -227,8 +227,8 @@
 ### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图
 
 <p>
-  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-89-123E52?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN-47-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-90-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN-48-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
   <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-41-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-4.44M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
@@ -280,8 +280,8 @@
       <td width="240" align="center">-</td>
     </tr>
     <tr>
-      <td width="960" align="left"><b>🧠&nbsp;模型训练与机器学习系统</b><br/><code>9&nbsp;项目&nbsp;·&nbsp;13&nbsp;PR</code></td>
-      <td width="240"><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"><b><code>AUTOMATIC1111/stable-diffusion-webui</code></b></a><br/><code>★&nbsp;164.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="960" align="left"><b>🧠&nbsp;模型训练与机器学习系统</b><br/><code>9&nbsp;项目&nbsp;·&nbsp;14&nbsp;PR</code></td>
+      <td width="240"><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"><b><code>AUTOMATIC1111/stable-diffusion-webui</code></b></a><br/><code>★&nbsp;164.6K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="240"><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a><br/><code>★&nbsp;164.3K&nbsp;·&nbsp;3&nbsp;PR&nbsp;(2O/0M/1C)</code></td>
       <td width="240"><a href="https://github.com/pytorch/pytorch"><b><code>pytorch/pytorch</code></b></a><br/><code>★&nbsp;102.5K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(1O/0M/1C)</code></td>
       <td width="240"><a href="https://github.com/vllm-project/vllm"><b><code>vllm-project/vllm</code></b></a><br/><code>★&nbsp;89.7K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(1O/1M/0C)</code></td>
@@ -359,8 +359,8 @@
   - [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox) `★ 16.2K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
   - [**`OpenAtomFoundation/pikiwidb`**](https://github.com/OpenAtomFoundation/pikiwidb) `★ 6.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
 
-- **🧠 模型训练与机器学习系统 · MODEL TRAINING & ML SYSTEMS** (`9 项目 / 13 PR`)
-  - [**`AUTOMATIC1111/stable-diffusion-webui`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui) `★ 164.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+- **🧠 模型训练与机器学习系统 · MODEL TRAINING & ML SYSTEMS** (`9 项目 / 14 PR`)
+  - [**`AUTOMATIC1111/stable-diffusion-webui`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui) `★ 164.6K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
   - [**`huggingface/transformers`**](https://github.com/huggingface/transformers) `★ 164.3K` · 3 PR (`2 Open` / `0 Merged` / `1 Closed`)
   - [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch) `★ 102.5K` · 2 PR (`1 Open` / `0 Merged` / `1 Closed`)
   - [**`vllm-project/vllm`**](https://github.com/vllm-project/vllm) `★ 89.7K` · 2 PR (`1 Open` / `1 Merged` / `0 Closed`)
