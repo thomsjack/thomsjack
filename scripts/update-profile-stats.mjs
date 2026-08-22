@@ -486,7 +486,7 @@ function renderCategoryCard(category, x, y, height) {
             <circle cx="24" cy="-4" r="${highlighted ? 4 : 2.6}" fill="${highlighted ? category.color : '#A8C6D0'}"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="${highlighted ? 750 : 620}" text-decoration="underline">${escapeXml(project.fullName)}</text>
             <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">${state}</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">★ ${formatCompactNumber(project.stars)}</text>
+            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 ${formatCompactNumber(project.stars)}</text>
           </g>
         </a>`;
     })
@@ -499,7 +499,7 @@ function renderCategoryCard(category, x, y, height) {
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">${escapeXml(category.en)}</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">${escapeXml(category.zh)}</text>
       <text x="506" y="29" text-anchor="end" fill="${category.color}" font-size="10.2" font-weight="750">${projectCount} PROJECTS · ${pullCount} PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ ${formatCompactNumber(starCount)} TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 ${formatCompactNumber(starCount)} TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
       ${rows}
     </g>`;
@@ -580,18 +580,20 @@ function renderScrollableCategoryTable(categoryModels) {
   const maxProjects = Math.max(...categoryModels.map((c) => c.projects.length));
 
   const tableRows = categoryModels
-    .map((cat) => {
+    .map((cat, rowIndex) => {
       const prSum = cat.projects.reduce((sum, p) => sum + p.pulls, 0);
-      const categoryCell = `      <td width="960" align="left"><b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b><br/><code>${cat.projects.length}&nbsp;项目&nbsp;·&nbsp;${prSum}&nbsp;PR</code></td>`;
+      const categorySpacer = rowIndex === 0 ? '<img src="./assets/spacer.svg" width="320" height="1" alt="" /><br/>' : '';
+      const categoryCell = `      <td width="320" align="left">${categorySpacer}<b>${cat.icon ?? '📁'}&nbsp;${cat.zh}</b><br/><code>${cat.projects.length}&nbsp;项目&nbsp;·&nbsp;${prSum}&nbsp;PR</code></td>`;
       const projectCells = [];
       for (let i = 0; i < maxProjects; i += 1) {
         const p = cat.projects[i];
+        const projectSpacer = rowIndex === 0 ? '<img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/>' : '';
         if (!p) {
-          projectCells.push('      <td width="240" align="center">-</td>');
+          projectCells.push(`      <td width="260" align="center">${projectSpacer}-</td>`);
         } else {
           const starsFormatted = formatCompactNumber(p.stars);
           projectCells.push(
-            `      <td width="240"><a href="${p.url}"><b><code>${p.fullName}</code></b></a><br/><code>★&nbsp;${starsFormatted}&nbsp;·&nbsp;${p.pulls}&nbsp;PR&nbsp;(${p.open}O/${p.merged}M/${p.closed}C)</code></td>`,
+            `      <td width="260">${projectSpacer}<a href="${p.url}"><b><code>${p.fullName}</code></b></a><br/><code>🌟&nbsp;${starsFormatted}&nbsp;·&nbsp;${p.pulls}&nbsp;PR&nbsp;(${p.open}O/${p.merged}M/${p.closed}C)</code></td>`,
           );
         }
       }
@@ -608,8 +610,7 @@ function renderScrollableFeaturedTable(featuredItems) {
       const repoUrl = `https://github.com/loulanyue/${item.name}`;
       const starsFormatted = item.stars.toLocaleString('en-US');
       return `    <tr>
-      <td width="280" align="left"><a href="${repoUrl}"><b><code>${item.name}</code></b></a>&nbsp;&nbsp;<code>${item.meta.role}</code></td>
-      <td width="180" align="center"><code>★&nbsp;${starsFormatted}</code></td>
+      <td width="380" align="left"><a href="${repoUrl}"><b><code>${item.name}</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;${starsFormatted}</code>&nbsp;&nbsp;<code>${item.meta.role}</code></td>
       <td width="750" align="left"><b>${item.meta.zh}</b></td>
     </tr>`;
     })
@@ -618,9 +619,8 @@ function renderScrollableFeaturedTable(featuredItems) {
   return `<table>
   <thead>
     <tr>
-      <th width="280" align="left"><img src="./assets/spacer.svg" width="280" height="1" /><br/>项目&nbsp;/&nbsp;System</th>
-      <th width="180" align="center"><img src="./assets/spacer.svg" width="180" height="1" /><br/>实时星标&nbsp;/&nbsp;Stars</th>
-      <th width="750" align="left"><img src="./assets/spacer.svg" width="750" height="1" /><br/>核心定位与工程说明&nbsp;/&nbsp;Focus&nbsp;&amp;&nbsp;Architecture</th>
+      <th width="380" align="left"><img src="./assets/spacer.svg" width="380" height="1" alt="" /><br/>项目与实时星标&nbsp;/&nbsp;System&nbsp;&amp;&nbsp;Stars&nbsp;🌟</th>
+      <th width="750" align="left"><img src="./assets/spacer.svg" width="750" height="1" alt="" /><br/>核心定位与工程说明&nbsp;/&nbsp;Focus&nbsp;&amp;&nbsp;Architecture</th>
     </tr>
   </thead>
   <tbody>
@@ -641,9 +641,8 @@ function renderScrollableUpstreamTable(sortedUpstreamItems) {
         : `<code>CLOSED</code>`;
       const starsFormatted = formatCompactNumber(item.repository.stargazers_count);
       return `    <tr>
-      <td width="280" align="left"><a href="${repoUrl}"><b><code>${item.owner}/${item.repo}</code></b></a></td>
-      <td width="180" align="center"><code>🌟&nbsp;${starsFormatted}</code></td>
-      <td width="240" align="center"><a href="${prUrl}"><b><code>PR&nbsp;#${item.pull}</code></b></a>&nbsp;&nbsp;${stateBadge}</td>
+      <td width="420" align="left"><a href="${repoUrl}"><b><code>${item.owner}/${item.repo}</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;${starsFormatted}</code></td>
+      <td width="220" align="center"><a href="${prUrl}"><b><code>PR&nbsp;#${item.pull}</code></b></a>&nbsp;&nbsp;${stateBadge}</td>
       <td width="750" align="left"><b>${item.meta.topic}</b>&nbsp;·&nbsp;${item.meta.zh}</td>
     </tr>`;
     })
@@ -652,10 +651,9 @@ function renderScrollableUpstreamTable(sortedUpstreamItems) {
   return `<table>
   <thead>
     <tr>
-      <th width="280" align="left"><img src="./assets/spacer.svg" width="280" height="1" /><br/>上游项目&nbsp;/&nbsp;Repository</th>
-      <th width="180" align="center"><img src="./assets/spacer.svg" width="180" height="1" /><br/>实时星标&nbsp;/&nbsp;Stars&nbsp;🌟</th>
-      <th width="240" align="center"><img src="./assets/spacer.svg" width="240" height="1" /><br/>贡献&nbsp;PR&nbsp;/&nbsp;Pull&nbsp;Request</th>
-      <th width="750" align="left"><img src="./assets/spacer.svg" width="750" height="1" /><br/>核心工程焦点与贡献说明&nbsp;/&nbsp;Contribution&nbsp;Summary</th>
+      <th width="420" align="left"><img src="./assets/spacer.svg" width="420" height="1" alt="" /><br/>上游项目与实时星标&nbsp;/&nbsp;Repository&nbsp;&amp;&nbsp;Stars&nbsp;🌟</th>
+      <th width="220" align="center"><img src="./assets/spacer.svg" width="220" height="1" alt="" /><br/>贡献&nbsp;PR&nbsp;/&nbsp;Pull&nbsp;Request</th>
+      <th width="750" align="left"><img src="./assets/spacer.svg" width="750" height="1" alt="" /><br/>核心工程焦点与贡献说明&nbsp;/&nbsp;Contribution&nbsp;Summary</th>
     </tr>
   </thead>
   <tbody>
@@ -681,7 +679,7 @@ function renderReadme({
       const projectItems = category.projects
         .map((project) => {
           const starsCompact = formatCompactNumber(project.stars);
-          return `  - [**\`${project.fullName}\`**](${project.url}) \`★ ${starsCompact}\` · ${project.pulls} PR (\`${project.open} Open\` / \`${project.merged} Merged\` / \`${project.closed} Closed\`)`;
+          return `  - [**\`${project.fullName}\`**](${project.url}) \`🌟 ${starsCompact}\` · ${project.pulls} PR (\`${project.open} Open\` / \`${project.merged} Merged\` / \`${project.closed} Closed\`)`;
         })
         .join('\n');
       return `- **${category.icon ?? '📁'} ${category.zh} · ${category.en}** (\`${category.projects.length} 项目 / ${prSum} PR\`)\n${projectItems}`;
@@ -920,7 +918,7 @@ nextBanner = replaceTextById(nextBanner, 'last-updated-banner', `UPDATED ${refre
 let nextFeatured = currentFeatured;
 for (const name of featuredRepositories) {
   const stars = repositoryByName.get(name).stargazers_count.toLocaleString('en-US');
-  nextFeatured = replaceTextById(nextFeatured, `stars-${name}`, `★ ${stars}`);
+  nextFeatured = replaceTextById(nextFeatured, `stars-${name}`, `🌟 ${stars}`);
 }
 nextFeatured = replaceTextById(
   nextFeatured,
@@ -959,7 +957,7 @@ for (const contribution of selectedContributionDetails) {
     nextUpstream = replaceTextById(
       nextUpstream,
       `repo-stars-${contribution.key}`,
-      `★ ${formatCompactNumber(contribution.repository.stargazers_count)}`,
+      `🌟 ${formatCompactNumber(contribution.repository.stargazers_count)}`,
     );
   }
 }

@@ -66,7 +66,7 @@
         <text id="state-openclaw" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">SESSION CONTINUITY</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">openclaw/openclaw</text>
-        <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 387.0K</text>
+        <text id="repo-stars-openclaw" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 387.0K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #121494</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。</text>
@@ -82,7 +82,7 @@
         <text id="state-ecc" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">CODING STYLE</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">affaan-m/ECC</text>
-        <text id="repo-stars-ecc" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 241.8K</text>
+        <text id="repo-stars-ecc" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 241.8K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #2833</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。</text>
@@ -99,7 +99,7 @@
         <text id="state-hermes" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">APPROVAL SURFACE</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">NousResearch/hermes-agent</text>
-        <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 234.0K</text>
+        <text id="repo-stars-hermes" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 234.0K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #82992</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">让受保护文件写入在桌面端呈现明确审批，避免静默超时。</text>
@@ -115,7 +115,7 @@
         <text id="state-opencode" x="56" y="36" text-anchor="middle" fill="#337E69" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL REPLAY</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">anomalyco/opencode</text>
-        <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 200.0K</text>
+        <text id="repo-stars-opencode" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 200.0K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #38763</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">保留失败回合的推理签名链，确保工具调用可被模型安全重放。</text>
@@ -132,7 +132,7 @@
         <text id="state-firecrawl" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">BUILD CONTRACT</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">firecrawl/firecrawl</text>
-        <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 170.6K</text>
+        <text id="repo-stars-firecrawl" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 170.6K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #4061</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">显式化原生客户端构建契约，让异构部署具备可复现前提。</text>
@@ -148,7 +148,7 @@
         <text id="state-transformers" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUDIO EMBEDDING</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">huggingface/transformers</text>
-        <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 164.3K</text>
+        <text id="repo-stars-transformers" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 164.3K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #47763</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</text>
@@ -165,7 +165,7 @@
         <text id="state-langflow" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MCP LIFECYCLE</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">langflow-ai/langflow</text>
-        <text id="repo-stars-langflow" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 153.5K</text>
+        <text id="repo-stars-langflow" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 153.5K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #14177</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">把取消语义落实到传输生命周期，阻断后台任务与子进程泄漏。</text>
@@ -181,7 +181,7 @@
         <text id="state-dify" x="56" y="36" text-anchor="middle" fill="#496D98" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">ENDPOINT VALIDATION</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">langgenius/dify</text>
-        <text id="repo-stars-dify" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 153.1K</text>
+        <text id="repo-stars-dify" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 153.1K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #40412</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">把 404 视为服务可达的路径响应，修复外部知识 API 误判。</text>
@@ -198,7 +198,7 @@
         <text id="state-openwebui" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
         <text x="112" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">MODEL RESOLUTION</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">open-webui/open-webui</text>
-        <text id="repo-stars-openwebui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 149.5K</text>
+        <text id="repo-stars-openwebui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 149.5K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #28218</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">避免自定义模型别名导致同一基础模型被重复移除。</text>
@@ -214,7 +214,7 @@
         <text id="state-langchain" x="58" y="36" text-anchor="middle" fill="#557784" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
         <text x="112" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">EXECUTION BOUNDARY</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">langchain-ai/langchain</text>
-        <text id="repo-stars-langchain" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 144.7K</text>
+        <text id="repo-stars-langchain" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 144.7K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #39215</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。</text>
@@ -231,7 +231,7 @@
         <text id="state-shadcnui" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">UI SCROLLER</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">shadcn-ui/ui</text>
-        <text id="repo-stars-shadcnui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 121.8K</text>
+        <text id="repo-stars-shadcnui" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 121.8K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #11580</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复经典滚动条平台下 message-scroller 自动滚动时的频闪与重绘抖动。</text>
@@ -247,7 +247,7 @@
         <text id="state-browseruse" x="56" y="36" text-anchor="middle" fill="#2A7185" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">CRX EXTRACTION</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">browser-use/browser-use</text>
-        <text id="repo-stars-browseruse" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 110.0K</text>
+        <text id="repo-stars-browseruse" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 110.0K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #5508</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">捕获 CRX 扩展包解压时的损坏 EOCD 定位异常，增强浏览器环境初始化鲁棒性。</text>
@@ -264,7 +264,7 @@
         <text id="state-geminicli" x="56" y="36" text-anchor="middle" fill="#96702B" font-size="10.5" font-weight="800" letter-spacing="1">CLOSED</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">AUTH BOUNDARY</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">google-gemini/gemini-cli</text>
-        <text id="repo-stars-geminicli" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 106.6K</text>
+        <text id="repo-stars-geminicli" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 106.6K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #28546</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">隔离 API Key 与残留授权头，避免认证机制在请求边界相互污染。</text>
@@ -280,7 +280,7 @@
         <text id="state-nodebestpractices" x="56" y="36" text-anchor="middle" fill="#96702B" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">SECURITY LINTER</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">goldbergyoni/nodebestpractices</text>
-        <text id="repo-stars-nodebestpractices" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 105.6K</text>
+        <text id="repo-stars-nodebestpractices" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 105.6K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #1425</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">更新 Node.js 生产环境代码安全检查与 linter 规范指引。</text>
@@ -297,7 +297,7 @@
         <text id="state-pytorch" x="56" y="36" text-anchor="middle" fill="#406E9A" font-size="10.5" font-weight="800" letter-spacing="1">OPEN</text>
         <text x="108" y="36" fill="#789EAB" font-size="9.5" font-weight="750" letter-spacing="1.5">RUNTIME COMPATIBILITY</text>
         <text x="20" y="74" fill="#0B6E8A" font-size="21" font-weight="750" text-decoration="underline">pytorch/pytorch</text>
-        <text id="repo-stars-pytorch" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">★ 102.5K</text>
+        <text id="repo-stars-pytorch" x="506" y="74" text-anchor="end" fill="#6F99A7" font-size="13" font-weight="700">🌟 102.5K</text>
         <text x="20" y="98" fill="#648C99" font-size="11.5" font-weight="650">PR #191904</text>
         <path d="M20 111H506" stroke="#DCECF1"/>
         <text x="20" y="138" fill="#24566A" font-size="13.8" font-weight="650">修复 AOTInductor 在 CPU 架构指令集下级的判空兼容，保障编译导出可靠加载。</text>
