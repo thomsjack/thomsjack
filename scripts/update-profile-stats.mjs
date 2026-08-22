@@ -162,6 +162,7 @@ const upstreamCategories = [
       'ggml-org/llama.cpp',
       'browser-use/browser-use',
       'google-gemini/gemini-cli',
+      'camel-ai/camel',
     ],
   },
   {
@@ -177,6 +178,7 @@ const upstreamCategories = [
       'langgenius/graphon',
       'open-webui/open-webui',
       'shadcn-ui/ui',
+      'n8n-io/n8n',
       'Comfy-Org/ComfyUI',
       'Comfy-Org/ComfyUI_frontend',
     ],
@@ -207,12 +209,16 @@ const upstreamCategories = [
     repositories: [
       'huggingface/transformers',
       'pytorch/pytorch',
+      'meta-llama/llama',
       'vllm-project/vllm',
       'huggingface/diffusers',
       'AUTOMATIC1111/stable-diffusion-webui',
+      'facebookresearch/segment-anything',
+      'suno-ai/bark',
       'scikit-learn/scikit-learn',
       'BerriAI/litellm',
       'hiyouga/LlamaFactory',
+      'karpathy/micrograd',
       'sktime/sktime',
     ],
   },
@@ -222,7 +228,7 @@ const upstreamCategories = [
     zh: 'Python 工程工具链',
     icon: '🛠️',
     color: '#2A879B',
-    repositories: ['python-poetry/poetry', 'pandas-dev/pandas', 'facebook/pyrefly'],
+    repositories: ['python-poetry/poetry', 'astral-sh/ruff', 'pandas-dev/pandas', 'facebook/pyrefly'],
   },
   {
     id: 'knowledge',
@@ -231,7 +237,9 @@ const upstreamCategories = [
     icon: '📚',
     color: '#C49435',
     repositories: [
+      'donnemartin/system-design-primer',
       'goldbergyoni/nodebestpractices',
+      'tailwindlabs/tailwindcss',
       'DuGuQiuBai/Java',
       'baomidou/mybatis-plus-doc',
     ],
@@ -643,7 +651,7 @@ function renderScrollableUpstreamTable(sortedUpstreamItems) {
       return `    <tr>
       <td width="420" align="left"><a href="${repoUrl}"><b><code>${item.owner}/${item.repo}</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;${starsFormatted}</code></td>
       <td width="220" align="center"><a href="${prUrl}"><b><code>PR&nbsp;#${item.pull}</code></b></a>&nbsp;&nbsp;${stateBadge}</td>
-      <td width="750" align="left"><b>${item.meta.topic}</b>&nbsp;·&nbsp;${item.meta.zh}</td>
+      <td width="1060" align="left"><b>${item.meta.topic}</b>&nbsp;·&nbsp;${item.meta.zh}</td>
     </tr>`;
     })
     .join('\n');
@@ -653,7 +661,7 @@ function renderScrollableUpstreamTable(sortedUpstreamItems) {
     <tr>
       <th width="420" align="left"><img src="./assets/spacer.svg" width="420" height="1" alt="" /><br/>上游项目与实时星标&nbsp;/&nbsp;Repository&nbsp;&amp;&nbsp;Stars&nbsp;🌟</th>
       <th width="220" align="center"><img src="./assets/spacer.svg" width="220" height="1" alt="" /><br/>贡献&nbsp;PR&nbsp;/&nbsp;Pull&nbsp;Request</th>
-      <th width="750" align="left"><img src="./assets/spacer.svg" width="750" height="1" alt="" /><br/>核心工程焦点与贡献说明&nbsp;/&nbsp;Contribution&nbsp;Summary</th>
+      <th width="1060" align="left"><img src="./assets/spacer.svg" width="1060" height="1" alt="" /><br/>核心工程焦点与贡献说明&nbsp;/&nbsp;Contribution&nbsp;Summary</th>
     </tr>
   </thead>
   <tbody>
@@ -701,7 +709,7 @@ function renderReadme({
 
 <a id="01-original-systems"></a>
 
-### \`01 / OPEN SYSTEMS\` · 自有开放系统
+### \`01 / OPEN SYSTEMS\` · 自有开放系统 \`(${featuredItems.length} 项目)\`
 
 > 沉淀可复用的工程协议、多智能体控制面、能力层与系统知识架构，按实时星标倒序排列，支持左右滑动浏览。
 
@@ -713,7 +721,7 @@ ${featuredTable}
 
 <a id="02-100k-upstream"></a>
 
-### \`02 / 100K+ UPSTREAM IMPACT\` · 头部上游工程
+### \`02 / 100K+ UPSTREAM IMPACT\` · 头部上游工程 \`(${sortedUpstreamItems.length} 项目 / ${totals.pulls} PR)\`
 
 <p>
   <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-${totals.pulls}-123E52?style=flat-square&labelColor=EAF6FA" />
@@ -733,7 +741,7 @@ ${upstreamTable}
 
 <a id="03-engineering-map"></a>
 
-### \`03 / UPSTREAM ENGINEERING MAP\` · 上游工程版图
+### \`03 / UPSTREAM ENGINEERING MAP\` · 上游工程版图 \`(${totals.projects} 项目 / ${totals.pulls} PR)\`
 
 <p>
   <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-${totals.pulls}-123E52?style=flat-square&labelColor=EAF6FA" />
