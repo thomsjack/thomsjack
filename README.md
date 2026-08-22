@@ -20,31 +20,31 @@
 <table>
   <thead>
     <tr>
-      <th width="280" align="left"><nobr>项目 / System</nobr></th>
-      <th width="130" align="center"><nobr>实时星标 / Stars</nobr></th>
-      <th width="650" align="left"><nobr>核心定位与工程说明 / Focus & Architecture</nobr></th>
+      <th width="280" align="left">项目&nbsp;/&nbsp;System</th>
+      <th width="180" align="center">实时星标&nbsp;/&nbsp;Stars</th>
+      <th width="750" align="left">核心定位与工程说明&nbsp;/&nbsp;Focus&nbsp;&amp;&nbsp;Architecture</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="280" align="left"><nobr><a href="https://github.com/loulanyue/dream-xi-ai"><b><code>dream-xi-ai</code></b></a> &nbsp;<code>TEAM</code></nobr></td>
-      <td width="130" align="center"><nobr><code>★ 430</code></nobr></td>
-      <td width="650" align="left"><nobr><b>面向复杂交付的多智能体控制面，统一规划、执行、验证与风险治理。</b></nobr></td>
+      <td width="280" align="left"><a href="https://github.com/loulanyue/dream-xi-ai"><b><code>dream-xi-ai</code></b></a>&nbsp;&nbsp;<code>TEAM</code></td>
+      <td width="180" align="center"><code>★&nbsp;430</code></td>
+      <td width="750" align="left"><b>面向复杂交付的多智能体控制面，统一规划、执行、验证与风险治理。</b></td>
     </tr>
     <tr>
-      <td width="280" align="left"><nobr><a href="https://github.com/loulanyue/spec-kit-zh"><b><code>spec-kit-zh</code></b></a> &nbsp;<code>SPEC</code></nobr></td>
-      <td width="130" align="center"><nobr><code>★ 336</code></nobr></td>
-      <td width="650" align="left"><nobr><b>把规格、上下文与智能体协作编排为可复用的开放工程协议。</b></nobr></td>
+      <td width="280" align="left"><a href="https://github.com/loulanyue/spec-kit-zh"><b><code>spec-kit-zh</code></b></a>&nbsp;&nbsp;<code>SPEC</code></td>
+      <td width="180" align="center"><code>★&nbsp;336</code></td>
+      <td width="750" align="left"><b>把规格、上下文与智能体协作编排为可复用的开放工程协议。</b></td>
     </tr>
     <tr>
-      <td width="280" align="left"><nobr><a href="https://github.com/loulanyue/interview-notes"><b><code>interview-notes</code></b></a> &nbsp;<code>KNOW</code></nobr></td>
-      <td width="130" align="center"><nobr><code>★ 306</code></nobr></td>
-      <td width="650" align="left"><nobr><b>将后端知识重构为面向判断、设计与演进的工程决策系统。</b></nobr></td>
+      <td width="280" align="left"><a href="https://github.com/loulanyue/interview-notes"><b><code>interview-notes</code></b></a>&nbsp;&nbsp;<code>KNOW</code></td>
+      <td width="180" align="center"><code>★&nbsp;306</code></td>
+      <td width="750" align="left"><b>将后端知识重构为面向判断、设计与演进的工程决策系统。</b></td>
     </tr>
     <tr>
-      <td width="280" align="left"><nobr><a href="https://github.com/loulanyue/awesome-claude-notes"><b><code>awesome-claude-notes</code></b></a> &nbsp;<code>DIST</code></nobr></td>
-      <td width="130" align="center"><nobr><code>★ 266</code></nobr></td>
-      <td width="650" align="left"><nobr><b>沉淀可移植的智能体能力层，跨工具复用角色、技能与工作流。</b></nobr></td>
+      <td width="280" align="left"><a href="https://github.com/loulanyue/awesome-claude-notes"><b><code>awesome-claude-notes</code></b></a>&nbsp;&nbsp;<code>DIST</code></td>
+      <td width="180" align="center"><code>★&nbsp;266</code></td>
+      <td width="750" align="left"><b>沉淀可移植的智能体能力层，跨工具复用角色、技能与工作流。</b></td>
     </tr>
   </tbody>
 </table>
@@ -70,150 +70,150 @@
 <table>
   <thead>
     <tr>
-      <th width="260" align="left"><nobr>上游项目 / Repository</nobr></th>
-      <th width="130" align="center"><nobr>实时星标 / Stars 🌟</nobr></th>
-      <th width="160" align="center"><nobr>贡献 PR / Pull Request</nobr></th>
-      <th width="720" align="left"><nobr>核心工程焦点与贡献说明 / Contribution Summary</nobr></th>
+      <th width="280" align="left">上游项目&nbsp;/&nbsp;Repository</th>
+      <th width="180" align="center">实时星标&nbsp;/&nbsp;Stars&nbsp;🌟</th>
+      <th width="240" align="center">贡献&nbsp;PR&nbsp;/&nbsp;Pull&nbsp;Request</th>
+      <th width="750" align="left">核心工程焦点与贡献说明&nbsp;/&nbsp;Contribution&nbsp;Summary</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 387.0K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/openclaw/openclaw/pull/121494"><b><code>PR #121494</code></b></a> <code>CLOSED</code></nobr></td>
-      <td width="720" align="left"><nobr><b>SESSION CONTINUITY</b> · 跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;387.0K</code></td>
+      <td width="240" align="center"><a href="https://github.com/openclaw/openclaw/pull/121494"><b><code>PR&nbsp;#121494</code></b></a>&nbsp;&nbsp;<code>CLOSED</code></td>
+      <td width="750" align="left"><b>SESSION CONTINUITY</b>&nbsp;·&nbsp;跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 241.8K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/affaan-m/ECC/pull/2833"><b><code>PR #2833</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>CODING STYLE</b> · 完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;241.8K</code></td>
+      <td width="240" align="center"><a href="https://github.com/affaan-m/ECC/pull/2833"><b><code>PR&nbsp;#2833</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>CODING STYLE</b>&nbsp;·&nbsp;完善 TypeScript/JavaScript 命名规约与代码风格指引，提升智能体生成代码一致性。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 234.0K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/NousResearch/hermes-agent/pull/82992"><b><code>PR #82992</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>APPROVAL SURFACE</b> · 让受保护文件写入在桌面端呈现明确审批，避免静默超时。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;234.0K</code></td>
+      <td width="240" align="center"><a href="https://github.com/NousResearch/hermes-agent/pull/82992"><b><code>PR&nbsp;#82992</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>APPROVAL SURFACE</b>&nbsp;·&nbsp;让受保护文件写入在桌面端呈现明确审批，避免静默超时。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 200.0K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/anomalyco/opencode/pull/38763"><b><code>PR #38763</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>MODEL REPLAY</b> · 保留失败回合的推理签名链，确保工具调用可被模型安全重放。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;200.0K</code></td>
+      <td width="240" align="center"><a href="https://github.com/anomalyco/opencode/pull/38763"><b><code>PR&nbsp;#38763</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>MODEL REPLAY</b>&nbsp;·&nbsp;保留失败回合的推理签名链，确保工具调用可被模型安全重放。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/ultraworkers/claw-code"><b><code>ultraworkers/claw-code</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 195.1K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/ultraworkers/claw-code/pull/3294"><b><code>PR #3294</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · ci: pin third-party GitHub Actions to immutable commit SHAs</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/ultraworkers/claw-code"><b><code>ultraworkers/claw-code</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;195.1K</code></td>
+      <td width="240" align="center"><a href="https://github.com/ultraworkers/claw-code/pull/3294"><b><code>PR&nbsp;#3294</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;ci: pin third-party GitHub Actions to immutable commit SHAs</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/Significant-Gravitas/AutoGPT"><b><code>Significant-Gravitas/AutoGPT</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 186.7K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14108"><b><code>PR #14108</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · feat(compose): make redis cluster image selectable via REDIS_IMAGE (#14012)</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT"><b><code>Significant-Gravitas/AutoGPT</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;186.7K</code></td>
+      <td width="240" align="center"><a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14108"><b><code>PR&nbsp;#14108</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;feat(compose): make redis cluster image selectable via REDIS_IMAGE (#14012)</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/ollama/ollama"><b><code>ollama/ollama</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 179.1K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/ollama/ollama/pull/17920"><b><code>PR #17920</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · envconfig: support OLLAMA_NUM_THREAD for operator thread count configuration</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/ollama/ollama"><b><code>ollama/ollama</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;179.1K</code></td>
+      <td width="240" align="center"><a href="https://github.com/ollama/ollama/pull/17920"><b><code>PR&nbsp;#17920</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;envconfig: support OLLAMA_NUM_THREAD for operator thread count configuration</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/microsoft/markitdown"><b><code>microsoft/markitdown</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 175.3K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/microsoft/markitdown/pull/2330"><b><code>PR #2330</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · feat(cli): support MARKITDOWN_CU_ENDPOINT and MARKITDOWN_DOCINTEL_ENDPOINT env vars</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/microsoft/markitdown"><b><code>microsoft/markitdown</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;175.3K</code></td>
+      <td width="240" align="center"><a href="https://github.com/microsoft/markitdown/pull/2330"><b><code>PR&nbsp;#2330</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;feat(cli): support MARKITDOWN_CU_ENDPOINT and MARKITDOWN_DOCINTEL_ENDPOINT env vars</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/firecrawl/firecrawl"><b><code>firecrawl/firecrawl</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 170.6K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/firecrawl/firecrawl/pull/4061"><b><code>PR #4061</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>BUILD CONTRACT</b> · 显式化原生客户端构建契约，让异构部署具备可复现前提。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/firecrawl/firecrawl"><b><code>firecrawl/firecrawl</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;170.6K</code></td>
+      <td width="240" align="center"><a href="https://github.com/firecrawl/firecrawl/pull/4061"><b><code>PR&nbsp;#4061</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>BUILD CONTRACT</b>&nbsp;·&nbsp;显式化原生客户端构建契约，让异构部署具备可复现前提。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/f/prompts.chat"><b><code>f/prompts.chat</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 167.7K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/f/prompts.chat/pull/1245"><b><code>PR #1245</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · fix(kids): align MagicWords sentence blanks order in zh and ja level 2-1 (#1231)</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/f/prompts.chat"><b><code>f/prompts.chat</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;167.7K</code></td>
+      <td width="240" align="center"><a href="https://github.com/f/prompts.chat/pull/1245"><b><code>PR&nbsp;#1245</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(kids): align MagicWords sentence blanks order in zh and ja level 2-1 (#1231)</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"><b><code>AUTOMATIC1111/stable-diffusion-webui</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 164.6K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/17473"><b><code>PR #17473</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · fix(api): mask sensitive gradio_auth and api_auth flags in /sdapi/v1/cmd-flags (#17411)</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"><b><code>AUTOMATIC1111/stable-diffusion-webui</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;164.6K</code></td>
+      <td width="240" align="center"><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/17473"><b><code>PR&nbsp;#17473</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(api): mask sensitive gradio_auth and api_auth flags in /sdapi/v1/cmd-flags (#17411)</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 164.3K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/huggingface/transformers/pull/47763"><b><code>PR #47763</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>AUDIO EMBEDDING</b> · 修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/huggingface/transformers"><b><code>huggingface/transformers</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;164.3K</code></td>
+      <td width="240" align="center"><a href="https://github.com/huggingface/transformers/pull/47763"><b><code>PR&nbsp;#47763</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>AUDIO EMBEDDING</b>&nbsp;·&nbsp;修复 HuBERT 位置卷积在 BatchNorm 模式下的填充敏感性，消除音频嵌入偏移。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 153.5K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/langflow-ai/langflow/pull/14177"><b><code>PR #14177</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>MCP LIFECYCLE</b> · 把取消语义落实到传输生命周期，阻断后台任务与子进程泄漏。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;153.5K</code></td>
+      <td width="240" align="center"><a href="https://github.com/langflow-ai/langflow/pull/14177"><b><code>PR&nbsp;#14177</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>MCP LIFECYCLE</b>&nbsp;·&nbsp;把取消语义落实到传输生命周期，阻断后台任务与子进程泄漏。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 153.1K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/langgenius/dify/pull/40412"><b><code>PR #40412</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>ENDPOINT VALIDATION</b> · 把 404 视为服务可达的路径响应，修复外部知识 API 误判。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;153.1K</code></td>
+      <td width="240" align="center"><a href="https://github.com/langgenius/dify/pull/40412"><b><code>PR&nbsp;#40412</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>ENDPOINT VALIDATION</b>&nbsp;·&nbsp;把 404 视为服务可达的路径响应，修复外部知识 API 误判。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 149.5K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/open-webui/open-webui/pull/28218"><b><code>PR #28218</code></b></a> <code>CLOSED</code></nobr></td>
-      <td width="720" align="left"><nobr><b>MODEL RESOLUTION</b> · 避免自定义模型别名导致同一基础模型被重复移除。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;149.5K</code></td>
+      <td width="240" align="center"><a href="https://github.com/open-webui/open-webui/pull/28218"><b><code>PR&nbsp;#28218</code></b></a>&nbsp;&nbsp;<code>CLOSED</code></td>
+      <td width="750" align="left"><b>MODEL RESOLUTION</b>&nbsp;·&nbsp;避免自定义模型别名导致同一基础模型被重复移除。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 144.7K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/langchain-ai/langchain/pull/39215"><b><code>PR #39215</code></b></a> <code>CLOSED</code></nobr></td>
-      <td width="720" align="left"><nobr><b>EXECUTION BOUNDARY</b> · 修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;144.7K</code></td>
+      <td width="240" align="center"><a href="https://github.com/langchain-ai/langchain/pull/39215"><b><code>PR&nbsp;#39215</code></b></a>&nbsp;&nbsp;<code>CLOSED</code></td>
+      <td width="750" align="left"><b>EXECUTION BOUNDARY</b>&nbsp;·&nbsp;修复线程池执行器的生成器迭代器兼容性，守住异步与多线程执行边界。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 128.8K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/Comfy-Org/ComfyUI/pull/15795"><b><code>PR #15795</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · fix(comfy_api): robust PyAV ColorPrimaries, ColorRange, and ColorTrc imports</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;128.8K</code></td>
+      <td width="240" align="center"><a href="https://github.com/Comfy-Org/ComfyUI/pull/15795"><b><code>PR&nbsp;#15795</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(comfy_api): robust PyAV ColorPrimaries, ColorRange, and ColorTrc imports</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/ggml-org/llama.cpp"><b><code>ggml-org/llama.cpp</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 125.0K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/ggml-org/llama.cpp/pull/27522"><b><code>PR #27522</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UPSTREAM COLLABORATION</b> · server: observe resumable stream cancellation during first result wait (#27481)</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/ggml-org/llama.cpp"><b><code>ggml-org/llama.cpp</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;125.0K</code></td>
+      <td width="240" align="center"><a href="https://github.com/ggml-org/llama.cpp/pull/27522"><b><code>PR&nbsp;#27522</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;server: observe resumable stream cancellation during first result wait (#27481)</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 121.8K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/shadcn-ui/ui/pull/11580"><b><code>PR #11580</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>UI SCROLLER</b> · 修复经典滚动条平台下 message-scroller 自动滚动时的频闪与重绘抖动。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;121.8K</code></td>
+      <td width="240" align="center"><a href="https://github.com/shadcn-ui/ui/pull/11580"><b><code>PR&nbsp;#11580</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>UI SCROLLER</b>&nbsp;·&nbsp;修复经典滚动条平台下 message-scroller 自动滚动时的频闪与重绘抖动。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 110.0K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/browser-use/browser-use/pull/5508"><b><code>PR #5508</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>CRX EXTRACTION</b> · 捕获 CRX 扩展包解压时的损坏 EOCD 定位异常，增强浏览器环境初始化鲁棒性。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;110.0K</code></td>
+      <td width="240" align="center"><a href="https://github.com/browser-use/browser-use/pull/5508"><b><code>PR&nbsp;#5508</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>CRX EXTRACTION</b>&nbsp;·&nbsp;捕获 CRX 扩展包解压时的损坏 EOCD 定位异常，增强浏览器环境初始化鲁棒性。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/google-gemini/gemini-cli"><b><code>google-gemini/gemini-cli</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 106.6K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/google-gemini/gemini-cli/pull/28546"><b><code>PR #28546</code></b></a> <code>CLOSED</code></nobr></td>
-      <td width="720" align="left"><nobr><b>AUTH BOUNDARY</b> · 隔离 API Key 与残留授权头，避免认证机制在请求边界相互污染。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/google-gemini/gemini-cli"><b><code>google-gemini/gemini-cli</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;106.6K</code></td>
+      <td width="240" align="center"><a href="https://github.com/google-gemini/gemini-cli/pull/28546"><b><code>PR&nbsp;#28546</code></b></a>&nbsp;&nbsp;<code>CLOSED</code></td>
+      <td width="750" align="left"><b>AUTH BOUNDARY</b>&nbsp;·&nbsp;隔离 API Key 与残留授权头，避免认证机制在请求边界相互污染。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/goldbergyoni/nodebestpractices"><b><code>goldbergyoni/nodebestpractices</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 105.6K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/goldbergyoni/nodebestpractices/pull/1425"><b><code>PR #1425</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>SECURITY LINTER</b> · 更新 Node.js 生产环境代码安全检查与 linter 规范指引。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/goldbergyoni/nodebestpractices"><b><code>goldbergyoni/nodebestpractices</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;105.6K</code></td>
+      <td width="240" align="center"><a href="https://github.com/goldbergyoni/nodebestpractices/pull/1425"><b><code>PR&nbsp;#1425</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>SECURITY LINTER</b>&nbsp;·&nbsp;更新 Node.js 生产环境代码安全检查与 linter 规范指引。</td>
     </tr>
     <tr>
-      <td width="260" align="left"><nobr><a href="https://github.com/pytorch/pytorch"><b><code>pytorch/pytorch</code></b></a></nobr></td>
-      <td width="130" align="center"><nobr><code>🌟 102.5K</code></nobr></td>
-      <td width="160" align="center"><nobr><a href="https://github.com/pytorch/pytorch/pull/191904"><b><code>PR #191904</code></b></a> <code>OPEN</code></nobr></td>
-      <td width="720" align="left"><nobr><b>RUNTIME COMPATIBILITY</b> · 修复 AOTInductor 在 CPU 架构指令集下级的判空兼容，保障编译导出可靠加载。</nobr></td>
+      <td width="280" align="left"><a href="https://github.com/pytorch/pytorch"><b><code>pytorch/pytorch</code></b></a></td>
+      <td width="180" align="center"><code>🌟&nbsp;102.5K</code></td>
+      <td width="240" align="center"><a href="https://github.com/pytorch/pytorch/pull/191904"><b><code>PR&nbsp;#191904</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="750" align="left"><b>RUNTIME COMPATIBILITY</b>&nbsp;·&nbsp;修复 AOTInductor 在 CPU 架构指令集下级的判空兼容，保障编译导出可靠加载。</td>
     </tr>
   </tbody>
 </table>
