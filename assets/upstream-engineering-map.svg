@@ -228,7 +228,7 @@
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
       <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">8 PROJECTS · 8 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 641.5K TOTAL</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">★ 641.6K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
         <a href="https://github.com/microsoft/markitdown" target="_blank" style="cursor:pointer">
@@ -423,6 +423,6 @@
         </a>
     </g>
     <text x="58" y="1169" fill="#4F7888" font-size="11.2" font-weight="700" letter-spacing="1.15">O / OPEN · M / MERGED · C / CLOSED, NOT MERGED · ● PRIORITY SYSTEMS</text>
-    <text x="1142" y="1169" text-anchor="end" fill="#4F7888" font-size="11.2">UPDATED 2026-08-21 UTC · 每日自动更新</text>
+    <text x="1142" y="1169" text-anchor="end" fill="#4F7888" font-size="11.2">UPDATED 2026-08-22 UTC · 每日自动更新</text>
   </g>
 </svg>

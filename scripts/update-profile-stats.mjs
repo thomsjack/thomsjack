@@ -600,6 +600,68 @@ function renderScrollableCategoryTable(categoryModels) {
   return `<table>\n  <tbody>\n${tableRows}\n  </tbody>\n</table>`;
 }
 
+function renderScrollableFeaturedTable(featuredItems) {
+  const tableRows = featuredItems
+    .map((item) => {
+      const repoUrl = `https://github.com/loulanyue/${item.name}`;
+      const starsFormatted = item.stars.toLocaleString('en-US');
+      return `    <tr>
+      <td width="280" align="left"><nobr><a href="${repoUrl}"><b><code>${item.name}</code></b></a> &nbsp;<code>${item.meta.role}</code></nobr></td>
+      <td width="130" align="center"><nobr><code>★ ${starsFormatted}</code></nobr></td>
+      <td width="650" align="left"><nobr><b>${item.meta.zh}</b></nobr></td>
+    </tr>`;
+    })
+    .join('\n');
+
+  return `<table>
+  <thead>
+    <tr>
+      <th width="280" align="left"><nobr>项目 / System</nobr></th>
+      <th width="130" align="center"><nobr>实时星标 / Stars</nobr></th>
+      <th width="650" align="left"><nobr>核心定位与工程说明 / Focus & Architecture</nobr></th>
+    </tr>
+  </thead>
+  <tbody>
+${tableRows}
+  </tbody>
+</table>`;
+}
+
+function renderScrollableUpstreamTable(sortedUpstreamItems) {
+  const tableRows = sortedUpstreamItems
+    .map((item) => {
+      const prUrl = `https://github.com/${item.owner}/${item.repo}/pull/${item.pull}`;
+      const repoUrl = `https://github.com/${item.owner}/${item.repo}`;
+      const stateBadge = item.state === 'MERGED'
+        ? `<code>MERGED</code>`
+        : item.state === 'OPEN'
+        ? `<code>OPEN</code>`
+        : `<code>CLOSED</code>`;
+      const starsFormatted = formatCompactNumber(item.repository.stargazers_count);
+      return `    <tr>
+      <td width="260" align="left"><nobr><a href="${repoUrl}"><b><code>${item.owner}/${item.repo}</code></b></a></nobr></td>
+      <td width="130" align="center"><nobr><code>🌟 ${starsFormatted}</code></nobr></td>
+      <td width="160" align="center"><nobr><a href="${prUrl}"><b><code>PR #${item.pull}</code></b></a> ${stateBadge}</nobr></td>
+      <td width="720" align="left"><nobr><b>${item.meta.topic}</b> · ${item.meta.zh}</nobr></td>
+    </tr>`;
+    })
+    .join('\n');
+
+  return `<table>
+  <thead>
+    <tr>
+      <th width="260" align="left"><nobr>上游项目 / Repository</nobr></th>
+      <th width="130" align="center"><nobr>实时星标 / Stars 🌟</nobr></th>
+      <th width="160" align="center"><nobr>贡献 PR / Pull Request</nobr></th>
+      <th width="720" align="left"><nobr>核心工程焦点与贡献说明 / Contribution Summary</nobr></th>
+    </tr>
+  </thead>
+  <tbody>
+${tableRows}
+  </tbody>
+</table>`;
+}
+
 function renderReadme({
   featuredItems,
   sortedUpstreamItems,
@@ -607,26 +669,8 @@ function renderReadme({
   totals,
   refreshedOn,
 }) {
-  const featuredRows = featuredItems
-    .map((item) => {
-      return `| [**\`${item.name}\`**](https://github.com/loulanyue/${item.name}) &nbsp;\`${item.meta.role}\` | \`★ ${item.stars.toLocaleString('en-US')}\` | **${item.meta.zh}** |`;
-    })
-    .join('\n');
-
-  const upstreamRows = sortedUpstreamItems
-    .map((item) => {
-      const prUrl = `https://github.com/${item.owner}/${item.repo}/pull/${item.pull}`;
-      const repoUrl = `https://github.com/${item.owner}/${item.repo}`;
-      const stateBadge = item.state === 'MERGED'
-        ? `\`MERGED\``
-        : item.state === 'OPEN'
-        ? `\`OPEN\``
-        : `\`CLOSED\``;
-      const starsFormatted = formatCompactNumber(item.repository.stargazers_count);
-      return `| [**\`${item.owner}/${item.repo}\`**](${repoUrl}) | \`🌟 ${starsFormatted}\` | [**\`PR #${item.pull}\`**](${prUrl})<br/>${stateBadge} | **${item.meta.topic}** · ${item.meta.zh} |`;
-    })
-    .join('\n');
-
+  const featuredTable = renderScrollableFeaturedTable(featuredItems);
+  const upstreamTable = renderScrollableUpstreamTable(sortedUpstreamItems);
   const categoryTable = renderScrollableCategoryTable(categoryModels);
 
   const categoryLists = categoryModels
@@ -659,11 +703,9 @@ function renderReadme({
 
 ### \`01 / OPEN SYSTEMS\` · 自有开放系统
 
-> 沉淀可复用的工程协议、多智能体控制面、能力层与系统知识架构，按实时星标倒序排列。
+> 沉淀可复用的工程协议、多智能体控制面、能力层与系统知识架构，按实时星标倒序排列，支持左右滑动浏览。
 
-| 项目 / System | 实时星标 / Stars | 核心定位与工程说明 / Focus & Architecture |
-|:---|:---:|:---|
-${featuredRows}
+${featuredTable}
 
 <br />
 
@@ -681,11 +723,9 @@ ${featuredRows}
   <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-${formatCompactNumber(totals.stars)}%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
 
-> 严格收录所有星标数大于 10 万且具备公开工程贡献的上游项目，项目与 PR 均可直接点击跳转。
+> 严格收录所有星标数大于 10 万且具备公开工程贡献的上游项目，支持横向左右滑动浏览，项目与 PR 均可直接点击跳转。
 
-| 上游项目 / Repository | 实时星标 / Stars 🌟 | 贡献 PR / Pull Request | 核心工程焦点与贡献说明 / Contribution Summary |
-|:---|:---:|:---|:---|
-${upstreamRows}
+${upstreamTable}
 
 <br />
 
