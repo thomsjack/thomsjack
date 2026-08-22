@@ -33,7 +33,7 @@
     </tr>
     <tr>
       <td width="280" align="left"><nobr><a href="https://github.com/loulanyue/spec-kit-zh"><b><code>spec-kit-zh</code></b></a>&nbsp;&nbsp;<code>SPEC</code></nobr></td>
-      <td width="180" align="center"><nobr><code>★&nbsp;336</code></nobr></td>
+      <td width="180" align="center"><nobr><code>★&nbsp;337</code></nobr></td>
       <td width="750" align="left"><nobr><b>把规格、上下文与智能体协作编排为可复用的开放工程协议。</b></nobr></td>
     </tr>
     <tr>
