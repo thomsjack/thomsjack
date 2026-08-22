@@ -328,65 +328,166 @@
 
 - **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`11 项目 / 33 PR`)
   - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `🌟 387.0K` · 9 PR (`3 Open` / `2 Merged` / `4 Closed`)
+    - [**`PR #127690`**](https://github.com/openclaw/openclaw/pull/127690) `OPEN` · fix(discord): require whitespace-only suffix for closing code fence lines
+    - [**`PR #127109`**](https://github.com/openclaw/openclaw/pull/127109) `OPEN` · fix(node-host): duplicate skill-bin refreshes on concurrent commands (#127095)
+    - [**`PR #121494`**](https://github.com/openclaw/openclaw/pull/121494) `CLOSED` · fix(cli-session): preserve heartbeat context across policy gaps [AI-assisted]
+    - [**`PR #114840`**](https://github.com/openclaw/openclaw/pull/114840) `CLOSED` · fix(gateway): make busyStaleThresholdMs configurable in channel health policy
+    - [**`PR #114596`**](https://github.com/openclaw/openclaw/pull/114596) `OPEN` · fix(gateway): respect configured tools.media.image.maxBytes for image attachments
+    - [**`PR #114449`**](https://github.com/openclaw/openclaw/pull/114449) `MERGED` · fix(cli-compaction): treat no_compactable_entries as a benign compaction skip (#114385)
+    - [**`PR #112478`**](https://github.com/openclaw/openclaw/pull/112478) `MERGED` · fix(infra): preserve large inode identity in session migrations
+    - [**`PR #111779`**](https://github.com/openclaw/openclaw/pull/111779) `CLOSED` · fix: keep streaming OpenAI-compatible requests admitted
+    - [**`PR #111352`**](https://github.com/openclaw/openclaw/pull/111352) `CLOSED` · docs: link macOS onboarding to app download
   - [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) `🌟 241.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #2836`**](https://github.com/affaan-m/ECC/pull/2836) `OPEN` · fix(skills): support symlinked directories in skill and rule scan scripts
+    - [**`PR #2833`**](https://github.com/affaan-m/ECC/pull/2833) `OPEN` · docs(rules): add naming conventions to TypeScript/JavaScript coding style
   - [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `🌟 234.0K` · 8 PR (`6 Open` / `0 Merged` / `2 Closed`)
+    - [**`PR #91407`**](https://github.com/NousResearch/hermes-agent/pull/91407) `OPEN` · fix(desktop): strip routing @mention token before remote DM delivery (#91397)
+    - [**`PR #91376`**](https://github.com/NousResearch/hermes-agent/pull/91376) `OPEN` · fix(stream): do not misclassify stream with final usage chunk as mid-stream drop — closes #91373
+    - [**`PR #91367`**](https://github.com/NousResearch/hermes-agent/pull/91367) `OPEN` · fix(update): check and apply config migrations on current checkout / retry paths — closes #91360
+    - [**`PR #89605`**](https://github.com/NousResearch/hermes-agent/pull/89605) `OPEN` · fix(plugins): add isatty guard to _resolve_tool_override_grant — closes #89600
+    - [**`PR #82992`**](https://github.com/NousResearch/hermes-agent/pull/82992) `OPEN` · fix(desktop): show approvals for protected file writes
+    - [**`PR #82114`**](https://github.com/NousResearch/hermes-agent/pull/82114) `OPEN` · fix(gateway): honor approval scope capabilities
+    - [**`PR #73059`**](https://github.com/NousResearch/hermes-agent/pull/73059) `CLOSED` · fix(agent): log warning when client abort shuts down 0 active sockets (#72975)
+    - [**`PR #71997`**](https://github.com/NousResearch/hermes-agent/pull/71997) `CLOSED` · fix(gateway): release rejected native clarifies before steering
   - [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) `🌟 200.0K` · 5 PR (`1 Open` / `0 Merged` / `4 Closed`)
+    - [**`PR #39298`**](https://github.com/anomalyco/opencode/pull/39298) `CLOSED` · fix(core): bound ripgrep search execution with default wall-clock deadline (#39208)
+    - [**`PR #39225`**](https://github.com/anomalyco/opencode/pull/39225) `CLOSED` · fix(core): bound ripgrep search execution with default wall-clock deadline (#39208)
+    - [**`PR #38763`**](https://github.com/anomalyco/opencode/pull/38763) `OPEN` · fix(core): preserve reasoning metadata on errored assistant turns
+    - [**`PR #38711`**](https://github.com/anomalyco/opencode/pull/38711) `CLOSED` · fix(core): preserve reasoning metadata on errored assistant turns
+    - [**`PR #37726`**](https://github.com/anomalyco/opencode/pull/37726) `CLOSED` · fix(cli): package parcel watcher binding
   - [**`ultraworkers/claw-code`**](https://github.com/ultraworkers/claw-code) `🌟 195.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #3294`**](https://github.com/ultraworkers/claw-code/pull/3294) `OPEN` · ci: pin third-party GitHub Actions to immutable commit SHAs
   - [**`Significant-Gravitas/AutoGPT`**](https://github.com/Significant-Gravitas/AutoGPT) `🌟 186.7K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #14109`**](https://github.com/Significant-Gravitas/AutoGPT/pull/14109) `OPEN` · fix(copilot): record parent session provenance for sub-sessions
+    - [**`PR #14108`**](https://github.com/Significant-Gravitas/AutoGPT/pull/14108) `OPEN` · feat(compose): make redis cluster image selectable via REDIS_IMAGE (#14012)
   - [**`ollama/ollama`**](https://github.com/ollama/ollama) `🌟 179.1K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #17920`**](https://github.com/ollama/ollama/pull/17920) `OPEN` · envconfig: support OLLAMA_NUM_THREAD for operator thread count configuration
+    - [**`PR #17917`**](https://github.com/ollama/ollama/pull/17917) `OPEN` · anthropic: preserve xhigh reasoning effort in FromMessagesRequest (#17906)
   - [**`ggml-org/llama.cpp`**](https://github.com/ggml-org/llama.cpp) `🌟 125.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #27522`**](https://github.com/ggml-org/llama.cpp/pull/27522) `OPEN` · server: observe resumable stream cancellation during first result wait (#27481)
   - [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) `🌟 110.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #5508`**](https://github.com/browser-use/browser-use/pull/5508) `OPEN` · fix(browser): catch corrupt EOCD seek errors during CRX extraction
   - [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli) `🌟 106.6K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #28546`**](https://github.com/google-gemini/gemini-cli/pull/28546) `CLOSED` · fix(core): strip Authorization header when using GEMINI_API_KEY auth (#28538)
   - [**`camel-ai/camel`**](https://github.com/camel-ai/camel) `🌟 17.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #4281`**](https://github.com/camel-ai/camel/pull/4281) `OPEN` · fix(toolkits): remove unsafe retry on send_message in WhatsAppToolkit
 
 - **⚡ AI 工作流与体验平台 · AI WORKFLOW & EXPERIENCE PLATFORMS** (`9 项目 / 33 PR`)
   - [**`n8n-io/n8n`**](https://github.com/n8n-io/n8n) `🌟 201.5K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #36857`**](https://github.com/n8n-io/n8n/pull/36857) `OPEN` · fix(Snowflake Node): Route query errors when continueOnFail is enabled
   - [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow) `🌟 153.5K` · 4 PR (`3 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #14690`**](https://github.com/langflow-ai/langflow/pull/14690) `OPEN` · refactor(auth): drop unmaintained passlib and unpin bcrypt (#14685)
+    - [**`PR #14177`**](https://github.com/langflow-ai/langflow/pull/14177) `OPEN` · fix(mcp): reap cancelled session transports
+    - [**`PR #14153`**](https://github.com/langflow-ai/langflow/pull/14153) `OPEN` · fix: preserve secret values for connected components
+    - [**`PR #14144`**](https://github.com/langflow-ai/langflow/pull/14144) `CLOSED` · fix(lfx): isolate component tool message suppression
   - [**`langgenius/dify`**](https://github.com/langgenius/dify) `🌟 153.1K` · 9 PR (`6 Open` / `2 Merged` / `1 Closed`)
+    - [**`PR #40933`**](https://github.com/langgenius/dify/pull/40933) `CLOSED` · fix(web): widen browserslist iOS floor from 16.4 to 15 to restore -webkit-mask-* prefixes
+    - [**`PR #40908`**](https://github.com/langgenius/dify/pull/40908) `OPEN` · fix(structured-output): fall back to prompt injection when native handler does not set response_format
+    - [**`PR #40412`**](https://github.com/langgenius/dify/pull/40412) `OPEN` · fix(knowledge): stop treating HTTP 404 as invalid endpoint in external API validation
+    - [**`PR #40410`**](https://github.com/langgenius/dify/pull/40410) `OPEN` · fix(auth): resolve relative OAuth redirect_url against CONSOLE_WEB_URL
+    - [**`PR #40407`**](https://github.com/langgenius/dify/pull/40407) `OPEN` · fix(dify-agent): filter blank SystemPromptParts and use name fallback for empty tool descriptions
+    - [**`PR #40405`**](https://github.com/langgenius/dify/pull/40405) `OPEN` · fix(web): use SERVER_CONSOLE_API_URL for system-features in auth-group layouts
+    - [**`PR #40400`**](https://github.com/langgenius/dify/pull/40400) `MERGED` · fix(vdb): add document_id keyword mapping and fix VectorType in elasticsearch-ja adapter
+    - [**`PR #39754`**](https://github.com/langgenius/dify/pull/39754) `MERGED` · fix(workflow): provide default values for AgentNodeData fields (#39743)
+    - [**`PR #39636`**](https://github.com/langgenius/dify/pull/39636) `OPEN` · fix(app): respect WORKFLOW_MAX_EXECUTION_TIME in workflow queue managers
   - [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui) `🌟 149.5K` · 10 PR (`0 Open` / `0 Merged` / `10 Closed`)
+    - [**`PR #28914`**](https://github.com/open-webui/open-webui/pull/28914) `CLOSED` · fix(webhook): recognize modern Teams Power Automate and PowerPlatform workflow URLs
+    - [**`PR #28888`**](https://github.com/open-webui/open-webui/pull/28888) `CLOSED` · fix(retrieval): ignore in-flight route errors and unroute on Playwright loader teardown (#28869)
+    - [**`PR #28712`**](https://github.com/open-webui/open-webui/pull/28712) `CLOSED` · fix(retrieval): prevent BM25 full-collection OOM when native hybrid search fails
+    - [**`PR #28569`**](https://github.com/open-webui/open-webui/pull/28569) `CLOSED` · fix(playground): prefix generated image URLs with WEBUI_BASE_URL
+    - [**`PR #28218`**](https://github.com/open-webui/open-webui/pull/28218) `CLOSED` · fix: avoid duplicate base model removal
+    - [**`PR #27990`**](https://github.com/open-webui/open-webui/pull/27990) `CLOSED` · fix(oauth): normalize OAuth sub claim to str to prevent PostgreSQL type mismatch
+    - [**`PR #27989`**](https://github.com/open-webui/open-webui/pull/27989) `CLOSED` · fix: normalize OAuth sub claim to str to prevent PostgreSQL type mismatch
+    - [**`PR #27727`**](https://github.com/open-webui/open-webui/pull/27727) `CLOSED` · fix: keep calendar search end within bigint range
+    - [**`PR #27585`**](https://github.com/open-webui/open-webui/pull/27585) `CLOSED` · fix(retrieval): JSON-serialize complex & boolean params in DoclingLoader
+    - [**`PR #27584`**](https://github.com/open-webui/open-webui/pull/27584) `CLOSED` · fix(retrieval): JSON-serialize complex & boolean params in DoclingLoader
   - [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain) `🌟 144.7K` · 3 PR (`0 Open` / `0 Merged` / `3 Closed`)
+    - [**`PR #39837`**](https://github.com/langchain-ai/langchain/pull/39837) `CLOSED` · core: await prompt.aformat for DictPromptTemplate in async multimodal formatting
+    - [**`PR #39836`**](https://github.com/langchain-ai/langchain/pull/39836) `CLOSED` · fix(core): await aformat on DictPromptTemplate in multimodal chat prompt (#39835)
+    - [**`PR #39215`**](https://github.com/langchain-ai/langchain/pull/39215) `CLOSED` · fix(core): allow unsized iterables (generators) in `ContextThreadPoolExecutor.map`
   - [**`Comfy-Org/ComfyUI`**](https://github.com/Comfy-Org/ComfyUI) `🌟 128.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #15795`**](https://github.com/Comfy-Org/ComfyUI/pull/15795) `OPEN` · fix(comfy_api): robust PyAV ColorPrimaries, ColorRange, and ColorTrc imports
+    - [**`PR #15794`**](https://github.com/Comfy-Org/ComfyUI/pull/15794) `OPEN` · fix(api): provide fallback for PyAV color enums in comfy_api (#15784)
   - [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui) `🌟 121.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #11593`**](https://github.com/shadcn-ui/ui/pull/11593) `OPEN` · fix(ui): expose aria-expanded on SidebarTrigger
+    - [**`PR #11580`**](https://github.com/shadcn-ui/ui/pull/11580) `OPEN` · fix(registry): fix message-scroller scrollbar strobing during autoscroll on classic scrollbar platforms (#11576)
   - [**`Comfy-Org/ComfyUI_frontend`**](https://github.com/Comfy-Org/ComfyUI_frontend) `🌟 2.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #13776`**](https://github.com/Comfy-Org/ComfyUI_frontend/pull/13776) `OPEN` · fix: avoid large option lists in node previews
   - [**`langgenius/graphon`**](https://github.com/langgenius/graphon) `🌟 76` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #258`**](https://github.com/langgenius/graphon/pull/258) `OPEN` · fix(response-stream): treat GraphEdgeSkippedEvent as cleared for paths_map (dify#40865)
 
 - **🔌 数据、检索与工具接入 · DATA, RETRIEVAL & TOOL CONNECTIVITY** (`8 项目 / 8 PR`)
   - [**`microsoft/markitdown`**](https://github.com/microsoft/markitdown) `🌟 175.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #2330`**](https://github.com/microsoft/markitdown/pull/2330) `OPEN` · feat(cli): support MARKITDOWN_CU_ENDPOINT and MARKITDOWN_DOCINTEL_ENDPOINT env vars
   - [**`firecrawl/firecrawl`**](https://github.com/firecrawl/firecrawl) `🌟 170.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #4061`**](https://github.com/firecrawl/firecrawl/pull/4061) `OPEN` · docs: document FoundationDB client prerequisite
   - [**`f/prompts.chat`**](https://github.com/f/prompts.chat) `🌟 167.7K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #1245`**](https://github.com/f/prompts.chat/pull/1245) `OPEN` · fix(kids): align MagicWords sentence blanks order in zh and ja level 2-1 (#1231)
   - [**`diegosouzapw/OmniRoute`**](https://github.com/diegosouzapw/OmniRoute) `🌟 52.7K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
+    - [**`PR #7540`**](https://github.com/diegosouzapw/OmniRoute/pull/7540) `MERGED` · fix(sse): preserve custom tool output images
   - [**`qdrant/qdrant`**](https://github.com/qdrant/qdrant) `🌟 34.1K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #10061`**](https://github.com/qdrant/qdrant/pull/10061) `CLOSED` · fix: add `maximum: 65536` to `VectorParams.size` OpenAPI schema
   - [**`teng-lin/notebooklm-py`**](https://github.com/teng-lin/notebooklm-py) `🌟 18.8K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
+    - [**`PR #1974`**](https://github.com/teng-lin/notebooklm-py/pull/1974) `MERGED` · fix(chat): classify empty conversations as fresh
   - [**`googleapis/mcp-toolbox`**](https://github.com/googleapis/mcp-toolbox) `🌟 16.2K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #3650`**](https://github.com/googleapis/mcp-toolbox/pull/3650) `CLOSED` · fix(config): reject duplicate flat primitive names
   - [**`OpenAtomFoundation/pikiwidb`**](https://github.com/OpenAtomFoundation/pikiwidb) `🌟 6.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #3289`**](https://github.com/OpenAtomFoundation/pikiwidb/pull/3289) `OPEN` · fix(cache): fix unsigned loop underflow and avoid excess allocations in ZPopMax/ZPopMin (#3269)
 
 - **🧠 模型训练与机器学习系统 · MODEL TRAINING & ML SYSTEMS** (`13 项目 / 18 PR`)
   - [**`AUTOMATIC1111/stable-diffusion-webui`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui) `🌟 164.6K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #17474`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/17474) `OPEN` · fix(launch): robust fallback in git_fix_workspace and format checkout error
+    - [**`PR #17473`**](https://github.com/AUTOMATIC1111/stable-diffusion-webui/pull/17473) `OPEN` · fix(api): mask sensitive gradio_auth and api_auth flags in /sdapi/v1/cmd-flags (#17411)
   - [**`huggingface/transformers`**](https://github.com/huggingface/transformers) `🌟 164.3K` · 3 PR (`2 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #48203`**](https://github.com/huggingface/transformers/pull/48203) `OPEN` · fix(glm): validate num_attention_heads is divisible by num_key_value_heads in GlmConfig
+    - [**`PR #48179`**](https://github.com/huggingface/transformers/pull/48179) `CLOSED` · fix(processing): convert tensor to numpy array before np.cumsum in processors (#48177)
+    - [**`PR #47763`**](https://github.com/huggingface/transformers/pull/47763) `OPEN` · Fix HuBERT positional conv embedding padding sensitivity when conv_pos_batch_norm=True (#47739)
   - [**`pytorch/pytorch`**](https://github.com/pytorch/pytorch) `🌟 102.5K` · 2 PR (`1 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #192023`**](https://github.com/pytorch/pytorch/pull/192023) `CLOSED` · [Inductor] Fix KeyError: 'complex64' by adding complex dtypes to _type_of
+    - [**`PR #191904`**](https://github.com/pytorch/pytorch/pull/191904) `OPEN` · [AOTI] Fix CPU ISA capability check in _load_aoti to recognize safe supersets (#191713)
   - [**`vllm-project/vllm`**](https://github.com/vllm-project/vllm) `🌟 89.7K` · 2 PR (`1 Open` / `1 Merged` / `0 Closed`)
+    - [**`PR #53245`**](https://github.com/vllm-project/vllm/pull/53245) `OPEN` · [Bugfix] Validate Mamba-1 ssm_state_dtype compatibility with model_dtype (#53239)
+    - [**`PR #50704`**](https://github.com/vllm-project/vllm/pull/50704) `MERGED` · [Bugfix][Models] Accept Qwen3_5MoeTextConfig in Qwen3_5MoeProcessingInfo for transformers 5.x compatibility
   - [**`hiyouga/LlamaFactory`**](https://github.com/hiyouga/LlamaFactory) `🌟 74.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #10660`**](https://github.com/hiyouga/LlamaFactory/pull/10660) `OPEN` · Fix packed position IDs in multimodal collator
   - [**`scikit-learn/scikit-learn`**](https://github.com/scikit-learn/scikit-learn) `🌟 67.0K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #34794`**](https://github.com/scikit-learn/scikit-learn/pull/34794) `CLOSED` · FIX DictionaryLearning with split_sign=True respects feature count, dtype and fit_transform
   - [**`meta-llama/llama`**](https://github.com/meta-llama/llama) `🌟 59.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #1464`**](https://github.com/meta-llama/llama/pull/1464) `OPEN` · fix(generation): handle empty prompt_tokens gracefully in Llama.generate
   - [**`BerriAI/litellm`**](https://github.com/BerriAI/litellm) `🌟 57.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #35556`**](https://github.com/BerriAI/litellm/pull/35556) `OPEN` · fix(proxy): support async call_types in pre_call_hook string responses and preserve raw message
   - [**`facebookresearch/segment-anything`**](https://github.com/facebookresearch/segment-anything) `🌟 54.7K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #865`**](https://github.com/facebookresearch/segment-anything/pull/865) `OPEN` · fix(scripts): change --crop-overlap-ratio CLI argument type from int to float
   - [**`suno-ai/bark`**](https://github.com/suno-ai/bark) `🌟 39.2K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #674`**](https://github.com/suno-ai/bark/pull/674) `OPEN` · fix(generation): support PyTorch 2.4+ weights_only default in _load_model
   - [**`huggingface/diffusers`**](https://github.com/huggingface/diffusers) `🌟 34.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #14562`**](https://github.com/huggingface/diffusers/pull/14562) `OPEN` · Fix LCM LoRA SDXL distillation state dict loading and saving
   - [**`karpathy/micrograd`**](https://github.com/karpathy/micrograd) `🌟 17.2K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #128`**](https://github.com/karpathy/micrograd/pull/128) `OPEN` · feat(nn): normalize scalar inputs in Neuron.__call__ and add unit tests
   - [**`sktime/sktime`**](https://github.com/sktime/sktime) `🌟 10.0K` · 1 PR (`0 Open` / `1 Merged` / `0 Closed`)
+    - [**`PR #10558`**](https://github.com/sktime/sktime/pull/10558) `MERGED` · [BUG] FlowState predict_proba uses HistogramQPD
 
 - **🛠️ Python 工程工具链 · PYTHON ENGINEERING TOOLCHAIN** (`4 项目 / 4 PR`)
   - [**`pandas-dev/pandas`**](https://github.com/pandas-dev/pandas) `🌟 49.5K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #66917`**](https://github.com/pandas-dev/pandas/pull/66917) `CLOSED` · TYP: broaden rollforward, rollback, and is_on_offset type hints to accept datetime.date
   - [**`astral-sh/ruff`**](https://github.com/astral-sh/ruff) `🌟 49.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #27972`**](https://github.com/astral-sh/ruff/pull/27972) `OPEN` · fix(rules): recognize standard library underscore-prefixed public members in PLC2701 and SLF001
   - [**`python-poetry/poetry`**](https://github.com/python-poetry/poetry) `🌟 34.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #10983`**](https://github.com/python-poetry/poetry/pull/10983) `OPEN` · tests: deduplicate environment check output helper
   - [**`facebook/pyrefly`**](https://github.com/facebook/pyrefly) `🌟 6.9K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #4175`**](https://github.com/facebook/pyrefly/pull/4175) `OPEN` · Fix suppressions after nested multiline f-strings
 
 - **📚 工程知识与生态 · ENGINEERING KNOWLEDGE & ECOSYSTEMS** (`5 项目 / 5 PR`)
   - [**`donnemartin/system-design-primer`**](https://github.com/donnemartin/system-design-primer) `🌟 365.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #1387`**](https://github.com/donnemartin/system-design-primer/pull/1387) `OPEN` · docs(query_cache): fix missing colon in Cache.get method definition
   - [**`goldbergyoni/nodebestpractices`**](https://github.com/goldbergyoni/nodebestpractices) `🌟 105.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #1425`**](https://github.com/goldbergyoni/nodebestpractices/pull/1425) `OPEN` · docs(security): refresh Section 6.1 linter security recommendations (#1423)
   - [**`tailwindlabs/tailwindcss`**](https://github.com/tailwindlabs/tailwindcss) `🌟 97.3K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+    - [**`PR #20428`**](https://github.com/tailwindlabs/tailwindcss/pull/20428) `OPEN` · fix(vite): preserve user resolve.conditions in cssResolver
   - [**`DuGuQiuBai/Java`**](https://github.com/DuGuQiuBai/Java) `🌟 14.5K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #31`**](https://github.com/DuGuQiuBai/Java/pull/31) `CLOSED` · Rename 课堂练习.txt to README.md
   - [**`baomidou/mybatis-plus-doc`**](https://github.com/baomidou/mybatis-plus-doc) `🌟 753` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
+    - [**`PR #109`**](https://github.com/baomidou/mybatis-plus-doc/pull/109) `CLOSED` · 当前的readme文档布局好像有些乱，参照官网的样式进行了调整
 
 </details>
 

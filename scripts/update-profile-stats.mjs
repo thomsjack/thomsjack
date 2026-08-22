@@ -425,6 +425,7 @@ function buildProjectModels(upstreamSearch, upstreamRepositories) {
       open,
       merged,
       closed: pulls.length - open - merged,
+      pullRequests: pulls,
     };
   });
 }
@@ -687,7 +688,19 @@ function renderReadme({
       const projectItems = category.projects
         .map((project) => {
           const starsCompact = formatCompactNumber(project.stars);
-          return `  - [**\`${project.fullName}\`**](${project.url}) \`🌟 ${starsCompact}\` · ${project.pulls} PR (\`${project.open} Open\` / \`${project.merged} Merged\` / \`${project.closed} Closed\`)`;
+          const prItems = (project.pullRequests || [])
+            .sort((a, b) => b.number - a.number)
+            .map((pr) => {
+              const state = pr.pull_request?.merged_at
+                ? '`MERGED`'
+                : pr.state === 'open'
+                ? '`OPEN`'
+                : '`CLOSED`';
+              const cleanTitle = pr.title.trim().replace(/\s+/g, ' ');
+              return `    - [**\`PR #${pr.number}\`**](${pr.html_url}) ${state} · ${cleanTitle}`;
+            })
+            .join('\n');
+          return `  - [**\`${project.fullName}\`**](${project.url}) \`🌟 ${starsCompact}\` · ${project.pulls} PR (\`${project.open} Open\` / \`${project.merged} Merged\` / \`${project.closed} Closed\`)${prItems ? '\n' + prItems : ''}`;
         })
         .join('\n');
       return `- **${category.icon ?? '📁'} ${category.zh} · ${category.en}** (\`${category.projects.length} 项目 / ${prSum} PR\`)\n${projectItems}`;
