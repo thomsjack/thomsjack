@@ -50,12 +50,12 @@
 
 <a id="02-100k-upstream"></a>
 
-### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程 `(25 项目 / 99 PR)`
+### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程 `(25 项目 / 100 PR)`
 
 <p>
-  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-99-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-100-123E52?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-57-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-58-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-25-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-5.34M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
@@ -108,8 +108,8 @@
     </tr>
     <tr>
       <td width="420" align="left"><a href="https://github.com/Significant-Gravitas/AutoGPT"><b><code>Significant-Gravitas/AutoGPT</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;186.7K</code></td>
-      <td width="220" align="center"><a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14108"><b><code>PR&nbsp;#14108</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
-      <td width="1060" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;feat(compose): make redis cluster image selectable via REDIS_IMAGE (#14012)</td>
+      <td width="220" align="center"><a href="https://github.com/Significant-Gravitas/AutoGPT/pull/14109"><b><code>PR&nbsp;#14109</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
+      <td width="1060" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(copilot): record parent session provenance for sub-sessions</td>
     </tr>
     <tr>
       <td width="420" align="left"><a href="https://github.com/ollama/ollama"><b><code>ollama/ollama</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;179.1K</code></td>
@@ -205,11 +205,11 @@
 
 <a id="03-engineering-map"></a>
 
-### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图 `(50 项目 / 99 PR)`
+### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图 `(50 项目 / 100 PR)`
 
 <p>
-  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-99-123E52?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN-57-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-100-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN-58-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
   <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-50-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-5.34M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
@@ -222,13 +222,13 @@
 <table>
   <tbody>
     <tr>
-      <td width="320" align="left"><img src="./assets/spacer.svg" width="320" height="1" alt="" /><br/><b>🤖&nbsp;智能体运行时与编码终端</b><br/><code>11&nbsp;项目&nbsp;·&nbsp;32&nbsp;PR</code></td>
+      <td width="320" align="left"><img src="./assets/spacer.svg" width="320" height="1" alt="" /><br/><b>🤖&nbsp;智能体运行时与编码终端</b><br/><code>11&nbsp;项目&nbsp;·&nbsp;33&nbsp;PR</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>🌟&nbsp;387.0K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(3O/2M/4C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a><br/><code>🌟&nbsp;241.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a><br/><code>🌟&nbsp;234.0K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(6O/0M/2C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a><br/><code>🌟&nbsp;200.0K&nbsp;·&nbsp;5&nbsp;PR&nbsp;(1O/0M/4C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/ultraworkers/claw-code"><b><code>ultraworkers/claw-code</code></b></a><br/><code>🌟&nbsp;195.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/Significant-Gravitas/AutoGPT"><b><code>Significant-Gravitas/AutoGPT</code></b></a><br/><code>🌟&nbsp;186.7K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/Significant-Gravitas/AutoGPT"><b><code>Significant-Gravitas/AutoGPT</code></b></a><br/><code>🌟&nbsp;186.7K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/ollama/ollama"><b><code>ollama/ollama</code></b></a><br/><code>🌟&nbsp;179.1K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/ggml-org/llama.cpp"><b><code>ggml-org/llama.cpp</code></b></a><br/><code>🌟&nbsp;125.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a><br/><code>🌟&nbsp;110.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
@@ -326,13 +326,13 @@
 <summary><strong>📋 切换为文本列表视图 / Switch to Text List View</strong></summary>
 <br />
 
-- **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`11 项目 / 32 PR`)
+- **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`11 项目 / 33 PR`)
   - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `🌟 387.0K` · 9 PR (`3 Open` / `2 Merged` / `4 Closed`)
   - [**`affaan-m/ECC`**](https://github.com/affaan-m/ECC) `🌟 241.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
   - [**`NousResearch/hermes-agent`**](https://github.com/NousResearch/hermes-agent) `🌟 234.0K` · 8 PR (`6 Open` / `0 Merged` / `2 Closed`)
   - [**`anomalyco/opencode`**](https://github.com/anomalyco/opencode) `🌟 200.0K` · 5 PR (`1 Open` / `0 Merged` / `4 Closed`)
   - [**`ultraworkers/claw-code`**](https://github.com/ultraworkers/claw-code) `🌟 195.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
-  - [**`Significant-Gravitas/AutoGPT`**](https://github.com/Significant-Gravitas/AutoGPT) `🌟 186.7K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`Significant-Gravitas/AutoGPT`**](https://github.com/Significant-Gravitas/AutoGPT) `🌟 186.7K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
   - [**`ollama/ollama`**](https://github.com/ollama/ollama) `🌟 179.1K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
   - [**`ggml-org/llama.cpp`**](https://github.com/ggml-org/llama.cpp) `🌟 125.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) `🌟 110.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
