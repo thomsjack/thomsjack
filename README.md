@@ -38,7 +38,7 @@
       <td width="750" align="left"><b>将后端知识重构为面向判断、设计与演进的工程决策系统。</b></td>
     </tr>
     <tr>
-      <td width="380" align="left"><a href="https://github.com/loulanyue/awesome-claude-notes"><b><code>awesome-claude-notes</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;266</code>&nbsp;&nbsp;<code>DIST</code></td>
+      <td width="380" align="left"><a href="https://github.com/loulanyue/awesome-claude-notes"><b><code>awesome-claude-notes</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;267</code>&nbsp;&nbsp;<code>DIST</code></td>
       <td width="750" align="left"><b>沉淀可移植的智能体能力层，跨工具复用角色、技能与工作流。</b></td>
     </tr>
   </tbody>
@@ -50,12 +50,12 @@
 
 <a id="02-100k-upstream"></a>
 
-### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程 `(25 项目 / 100 PR)`
+### `02 / 100K+ UPSTREAM IMPACT` · 头部上游工程 `(25 项目 / 101 PR)`
 
 <p>
-  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-100-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Upstream PRs" src="https://img.shields.io/badge/UPSTREAM_PRS-101-123E52?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-58-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN_PRS-59-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="100K+ Projects" src="https://img.shields.io/badge/100K%2B_PROJECTS-25-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Total Star Reach" src="https://img.shields.io/badge/TOTAL_STAR_REACH-5.34M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
 </p>
@@ -205,11 +205,11 @@
 
 <a id="03-engineering-map"></a>
 
-### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图 `(50 项目 / 100 PR)`
+### `03 / UPSTREAM ENGINEERING MAP` · 上游工程版图 `(50 项目 / 101 PR)`
 
 <p>
-  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-100-123E52?style=flat-square&labelColor=EAF6FA" />
-  <img alt="Open" src="https://img.shields.io/badge/OPEN-58-406E9A?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Public PRs" src="https://img.shields.io/badge/PUBLIC_PRS-101-123E52?style=flat-square&labelColor=EAF6FA" />
+  <img alt="Open" src="https://img.shields.io/badge/OPEN-59-406E9A?style=flat-square&labelColor=EAF6FA" />
   <img alt="Merged" src="https://img.shields.io/badge/MERGED-8-337E69?style=flat-square&labelColor=EAF6FA" />
   <img alt="Projects" src="https://img.shields.io/badge/PROJECTS-50-2A9DB2?style=flat-square&labelColor=EAF6FA" />
   <img alt="Project Stars" src="https://img.shields.io/badge/PROJECT_STARS-5.34M%2B-54A98E?style=flat-square&labelColor=EAF6FA" />
@@ -238,14 +238,14 @@
       <td width="260" align="center"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/>-</td>
     </tr>
     <tr>
-      <td width="320" align="left"><b>⚡&nbsp;AI 工作流与体验平台</b><br/><code>9&nbsp;项目&nbsp;·&nbsp;32&nbsp;PR</code></td>
+      <td width="320" align="left"><b>⚡&nbsp;AI 工作流与体验平台</b><br/><code>9&nbsp;项目&nbsp;·&nbsp;33&nbsp;PR</code></td>
       <td width="260"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a><br/><code>🌟&nbsp;201.5K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a><br/><code>🌟&nbsp;153.5K&nbsp;·&nbsp;4&nbsp;PR&nbsp;(3O/0M/1C)</code></td>
       <td width="260"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a><br/><code>🌟&nbsp;153.1K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(6O/2M/1C)</code></td>
       <td width="260"><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a><br/><code>🌟&nbsp;149.5K&nbsp;·&nbsp;10&nbsp;PR&nbsp;(0O/0M/10C)</code></td>
       <td width="260"><a href="https://github.com/langchain-ai/langchain"><b><code>langchain-ai/langchain</code></b></a><br/><code>🌟&nbsp;144.7K&nbsp;·&nbsp;3&nbsp;PR&nbsp;(0O/0M/3C)</code></td>
       <td width="260"><a href="https://github.com/Comfy-Org/ComfyUI"><b><code>Comfy-Org/ComfyUI</code></b></a><br/><code>🌟&nbsp;128.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
-      <td width="260"><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a><br/><code>🌟&nbsp;121.8K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="260"><a href="https://github.com/shadcn-ui/ui"><b><code>shadcn-ui/ui</code></b></a><br/><code>🌟&nbsp;121.8K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/Comfy-Org/ComfyUI_frontend"><b><code>Comfy-Org/ComfyUI_frontend</code></b></a><br/><code>🌟&nbsp;2.0K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/langgenius/graphon"><b><code>langgenius/graphon</code></b></a><br/><code>🌟&nbsp;76&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260" align="center">-</td>
@@ -339,14 +339,14 @@
   - [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli) `🌟 106.6K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
   - [**`camel-ai/camel`**](https://github.com/camel-ai/camel) `🌟 17.6K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
 
-- **⚡ AI 工作流与体验平台 · AI WORKFLOW & EXPERIENCE PLATFORMS** (`9 项目 / 32 PR`)
+- **⚡ AI 工作流与体验平台 · AI WORKFLOW & EXPERIENCE PLATFORMS** (`9 项目 / 33 PR`)
   - [**`n8n-io/n8n`**](https://github.com/n8n-io/n8n) `🌟 201.5K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow) `🌟 153.5K` · 4 PR (`3 Open` / `0 Merged` / `1 Closed`)
   - [**`langgenius/dify`**](https://github.com/langgenius/dify) `🌟 153.1K` · 9 PR (`6 Open` / `2 Merged` / `1 Closed`)
   - [**`open-webui/open-webui`**](https://github.com/open-webui/open-webui) `🌟 149.5K` · 10 PR (`0 Open` / `0 Merged` / `10 Closed`)
   - [**`langchain-ai/langchain`**](https://github.com/langchain-ai/langchain) `🌟 144.7K` · 3 PR (`0 Open` / `0 Merged` / `3 Closed`)
   - [**`Comfy-Org/ComfyUI`**](https://github.com/Comfy-Org/ComfyUI) `🌟 128.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
-  - [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui) `🌟 121.8K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`shadcn-ui/ui`**](https://github.com/shadcn-ui/ui) `🌟 121.8K` · 2 PR (`2 Open` / `0 Merged` / `0 Closed`)
   - [**`Comfy-Org/ComfyUI_frontend`**](https://github.com/Comfy-Org/ComfyUI_frontend) `🌟 2.0K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
   - [**`langgenius/graphon`**](https://github.com/langgenius/graphon) `🌟 76` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
 
