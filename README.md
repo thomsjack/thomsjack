@@ -97,7 +97,7 @@
       <td width="1060" align="left"><b>APPROVAL SURFACE</b>&nbsp;·&nbsp;让受保护文件写入在桌面端呈现明确审批，避免静默超时。</td>
     </tr>
     <tr>
-      <td width="420" align="left"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;201.8K</code></td>
+      <td width="420" align="left"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;201.9K</code></td>
       <td width="220" align="center"><a href="https://github.com/n8n-io/n8n/pull/36857"><b><code>PR&nbsp;#36857</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
       <td width="1060" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;fix(Snowflake Node): Route query errors when continueOnFail is enabled</td>
     </tr>
@@ -217,7 +217,7 @@
       <td width="1060" align="left"><b>UPSTREAM COLLABORATION</b>&nbsp;·&nbsp;docs(readme): fix sentence fragment in Getting Help section</td>
     </tr>
     <tr>
-      <td width="420" align="left"><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;110.1K</code></td>
+      <td width="420" align="left"><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;110.2K</code></td>
       <td width="220" align="center"><a href="https://github.com/browser-use/browser-use/pull/5508"><b><code>PR&nbsp;#5508</code></b></a>&nbsp;&nbsp;<code>OPEN</code></td>
       <td width="1060" align="left"><b>CRX EXTRACTION</b>&nbsp;·&nbsp;捕获 CRX 扩展包解压时的损坏 EOCD 定位异常，增强浏览器环境初始化鲁棒性。</td>
     </tr>
@@ -285,13 +285,13 @@
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/farion1231/cc-switch"><b><code>farion1231/cc-switch</code></b></a><br/><code>🌟&nbsp;128.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/ggml-org/llama.cpp"><b><code>ggml-org/llama.cpp</code></b></a><br/><code>🌟&nbsp;125.2K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill"><b><code>nextlevelbuilder/ui-ux-pro-max-skill</code></b></a><br/><code>🌟&nbsp;119.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
-      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a><br/><code>🌟&nbsp;110.1K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/browser-use/browser-use"><b><code>browser-use/browser-use</code></b></a><br/><code>🌟&nbsp;110.2K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/google-gemini/gemini-cli"><b><code>google-gemini/gemini-cli</code></b></a><br/><code>🌟&nbsp;106.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(0O/0M/1C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/camel-ai/camel"><b><code>camel-ai/camel</code></b></a><br/><code>🌟&nbsp;17.6K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
     </tr>
     <tr>
       <td width="320" align="left"><b>⚡&nbsp;AI 工作流与体验平台</b><br/><code>12&nbsp;项目&nbsp;·&nbsp;36&nbsp;PR</code></td>
-      <td width="260"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a><br/><code>🌟&nbsp;201.8K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
+      <td width="260"><a href="https://github.com/n8n-io/n8n"><b><code>n8n-io/n8n</code></b></a><br/><code>🌟&nbsp;201.9K&nbsp;·&nbsp;1&nbsp;PR&nbsp;(1O/0M/0C)</code></td>
       <td width="260"><a href="https://github.com/langflow-ai/langflow"><b><code>langflow-ai/langflow</code></b></a><br/><code>🌟&nbsp;153.6K&nbsp;·&nbsp;4&nbsp;PR&nbsp;(3O/0M/1C)</code></td>
       <td width="260"><a href="https://github.com/langgenius/dify"><b><code>langgenius/dify</code></b></a><br/><code>🌟&nbsp;153.2K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(6O/2M/1C)</code></td>
       <td width="260"><a href="https://github.com/open-webui/open-webui"><b><code>open-webui/open-webui</code></b></a><br/><code>🌟&nbsp;149.6K&nbsp;·&nbsp;10&nbsp;PR&nbsp;(0O/0M/10C)</code></td>
@@ -435,7 +435,7 @@
     - [**`PR #27522`**](https://github.com/ggml-org/llama.cpp/pull/27522) `OPEN` · server: observe resumable stream cancellation during first result wait (#27481)
   - [**`nextlevelbuilder/ui-ux-pro-max-skill`**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) `🌟 119.9K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
     - [**`PR #453`**](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/pull/453) `OPEN` · feat(design-system): add --rtl flag for right-to-left UI/UX guidance (#409)
-  - [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) `🌟 110.1K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`browser-use/browser-use`**](https://github.com/browser-use/browser-use) `🌟 110.2K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
     - [**`PR #5508`**](https://github.com/browser-use/browser-use/pull/5508) `OPEN` · fix(browser): catch corrupt EOCD seek errors during CRX extraction
   - [**`google-gemini/gemini-cli`**](https://github.com/google-gemini/gemini-cli) `🌟 106.6K` · 1 PR (`0 Open` / `0 Merged` / `1 Closed`)
     - [**`PR #28546`**](https://github.com/google-gemini/gemini-cli/pull/28546) `CLOSED` · fix(core): strip Authorization header when using GEMINI_API_KEY auth (#28538)
@@ -443,7 +443,7 @@
     - [**`PR #4281`**](https://github.com/camel-ai/camel/pull/4281) `OPEN` · fix(toolkits): remove unsafe retry on send_message in WhatsAppToolkit
 
 - **⚡ AI 工作流与体验平台 · AI WORKFLOW & EXPERIENCE PLATFORMS** (`12 项目 / 36 PR`)
-  - [**`n8n-io/n8n`**](https://github.com/n8n-io/n8n) `🌟 201.8K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
+  - [**`n8n-io/n8n`**](https://github.com/n8n-io/n8n) `🌟 201.9K` · 1 PR (`1 Open` / `0 Merged` / `0 Closed`)
     - [**`PR #36857`**](https://github.com/n8n-io/n8n/pull/36857) `OPEN` · fix(Snowflake Node): Route query errors when continueOnFail is enabled
   - [**`langflow-ai/langflow`**](https://github.com/langflow-ai/langflow) `🌟 153.6K` · 4 PR (`3 Open` / `0 Merged` / `1 Closed`)
     - [**`PR #14690`**](https://github.com/langflow-ai/langflow/pull/14690) `OPEN` · refactor(auth): drop unmaintained passlib and unpin bcrypt (#14685)
