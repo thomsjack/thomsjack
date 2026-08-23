@@ -72,7 +72,7 @@
   </thead>
   <tbody>
     <tr>
-      <td width="420" align="left"><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;387.1K</code></td>
+      <td width="420" align="left"><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;387.2K</code></td>
       <td width="220" align="center"><a href="https://github.com/openclaw/openclaw/pull/121494"><b><code>PR&nbsp;#121494</code></b></a>&nbsp;&nbsp;<code>CLOSED</code></td>
       <td width="1060" align="left"><b>SESSION CONTINUITY</b>&nbsp;·&nbsp;跨心跳与对话策略缺口保留会话上下文，减少重置与缓存抖动。</td>
     </tr>
@@ -273,7 +273,7 @@
   <tbody>
     <tr>
       <td width="320" align="left"><img src="./assets/spacer.svg" width="320" height="1" alt="" /><br/><b>🤖&nbsp;智能体运行时与编码终端</b><br/><code>15&nbsp;项目&nbsp;·&nbsp;37&nbsp;PR</code></td>
-      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>🌟&nbsp;387.1K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(3O/2M/4C)</code></td>
+      <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/openclaw/openclaw"><b><code>openclaw/openclaw</code></b></a><br/><code>🌟&nbsp;387.2K&nbsp;·&nbsp;9&nbsp;PR&nbsp;(3O/2M/4C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/affaan-m/ECC"><b><code>affaan-m/ECC</code></b></a><br/><code>🌟&nbsp;242.2K&nbsp;·&nbsp;2&nbsp;PR&nbsp;(2O/0M/0C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/NousResearch/hermes-agent"><b><code>NousResearch/hermes-agent</code></b></a><br/><code>🌟&nbsp;234.4K&nbsp;·&nbsp;8&nbsp;PR&nbsp;(5O/0M/3C)</code></td>
       <td width="260"><img src="./assets/spacer.svg" width="260" height="1" alt="" /><br/><a href="https://github.com/anomalyco/opencode"><b><code>anomalyco/opencode</code></b></a><br/><code>🌟&nbsp;200.4K&nbsp;·&nbsp;5&nbsp;PR&nbsp;(1O/0M/4C)</code></td>
@@ -389,7 +389,7 @@
 <br />
 
 - **🤖 智能体运行时与编码终端 · AGENT RUNTIMES & CODING INTERFACES** (`15 项目 / 37 PR`)
-  - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `🌟 387.1K` · 9 PR (`3 Open` / `2 Merged` / `4 Closed`)
+  - [**`openclaw/openclaw`**](https://github.com/openclaw/openclaw) `🌟 387.2K` · 9 PR (`3 Open` / `2 Merged` / `4 Closed`)
     - [**`PR #127690`**](https://github.com/openclaw/openclaw/pull/127690) `OPEN` · fix(discord): require whitespace-only suffix for closing code fence lines
     - [**`PR #127109`**](https://github.com/openclaw/openclaw/pull/127109) `OPEN` · fix(node-host): duplicate skill-bin refreshes on concurrent commands (#127095)
     - [**`PR #121494`**](https://github.com/openclaw/openclaw/pull/121494) `CLOSED` · fix(cli-session): preserve heartbeat context across policy gaps [AI-assisted]
