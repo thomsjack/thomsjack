@@ -176,6 +176,7 @@ const upstreamCategories = [
     icon: '⚡',
     color: '#5D86B3',
     repositories: [
+      'react/react',
       'fastapi/fastapi',
       'langchain-ai/langchain',
       'langflow-ai/langflow',
@@ -184,6 +185,7 @@ const upstreamCategories = [
       'open-webui/open-webui',
       'shadcn-ui/ui',
       'n8n-io/n8n',
+      'axios/axios',
       'pallets/flask',
       'Comfy-Org/ComfyUI',
       'Comfy-Org/ComfyUI_frontend',
@@ -197,6 +199,7 @@ const upstreamCategories = [
     icon: '🔌',
     color: '#54A98E',
     repositories: [
+      'public-apis/public-apis',
       'firecrawl/firecrawl',
       'qdrant/qdrant',
       'microsoft/markitdown',
@@ -215,6 +218,7 @@ const upstreamCategories = [
     icon: '🧠',
     color: '#4D8FBA',
     repositories: [
+      'tensorflow/tensorflow',
       'huggingface/transformers',
       'pytorch/pytorch',
       'meta-llama/llama',
@@ -238,7 +242,7 @@ const upstreamCategories = [
     zh: 'Python 工程工具链',
     icon: '🛠️',
     color: '#2A879B',
-    repositories: ['python-poetry/poetry', 'astral-sh/ruff', 'pandas-dev/pandas', 'psf/black', 'facebook/pyrefly'],
+    repositories: ['python-poetry/poetry', 'astral-sh/ruff', 'pandas-dev/pandas', 'psf/black', 'github/gitignore', 'facebook/pyrefly'],
   },
   {
     id: 'knowledge',
@@ -247,7 +251,11 @@ const upstreamCategories = [
     icon: '📚',
     color: '#C49435',
     repositories: [
+      'freeCodeCamp/freeCodeCamp',
       'donnemartin/system-design-primer',
+      'EbookFoundation/free-programming-books',
+      'jwasham/coding-interview-university',
+      'trimstray/the-book-of-secret-knowledge',
       'microsoft/generative-ai-for-beginners',
       'goldbergyoni/nodebestpractices',
       'tailwindlabs/tailwindcss',
