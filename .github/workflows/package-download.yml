@@ -19,13 +19,13 @@ jobs:
         with:
           node-version: '20'
           registry-url: 'https://npm.pkg.github.com'
-          scope: '@loulanyue'
+          scope: '@thomsjack'
 
       - name: Fetch and Install Package from GitHub Packages
         run: |
           mkdir -p /tmp/pkg-test-${{ matrix.run_id }}
           cd /tmp/pkg-test-${{ matrix.run_id }}
           npm init -y
-          npm install --no-audit --no-fund --registry=https://npm.pkg.github.com @loulanyue/awesome-claude-notes || echo "Package fetch attempt executed"
+          npm install --no-audit --no-fund --registry=https://npm.pkg.github.com @thomsjack/awesome-claude-notes || echo "Package fetch attempt executed"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

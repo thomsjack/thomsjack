@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-terminal.svg" width="100%" alt="LoulanYue — bilingual open-source AI systems engineering profile with live telemetry" />
+  <img src="./assets/profile-terminal.svg" width="100%" alt="ThomsJack — bilingual open-source AI systems engineering profile with live telemetry" />
 </p>
 
 <p align="center">
@@ -26,19 +26,19 @@
   </thead>
   <tbody>
     <tr>
-      <td width="380" align="left"><a href="https://github.com/loulanyue/dream-xi-ai"><b><code>dream-xi-ai</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;432</code>&nbsp;&nbsp;<code>TEAM</code></td>
+      <td width="380" align="left"><a href="https://github.com/thomsjack/dream-xi-ai"><b><code>dream-xi-ai</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;432</code>&nbsp;&nbsp;<code>TEAM</code></td>
       <td width="750" align="left"><b>面向复杂交付的多智能体控制面，统一规划、执行、验证与风险治理。</b></td>
     </tr>
     <tr>
-      <td width="380" align="left"><a href="https://github.com/loulanyue/spec-kit-zh"><b><code>spec-kit-zh</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;337</code>&nbsp;&nbsp;<code>SPEC</code></td>
+      <td width="380" align="left"><a href="https://github.com/thomsjack/spec-kit-zh"><b><code>spec-kit-zh</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;337</code>&nbsp;&nbsp;<code>SPEC</code></td>
       <td width="750" align="left"><b>把规格、上下文与智能体协作编排为可复用的开放工程协议。</b></td>
     </tr>
     <tr>
-      <td width="380" align="left"><a href="https://github.com/loulanyue/interview-notes"><b><code>interview-notes</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;306</code>&nbsp;&nbsp;<code>KNOW</code></td>
+      <td width="380" align="left"><a href="https://github.com/thomsjack/interview-notes"><b><code>interview-notes</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;306</code>&nbsp;&nbsp;<code>KNOW</code></td>
       <td width="750" align="left"><b>将后端知识重构为面向判断、设计与演进的工程决策系统。</b></td>
     </tr>
     <tr>
-      <td width="380" align="left"><a href="https://github.com/loulanyue/awesome-claude-notes"><b><code>awesome-claude-notes</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;267</code>&nbsp;&nbsp;<code>DIST</code></td>
+      <td width="380" align="left"><a href="https://github.com/thomsjack/awesome-claude-notes"><b><code>awesome-claude-notes</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;267</code>&nbsp;&nbsp;<code>DIST</code></td>
       <td width="750" align="left"><b>沉淀可移植的智能体能力层，跨工具复用角色、技能与工作流。</b></td>
     </tr>
   </tbody>
@@ -677,8 +677,8 @@ EN  Connecting original systems with upstream infrastructure—turning reproduci
 ```
 
 <p align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aloulanyue"><img alt="Explore upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PULL_REQUESTS-EXPLORE-2A9DB2?style=for-the-badge&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>
-  <a href="https://github.com/loulanyue?tab=repositories"><img alt="Explore all repositories" src="https://img.shields.io/badge/ALL_PROJECTS-OPEN-54A98E?style=for-the-badge&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Athomsjack"><img alt="Explore upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PULL_REQUESTS-EXPLORE-2A9DB2?style=for-the-badge&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>
+  <a href="https://github.com/thomsjack?tab=repositories"><img alt="Explore all repositories" src="https://img.shields.io/badge/ALL_PROJECTS-OPEN-54A98E?style=for-the-badge&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>
 </p>
 
 <p align="center">

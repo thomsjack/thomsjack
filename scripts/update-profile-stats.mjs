@@ -6,7 +6,7 @@ import { promisify } from 'node:util';
 
 const execFileAsync = promisify(execFile);
 
-const username = process.env.PROFILE_USERNAME ?? 'loulanyue';
+const username = process.env.PROFILE_USERNAME ?? 'thomsjack';
 const token = process.env.GITHUB_TOKEN;
 const snapshotPath = process.env.PROFILE_DATA_PATH;
 const checkOnly = process.argv.includes('--check');
@@ -569,8 +569,8 @@ function renderUpstreamMap({ categories, totals, refreshedOn }) {
     .join('');
 
   return `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="${canvasHeight}" viewBox="0 0 1200 ${canvasHeight}" role="img" aria-labelledby="title desc">
-  <title id="title">LoulanYue upstream engineering map</title>
-  <desc id="desc">All public upstream projects contributed to by LoulanYue, categorized by engineering role with live pull request and star telemetry.</desc>
+  <title id="title">ThomsJack upstream engineering map</title>
+  <desc id="desc">All public upstream projects contributed to by ThomsJack, categorized by engineering role with live pull request and star telemetry.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FDFFFF"/>
@@ -636,7 +636,7 @@ function renderScrollableCategoryTable(categoryModels) {
 function renderScrollableFeaturedTable(featuredItems) {
   const tableRows = featuredItems
     .map((item) => {
-      const repoUrl = `https://github.com/loulanyue/${item.name}`;
+      const repoUrl = `https://github.com/thomsjack/${item.name}`;
       const starsFormatted = item.stars.toLocaleString('en-US');
       return `    <tr>
       <td width="380" align="left"><a href="${repoUrl}"><b><code>${item.name}</code></b></a>&nbsp;&nbsp;<code>🌟&nbsp;${starsFormatted}</code>&nbsp;&nbsp;<code>${item.meta.role}</code></td>
@@ -728,7 +728,7 @@ function renderReadme({
     .join('\n\n');
 
   return `<p align="center">
-  <img src="./assets/profile-terminal.svg" width="100%" alt="LoulanYue — bilingual open-source AI systems engineering profile with live telemetry" />
+  <img src="./assets/profile-terminal.svg" width="100%" alt="ThomsJack — bilingual open-source AI systems engineering profile with live telemetry" />
 </p>
 
 <p align="center">
@@ -827,8 +827,8 @@ EN  Connecting original systems with upstream infrastructure—turning reproduci
 \`\`\`
 
 <p align="center">
-  <a href="https://github.com/pulls?q=is%3Apr+author%3Aloulanyue"><img alt="Explore upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PULL_REQUESTS-EXPLORE-2A9DB2?style=for-the-badge&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>
-  <a href="https://github.com/loulanyue?tab=repositories"><img alt="Explore all repositories" src="https://img.shields.io/badge/ALL_PROJECTS-OPEN-54A98E?style=for-the-badge&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>
+  <a href="https://github.com/pulls?q=is%3Apr+author%3Athomsjack"><img alt="Explore upstream pull requests" src="https://img.shields.io/badge/UPSTREAM_PULL_REQUESTS-EXPLORE-2A9DB2?style=for-the-badge&labelColor=EAF6FA&logo=gitpullrequest&logoColor=0B5C75" /></a>
+  <a href="https://github.com/thomsjack?tab=repositories"><img alt="Explore all repositories" src="https://img.shields.io/badge/ALL_PROJECTS-OPEN-54A98E?style=for-the-badge&labelColor=EAF6FA&logo=github&logoColor=0B5C75" /></a>
 </p>
 
 <p align="center">

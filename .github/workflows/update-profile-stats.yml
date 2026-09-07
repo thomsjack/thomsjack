@@ -29,7 +29,7 @@ jobs:
         run: node scripts/update-profile-stats.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROFILE_USERNAME: loulanyue
+          PROFILE_USERNAME: thomsjack
 
       - name: Commit changed telemetry
         run: |
