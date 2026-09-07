@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="1802" viewBox="0 0 1200 1802" role="img" aria-labelledby="title desc">
-  <title id="title">LoulanYue upstream engineering map</title>
-  <desc id="desc">All public upstream projects contributed to by LoulanYue, categorized by engineering role with live pull request and star telemetry.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="438" viewBox="0 0 1200 438" role="img" aria-labelledby="title desc">
+  <title id="title">ThomsJack upstream engineering map</title>
+  <desc id="desc">All public upstream projects contributed to by ThomsJack, categorized by engineering role with live pull request and star telemetry.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#FDFFFF"/>
@@ -16,9 +16,9 @@
       <feDropShadow dx="0" dy="6" stdDeviation="9" flood-color="#397E91" flood-opacity=".08"/>
     </filter>
   </defs>
-  <rect width="1200" height="1802" rx="22" fill="url(#canvas)"/>
-  <rect x="1" y="1" width="1198" height="1800" rx="21" fill="none" stroke="#B9DCE6" stroke-width="2"/>
-  <rect x="32" y="34" width="5" height="1734" rx="2.5" fill="url(#rail)"/>
+  <rect width="1200" height="438" rx="22" fill="url(#canvas)"/>
+  <rect x="1" y="1" width="1198" height="436" rx="21" fill="none" stroke="#B9DCE6" stroke-width="2"/>
+  <rect x="32" y="34" width="5" height="370" rx="2.5" fill="url(#rail)"/>
   <g font-family="'Avenir Next', 'PingFang SC', 'Noto Sans CJK SC', ui-sans-serif, sans-serif">
     <text x="58" y="57" fill="#123E52" font-size="25" font-weight="750" letter-spacing="1.3">03 / UPSTREAM ENGINEERING MAP</text>
     <text x="650" y="57" fill="#2A879B" font-size="19" font-weight="700">上游工程版图</text>
@@ -26,31 +26,31 @@
 
     <g transform="translate(58 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">125</text>
+      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">1</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PUBLIC PRS</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">公开上游 PR</text>
     </g>
     <g transform="translate(278 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">81</text>
+      <text x="22" y="46" fill="#406E9A" font-size="28" font-weight="750">1</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">OPEN</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">进行中</text>
     </g>
     <g transform="translate(498 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#337E69" font-size="28" font-weight="750">8</text>
+      <text x="22" y="46" fill="#337E69" font-size="28" font-weight="750">0</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">MERGED</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">已合并</text>
     </g>
     <g transform="translate(718 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">72</text>
+      <text x="22" y="46" fill="#123E52" font-size="28" font-weight="750">1</text>
       <text x="84" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PROJECTS</text>
       <text x="84" y="51" fill="#789EAB" font-size="11">覆盖项目</text>
     </g>
     <g transform="translate(938 82)">
       <rect width="204" height="72" rx="14" fill="#FFFFFF" stroke="#D3E8EE"/>
-      <text x="22" y="46" fill="#2A879B" font-size="28" font-weight="750">9.66M</text>
+      <text x="22" y="46" fill="#2A879B" font-size="28" font-weight="750">131.8K</text>
       <text x="126" y="31" fill="#2A879B" font-size="9.5" font-weight="750" letter-spacing="1.15">PROJECT STARS</text>
       <text x="126" y="51" fill="#789EAB" font-size="11">项目 Star 总数</text>
     </g>
@@ -59,642 +59,24 @@
     <text x="1142" y="188" text-anchor="end" fill="#2A879B" font-size="11.5" font-weight="750" letter-spacing="1.05">REPRODUCIBLE → REVIEWABLE → MAINTAINABLE</text>
 
     <g transform="translate(58 244)" filter="url(#shadow)">
-      <rect width="526" height="521" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="521" rx="3" fill="#2A9DB2"/>
+      <rect width="526" height="144" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
+      <rect width="6" height="144" rx="3" fill="#2A9DB2"/>
       <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AGENT RUNTIMES &amp; CODING INTERFACES</text>
       <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">智能体运行时与编码终端</text>
-      <text x="506" y="29" text-anchor="end" fill="#2A9DB2" font-size="10.2" font-weight="750">15 PROJECTS · 37 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 2.51M TOTAL</text>
+      <text x="506" y="29" text-anchor="end" fill="#2A9DB2" font-size="10.2" font-weight="750">1 PROJECTS · 1 PR</text>
+      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 131.8K TOTAL</text>
       <path d="M24 68H506" stroke="#DCECF1"/>
 
-        <a href="https://github.com/openclaw/openclaw" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 94)">
-            <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">openclaw/openclaw</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">9PR · 3O/2M/4C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 387.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/affaan-m/ECC" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 123)">
-            <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">affaan-m/ECC</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 242.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/NousResearch/hermes-agent" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 152)">
-            <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">NousResearch/hermes-agent</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">8PR · 5O/0M/3C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 235.0K</text>
-          </g>
-        </a>
-        <a href="https://github.com/anomalyco/opencode" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 181)">
-            <circle cx="24" cy="-4" r="4" fill="#2A9DB2"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">anomalyco/opencode</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">5PR · 1O/0M/4C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 200.7K</text>
-          </g>
-        </a>
-        <a href="https://github.com/ultraworkers/claw-code" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 210)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">ultraworkers/claw-code</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 195.1K</text>
-          </g>
-        </a>
-        <a href="https://github.com/Significant-Gravitas/AutoGPT" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 239)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">Significant-Gravitas/AutoGPT</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 186.8K</text>
-          </g>
-        </a>
-        <a href="https://github.com/ollama/ollama" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 268)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">ollama/ollama</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 179.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/msitarzewski/agency-agents" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 297)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">msitarzewski/agency-agents</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 147.6K</text>
-          </g>
-        </a>
         <a href="https://github.com/garrytan/gstack" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 326)">
+          <g transform="translate(0 94)">
             <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
             <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">garrytan/gstack</text>
             <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 129.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/farion1231/cc-switch" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 355)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">farion1231/cc-switch</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 129.0K</text>
-          </g>
-        </a>
-        <a href="https://github.com/ggml-org/llama.cpp" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 384)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">ggml-org/llama.cpp</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 125.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/nextlevelbuilder/ui-ux-pro-max-skill" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 413)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">nextlevelbuilder/ui-ux-pro-max-skill</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 120.2K</text>
-          </g>
-        </a>
-        <a href="https://github.com/browser-use/browser-use" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 442)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">browser-use/browser-use</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 110.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/google-gemini/gemini-cli" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 471)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">google-gemini/gemini-cli</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 106.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/camel-ai/camel" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 500)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">camel-ai/camel</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 17.6K</text>
+            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 131.8K</text>
           </g>
         </a>
     </g>
-    <g transform="translate(616 244)" filter="url(#shadow)">
-      <rect width="526" height="521" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="521" rx="3" fill="#5D86B3"/>
-      <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">AI WORKFLOW &amp; EXPERIENCE PLATFORMS</text>
-      <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">AI 工作流与体验平台</text>
-      <text x="506" y="29" text-anchor="end" fill="#5D86B3" font-size="10.2" font-weight="750">14 PROJECTS · 39 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 1.72M TOTAL</text>
-      <path d="M24 68H506" stroke="#DCECF1"/>
-
-        <a href="https://github.com/react/react" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 94)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">react/react</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 247.7K</text>
-          </g>
-        </a>
-        <a href="https://github.com/n8n-io/n8n" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 123)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">n8n-io/n8n</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 202.2K</text>
-          </g>
-        </a>
-        <a href="https://github.com/langflow-ai/langflow" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 152)">
-            <circle cx="24" cy="-4" r="4" fill="#5D86B3"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">langflow-ai/langflow</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">4PR · 3O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 153.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/langgenius/dify" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 181)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">langgenius/dify</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">10PR · 7O/2M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 153.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/open-webui/open-webui" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 210)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">open-webui/open-webui</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">10PR · 0O/0M/10C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 149.7K</text>
-          </g>
-        </a>
-        <a href="https://github.com/langchain-ai/langchain" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 239)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">langchain-ai/langchain</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">3PR · 0O/0M/3C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 144.8K</text>
-          </g>
-        </a>
-        <a href="https://github.com/Shubhamsaboo/awesome-llm-apps" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 268)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">Shubhamsaboo/awesome-llm-apps</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 133.7K</text>
-          </g>
-        </a>
-        <a href="https://github.com/Comfy-Org/ComfyUI" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 297)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">Comfy-Org/ComfyUI</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 129.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/shadcn-ui/ui" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 326)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">shadcn-ui/ui</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 121.9K</text>
-          </g>
-        </a>
-        <a href="https://github.com/axios/axios" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 355)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">axios/axios</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 109.2K</text>
-          </g>
-        </a>
-        <a href="https://github.com/fastapi/fastapi" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 384)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">fastapi/fastapi</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 101.8K</text>
-          </g>
-        </a>
-        <a href="https://github.com/pallets/flask" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 413)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">pallets/flask</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 72.1K</text>
-          </g>
-        </a>
-        <a href="https://github.com/Comfy-Org/ComfyUI_frontend" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 442)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">Comfy-Org/ComfyUI_frontend</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 2.0K</text>
-          </g>
-        </a>
-        <a href="https://github.com/langgenius/graphon" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 471)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">langgenius/graphon</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 76</text>
-          </g>
-        </a>
-    </g>
-    <g transform="translate(58 781)" filter="url(#shadow)">
-      <rect width="526" height="550" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="550" rx="3" fill="#54A98E"/>
-      <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">DATA, RETRIEVAL &amp; TOOL CONNECTIVITY</text>
-      <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">数据、检索与工具接入</text>
-      <text x="506" y="29" text-anchor="end" fill="#54A98E" font-size="10.2" font-weight="750">10 PROJECTS · 10 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 1.26M TOTAL</text>
-      <path d="M24 68H506" stroke="#DCECF1"/>
-
-        <a href="https://github.com/public-apis/public-apis" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 94)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">public-apis/public-apis</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 469.2K</text>
-          </g>
-        </a>
-        <a href="https://github.com/microsoft/markitdown" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 123)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">microsoft/markitdown</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 175.8K</text>
-          </g>
-        </a>
-        <a href="https://github.com/firecrawl/firecrawl" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 152)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">firecrawl/firecrawl</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 171.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/f/prompts.chat" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 181)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">f/prompts.chat</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 167.8K</text>
-          </g>
-        </a>
-        <a href="https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 210)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">x1xhlol/system-prompts-and-models-of-ai-tools</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 143.0K</text>
-          </g>
-        </a>
-        <a href="https://github.com/diegosouzapw/OmniRoute" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 239)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">diegosouzapw/OmniRoute</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 53.9K</text>
-          </g>
-        </a>
-        <a href="https://github.com/qdrant/qdrant" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 268)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">qdrant/qdrant</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 34.1K</text>
-          </g>
-        </a>
-        <a href="https://github.com/teng-lin/notebooklm-py" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 297)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">teng-lin/notebooklm-py</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 18.9K</text>
-          </g>
-        </a>
-        <a href="https://github.com/googleapis/mcp-toolbox" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 326)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">googleapis/mcp-toolbox</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 16.2K</text>
-          </g>
-        </a>
-        <a href="https://github.com/OpenAtomFoundation/pikiwidb" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 355)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">OpenAtomFoundation/pikiwidb</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 6.1K</text>
-          </g>
-        </a>
-    </g>
-    <g transform="translate(616 781)" filter="url(#shadow)">
-      <rect width="526" height="550" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="550" rx="3" fill="#4D8FBA"/>
-      <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">MODEL TRAINING &amp; ML SYSTEMS</text>
-      <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">模型训练与机器学习系统</text>
-      <text x="506" y="29" text-anchor="end" fill="#4D8FBA" font-size="10.2" font-weight="750">16 PROJECTS · 21 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 1.3M TOTAL</text>
-      <path d="M24 68H506" stroke="#DCECF1"/>
-
-        <a href="https://github.com/tensorflow/tensorflow" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 94)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">tensorflow/tensorflow</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 197.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 123)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">AUTOMATIC1111/stable-diffusion-webui</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 164.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/huggingface/transformers" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 152)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">huggingface/transformers</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">3PR · 2O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 164.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/deepseek-ai/DeepSeek-V3" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 181)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">deepseek-ai/DeepSeek-V3</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 104.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/pytorch/pytorch" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 210)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">pytorch/pytorch</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 102.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/vllm-project/vllm" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 239)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">vllm-project/vllm</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 1O/1M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 89.8K</text>
-          </g>
-        </a>
-        <a href="https://github.com/hiyouga/LlamaFactory" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 268)">
-            <circle cx="24" cy="-4" r="4" fill="#4D8FBA"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">hiyouga/LlamaFactory</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 74.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/scikit-learn/scikit-learn" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 297)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">scikit-learn/scikit-learn</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 67.0K</text>
-          </g>
-        </a>
-        <a href="https://github.com/karpathy/nanoGPT" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 326)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">karpathy/nanoGPT</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 62.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/meta-llama/llama" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 355)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">meta-llama/llama</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 59.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/BerriAI/litellm" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 384)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">BerriAI/litellm</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 57.1K</text>
-          </g>
-        </a>
-        <a href="https://github.com/facebookresearch/segment-anything" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 413)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">facebookresearch/segment-anything</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 54.7K</text>
-          </g>
-        </a>
-        <a href="https://github.com/suno-ai/bark" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 442)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">suno-ai/bark</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 39.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/huggingface/diffusers" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 471)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">huggingface/diffusers</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 34.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/karpathy/micrograd" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 500)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">karpathy/micrograd</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 17.2K</text>
-          </g>
-        </a>
-        <a href="https://github.com/sktime/sktime" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 529)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">sktime/sktime</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/1M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 10.0K</text>
-          </g>
-        </a>
-    </g>
-    <g transform="translate(58 1347)" filter="url(#shadow)">
-      <rect width="526" height="405" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="405" rx="3" fill="#2A879B"/>
-      <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">PYTHON ENGINEERING TOOLCHAIN</text>
-      <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">Python 工程工具链</text>
-      <text x="506" y="29" text-anchor="end" fill="#2A879B" font-size="10.2" font-weight="750">6 PROJECTS · 6 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 357.3K TOTAL</text>
-      <path d="M24 68H506" stroke="#DCECF1"/>
-
-        <a href="https://github.com/github/gitignore" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 94)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">github/gitignore</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 175.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/pandas-dev/pandas" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 123)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">pandas-dev/pandas</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 49.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/astral-sh/ruff" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 152)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">astral-sh/ruff</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 49.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/psf/black" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 181)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">psf/black</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 41.8K</text>
-          </g>
-        </a>
-        <a href="https://github.com/python-poetry/poetry" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 210)">
-            <circle cx="24" cy="-4" r="4" fill="#2A879B"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="750" text-decoration="underline">python-poetry/poetry</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 34.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/facebook/pyrefly" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 239)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">facebook/pyrefly</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 6.9K</text>
-          </g>
-        </a>
-    </g>
-    <g transform="translate(616 1347)" filter="url(#shadow)">
-      <rect width="526" height="405" rx="17" fill="#FFFFFF" stroke="#D1E7ED"/>
-      <rect width="6" height="405" rx="3" fill="#C49435"/>
-      <text x="24" y="30" fill="#123E52" font-size="13.2" font-weight="800" letter-spacing=".7">ENGINEERING KNOWLEDGE &amp; ECOSYSTEMS</text>
-      <text x="24" y="51" fill="#648C99" font-size="12" font-weight="650">工程知识与生态</text>
-      <text x="506" y="29" text-anchor="end" fill="#C49435" font-size="10.2" font-weight="750">11 PROJECTS · 12 PR</text>
-      <text x="506" y="50" text-anchor="end" fill="#789EAB" font-size="10.5">🌟 2.52M TOTAL</text>
-      <path d="M24 68H506" stroke="#DCECF1"/>
-
-        <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 94)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">freeCodeCamp/freeCodeCamp</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 454.5K</text>
-          </g>
-        </a>
-        <a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 123)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">EbookFoundation/free-programming-books</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 395.1K</text>
-          </g>
-        </a>
-        <a href="https://github.com/donnemartin/system-design-primer" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 152)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">donnemartin/system-design-primer</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 365.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/nilbuild/developer-roadmap" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 181)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">nilbuild/developer-roadmap</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 365.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/jwasham/coding-interview-university" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 210)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">jwasham/coding-interview-university</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 359.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/trimstray/the-book-of-secret-knowledge" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 239)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">trimstray/the-book-of-secret-knowledge</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 240.0K</text>
-          </g>
-        </a>
-        <a href="https://github.com/microsoft/generative-ai-for-beginners" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 268)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">microsoft/generative-ai-for-beginners</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 118.4K</text>
-          </g>
-        </a>
-        <a href="https://github.com/goldbergyoni/nodebestpractices" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 297)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">goldbergyoni/nodebestpractices</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">2PR · 2O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 105.6K</text>
-          </g>
-        </a>
-        <a href="https://github.com/tailwindlabs/tailwindcss" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 326)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">tailwindlabs/tailwindcss</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 1O/0M/0C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 97.3K</text>
-          </g>
-        </a>
-        <a href="https://github.com/DuGuQiuBai/Java" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 355)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">DuGuQiuBai/Java</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 14.5K</text>
-          </g>
-        </a>
-        <a href="https://github.com/baomidou/mybatis-plus-doc" target="_blank" style="cursor:pointer">
-          <g transform="translate(0 384)">
-            <circle cx="24" cy="-4" r="2.6" fill="#A8C6D0"/>
-            <text x="36" y="0" fill="#0B6E8A" font-size="12.2" font-weight="620" text-decoration="underline">baomidou/mybatis-plus-doc</text>
-            <text x="350" y="0" text-anchor="end" fill="#789EAB" font-size="9.8" font-weight="650">1PR · 0O/0M/1C</text>
-            <text x="506" y="0" text-anchor="end" fill="#5F8A99" font-size="10.8" font-weight="700">🌟 753</text>
-          </g>
-        </a>
-    </g>
-    <text x="58" y="1778" fill="#4F7888" font-size="11.2" font-weight="700" letter-spacing="1.15">O / OPEN · M / MERGED · C / CLOSED, NOT MERGED · ● PRIORITY SYSTEMS</text>
-    <text x="1142" y="1778" text-anchor="end" fill="#4F7888" font-size="11.2">UPDATED 2026-08-24 UTC · 每日自动更新</text>
+    <text x="58" y="414" fill="#4F7888" font-size="11.2" font-weight="700" letter-spacing="1.15">O / OPEN · M / MERGED · C / CLOSED, NOT MERGED · ● PRIORITY SYSTEMS</text>
+    <text x="1142" y="414" text-anchor="end" fill="#4F7888" font-size="11.2">UPDATED 2026-09-07 UTC · 每日自动更新</text>
   </g>
 </svg>
