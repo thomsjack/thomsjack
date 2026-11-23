@@ -23,3 +23,4 @@ python3 scripts/generate_hero.py
 
 - Keep formatting consistent with `.editorconfig` (UTF-8, LF line endings).
 - Open a pull request against `main` for any profile or automation updates.
+- Keep `hero-keynote.svg` and `profile-card.svg` updated before opening a PR when editing scripts.
